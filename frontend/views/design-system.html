@@ -1,0 +1,200 @@
+<div id="view-design-system" class="app-view" style="padding-bottom: 4rem;">
+    <div class="hud-card"
+        style="margin-bottom: 2rem; background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(0,0,0,0) 100%); border-left: 2px solid hsl(var(--primary));">
+        <h1
+            style="font-size: 1.5rem; color: #fff; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 2px;">
+            LEA+ Style Guide & Components</h1>
+        <p style="color: rgba(255,255,255,0.6); font-family: 'JetBrains Mono', monospace; font-size: 0.8rem;">Master
+            Reference Library for UI Architecture. Built on custom HSL tokens.</p>
+    </div>
+
+    <div class="hud-grid" style="grid-template-columns: 1fr 1fr;">
+        <!-- TYPOGRAPHY & COLORS -->
+        <div class="hud-card">
+            <div class="card-header"><span class="card-title">Color Palette & Typography</span></div>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap;">
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--background)); border:1px solid hsl(var(--border-dim)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem;">
+                    --background</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--card-bg)); border:1px solid hsl(var(--border-light)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem;">
+                    --card-bg</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--primary)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:#fff; font-weight:bold;">
+                    --primary</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:var(--primary-glow); border:1px solid hsl(var(--primary) / 0.5); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:hsl(var(--primary));">
+                    Primary Glow</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--error)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:#fff; font-weight:bold;">
+                    --error</div>
+            </div>
+            <div style="display: flex; gap: 0.5rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--status-felony)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:#fff; font-weight:bold; text-shadow: 0 1px 3px rgba(0,0,0,0.5);">
+                    --status-felony</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--status-misdemeanor)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:#000; font-weight:bold;">
+                    --status-mis</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:hsl(var(--status-infraction)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:#000; font-weight:bold;">
+                    --status-inf</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:transparent; border:1px solid hsl(var(--border-light)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:hsl(var(--h) 10% 40%); font-weight:bold;">
+                    Muted Text</div>
+                <div
+                    style="flex:1; min-width: 100px; height:40px; background:transparent; border:1px solid hsl(var(--border-light)); border-radius:4px; display:flex; align-items:center; justify-content:center; font-size:0.75rem; color:hsl(var(--foreground)); font-weight:bold;">
+                    Primary Text</div>
+            </div>
+
+            <div style="margin-bottom: 1rem;">
+                <h1 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Heading 1 (24px) - Inter</h1>
+                <h2 style="font-size: 1.25rem; margin-bottom: 0.5rem;">Heading 2 (20px) - Inter</h2>
+                <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: rgba(255,255,255,0.8);">Heading 3 (17.6px)
+                    Muted</h3>
+                <p style="font-size: 0.85rem; color: rgba(255,255,255,0.6); line-height: 1.5; margin-bottom: 1rem;">
+                    Body Paragraph text. This text represents standard reading logic. Typography utilizes Inter,
+                    fallbacks to system fonts. Font sizes are scaled dynamically.
+                </p>
+                <div
+                    style="font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; background: rgba(0,0,0,0.3); padding: 0.5rem; border-radius: 4px; border: 1px solid rgba(255,255,255,0.05);">
+                    <span style="color: hsl(var(--primary))">const</span> systemConfig = { font: <span
+                        style="color: #10b981">'JetBrains Mono'</span> };
+                </div>
+            </div>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="hud-card">
+            <div class="card-header"><span class="card-title">Interactive Buttons</span></div>
+            <div style="display: flex; flex-direction: column; gap: 1rem;">
+                <div>
+                    <span class="hud-label" style="display:block; margin-bottom:0.5rem">Standard Actions</span>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn-hud">Primary Action</button>
+                        <button class="btn-hud active">Primary Active</button>
+                        <button class="btn-hud" disabled>Primary Disabled</button>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="hud-label" style="display:block; margin-bottom:0.5rem">Outlined Actions</span>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn-hud outline">Outline Default</button>
+                        <button class="btn-hud outline active">Outline Active</button>
+                        <button class="btn-hud outline" disabled>Outline Disabled</button>
+                    </div>
+                </div>
+
+                <div>
+                    <span class="hud-label" style="display:block; margin-bottom:0.5rem">Contextual & Danger</span>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <button class="btn-hud danger"><i class="fas fa-trash"></i> Delete Record</button>
+                        <button class="btn-hud danger outline">Cancel Process</button>
+                        <button class="btn-icon" title="Icon Button Only"><i class="fas fa-cog"></i></button>
+                        <button class="btn-icon active"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FORM INPUTS -->
+        <div class="hud-card">
+            <div class="card-header"><span class="card-title">Form Controls & Inputs</span></div>
+            <div style="display:flex; flex-direction:column; gap:1rem;">
+                <div class="hud-form-group">
+                    <label class="hud-form-label">Standard Input</label>
+                    <input type="text" class="hud-input-ctrl" placeholder="Enter placeholder...">
+                </div>
+
+                <div class="hud-form-group">
+                    <label class="hud-form-label">Input inside HUD Grid/Form row</label>
+                    <div class="hud-form-row two-cols">
+                        <input type="text" class="hud-input-ctrl" placeholder="Half Width">
+                        <input type="text" class="hud-input-ctrl" placeholder="Half Width">
+                    </div>
+                </div>
+
+                <div class="hud-form-group">
+                    <label class="hud-form-label">Textarea Input</label>
+                    <textarea class="hud-input-ctrl" placeholder="Multi-line input..." style="height: 60px;"></textarea>
+                </div>
+
+                <div class="hud-form-group">
+                    <label class="hud-form-label">Native Select / Dropdown</label>
+                    <select class="hud-input-ctrl">
+                        <option value="1">Option 1 (Default Select)</option>
+                        <option value="2">Option 2</option>
+                    </select>
+                </div>
+
+                <div class="hud-form-group">
+                    <label class="hud-form-label">Checkbox Toggle Group</label>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="ds-check-1">
+                        <label for="ds-check-1"><i class="fas fa-check"></i> Toggle Option A</label>
+
+                        <input type="checkbox" id="ds-check-2" checked>
+                        <label for="ds-check-2"><i class="fas fa-check"></i> Toggle Option B</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ADVANCED UI COMPONENTS -->
+        <div class="hud-card">
+            <div class="card-header"><span class="card-title">Advanced Components</span></div>
+            <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+
+                <!-- Tags -->
+                <div>
+                    <span class="hud-label" style="display:block; margin-bottom:0.5rem">Status Tags</span>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <span class="hud-tag tag-m">Misdemeanor</span>
+                        <span class="hud-tag tag-f">Felony</span>
+                        <span class="hud-tag tag-i">Infraction</span>
+                        <span class="hud-tag"
+                            style="background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.5);">Custom
+                            Tag</span>
+                    </div>
+                </div>
+
+                <!-- Custom Dropdown Menu -->
+                <div style="position:relative;">
+                    <span class="hud-label" style="display:block; margin-bottom:0.5rem">Custom HUD Dropdown (Z-Index
+                        Interactive)</span>
+                    <div class="hud-dropdown" style="width: 250px;">
+                        <div class="dropdown-trigger" onclick="UI.toggleDropdown('ds-custom-dropdown')">
+                            <span>Select Tactical Option</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="dropdown-menu" id="ds-custom-dropdown" style="width: 100%;">
+                            <div class="dropdown-item active">Currently Selected</div>
+                            <div class="dropdown-item"><i class="fas fa-shield-alt"
+                                    style="margin-right:8px; color:hsl(var(--primary))"></i> Shield Action</div>
+                            <div class="dropdown-item" style="color: #ef4444;"><i class="fas fa-trash-alt"
+                                    style="margin-right:8px;"></i> Danger Action</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <div>
+                    <span class="hud-label" style="display:block; margin-bottom:0.5rem">Tab Control System</span>
+                    <div class="hud-tabs">
+                        <button class="hud-tab active">First Tab</button>
+                        <button class="hud-tab">Second Tab</button>
+                        <button class="hud-tab">Hidden Tab</button>
+                    </div>
+                    <div class="hud-sub-tabs" style="margin-top: 0.5rem; display: flex;">
+                        <span class="sub-tab active">Sub A</span>
+                        <span class="sub-tab">Sub B</span>
+                        <span class="sub-tab">Sub C</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>

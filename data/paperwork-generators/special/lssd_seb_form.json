@@ -1,0 +1,41 @@
+
+{
+    "id": "lssd_seb_form",
+    "title": "Special Weapons Team Incident Log",
+    "description": "Generate an SEB Incident Log.",
+    "icon": "ShieldAlert",
+    "icon_color": "#b91c1c",
+    "output_title": "[IL#{{activation_no}}] {{location.street}}, {{incident_type}}",
+    "is_html_output": false,
+  
+    "output": "[divbox=white][center][sebheader][/center]\n[hr][/hr][divbox=black][color=white][b][center]IL#{{activation_no}}[/center][/b][/color][/divbox]\n[table=Arial][tr]\n[td][b]DATE & TIME:[/b] {{general.date}} - {{general.time}}[/td]\n[td][b]LOCATION:[/b] {{location.street}}, {{location.district}}[/td]\n[tr]\n[td][b]TYPE OF INCIDENT:[/b] {{incident_type}}[/td]\n[td][b]STATION/UNIT REQUESTING:[/b] {{requesting_station}}[/td]\n[/tr][/table]\n[size=85][u][b]SCENE COMMAND[/b][/u]\n[list][*][b]Incident Commander:[/b] {{incident_commander}}\n[*][b]Tactical Commander:[/b] {{tactical_commander}}\n[*][b]Designated Scout:[/b] {{designated_scout}}[/list]\n[u][b]RESPONDING PERSONNEL[/b][/u]\n[list]{{#each officers}}\n[*] {{this.rank}} {{this.name}}{{/each}}[/list][/size]\n\n[divbox=white][center][b]INCIDENT NARRATIVE & EXTERNAL REFERENCES[/b][/center]\n[size=85]{{narrative}}\n[/size][/divbox][/divbox]",
+    "form": [
+        { "type": "section", "title": "Incident Information" },
+        { "type": "general", "name": "general" },
+        {
+            "type": "group",
+            "fields": [
+                { "type": "text", "name": "activation_no", "label": "SEB Activation No. (YY-NNN)", "placeholder": "e.g., 26-001", "required": true },
+                { "type": "text", "name": "incident_type", "label": "Type of Incident", "placeholder": "e.g., BARRICADED, 998, HOSTAGE...", "required": true }
+            ]
+        },
+        { 
+            "type": "location", 
+            "name": "location", 
+            "showDistrict": true 
+        },
+        {
+            "type": "group",
+            "fields": [
+                { "type": "text", "name": "requesting_station", "label": "Station/Unit Requesting", "placeholder": "e.g., OSS or 60D" }
+            ]
+        },
+        { "type": "section", "title": "Personnel" },
+        { "type": "text", "name": "incident_commander", "label": "Incident Commander" },
+        { "type": "text", "name": "tactical_commander", "label": "Tactical Commander" },
+        { "type": "text", "name": "designated_scout", "label": "Designated Scout" },
+        { "type": "officer", "name": "officers", "multi": true, "showDivDetail": false },
+        { "type": "section", "title": "Narrative" },
+        { "type": "textarea", "name": "narrative", "label": "Incident Narrative", "placeholder": "Provide a detailed summary of the incident...", "required": true }
+    ]
+}

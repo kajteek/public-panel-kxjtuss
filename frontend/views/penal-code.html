@@ -1,0 +1,35 @@
+<div id="view-penal" class="app-view">
+    <div class="hud-card" style="overflow:visible">
+        <div class="card-header">
+            <span class="card-title">San Andreas Penal Code</span>
+            <div id="penal-assistant-widget" style="margin-left: 2rem; font-size: 0.7rem; color: hsl(var(--primary)); opacity: 0.6; display: flex; align-items: center; gap: 6px;">
+                <i class="fas fa-robot"></i>
+                <span>Standard Assistant Active</span>
+            </div>
+            <div class="penal-controls" style="display:flex; gap:1rem; align-items:center">
+                <div class="hud-search-inline" style="position:relative; display:flex; align-items:center">
+                    <i class="fas fa-search" style="position:absolute; left:12px; font-size:0.8rem; opacity:0.5"></i>
+                    <input type="text" id="penal-search" class="hud-input-ctrl" placeholder="Search laws..."
+                        style="max-width:200px; padding-left:32px; height:36px; font-size:0.8rem">
+                </div>
+                <div class="hud-dropdown" id="penal-filter-container" style="min-width:160px">
+                    <div class="dropdown-trigger" onclick="UI.toggleDropdown('penal-filter-menu')">
+                        <span id="penal-filter-selected">All Categories</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-menu" id="penal-filter-menu">
+                        <div class="dropdown-item active" onclick="PenalCode.selectFilter('ALL', 'All Categories')">All
+                            Categories</div>
+                        <div class="dropdown-item" onclick="PenalCode.selectFilter('F', 'Felony')">Felony</div>
+                        <div class="dropdown-item" onclick="PenalCode.selectFilter('M', 'Misdemeanor')">Misdemeanor
+                        </div>
+                        <div class="dropdown-item" onclick="PenalCode.selectFilter('I', 'Infraction')">Infraction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="penal-list" class="hud-grid" style="grid-template-columns: repeat(auto-fill, minmax(350px, 1fr))">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+</div>

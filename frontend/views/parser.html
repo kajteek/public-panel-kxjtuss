@@ -1,0 +1,13 @@
+<div id="view-parser" class="app-view">
+    <div class="hud-card">
+        <div class="card-header">
+            <span class="card-title">FIB Log Signal Extractor</span>
+        </div>
+        <textarea class="hud-input-ctrl" id="log-input" style="height:250px"
+            placeholder="Paste intelligence logs here..."></textarea>
+        <button class="btn-hud" style="margin-top:1.5rem" onclick="Parser.parseLogs()">
+            <i class="fas fa-satellite-dish"></i> Extract Signals
+        </button>
+        <div id="parser-results" style="margin-top:2rem"></div>
+    </div>
+</div>

@@ -1,0 +1,135 @@
+<div id="view-paperwork" class="app-view">
+    <!-- Template Browser (Explorer Mode) -->
+    <div id="template-browser" class="template-browser-overlay">
+        <div class="browser-header">
+            <h1 style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">Paperwork <span style="color:hsl(var(--primary))">Factory</span></h1>
+            <p style="color:rgba(255,255,255,0.4); margin-bottom: 2rem;">Select a standardized template to generate official documents.</p>
+            
+            <div class="hud-tabs">
+                <button id="tab-intel" class="hud-tab active" onclick="Paperwork.switchCategory('intelligence')">
+                    <i class="fas fa-brain"></i> Intelligence
+                </button>
+                <button id="tab-mdc" class="hud-tab" onclick="Paperwork.switchCategory('mdc')">
+                    <i class="fas fa-laptop-code"></i> MDC Paperwork
+                </button>
+            </div>
+            
+            <div id="mdc-sub-filters" class="hud-sub-tabs" style="display:none">
+                <!-- Injected by JS -->
+            </div>
+        </div>
+
+        <div class="browser-grid" id="template-selector-grid">
+            <!-- Populated by JS -->
+        </div>
+    </div>
+
+    <!-- Paperwork Split View (Editor Mode) -->
+    <div id="paperwork-editor-view" class="paperwork-split-layout" style="display:none">
+        <!-- Left Sidebar: Form Inputs -->
+        <aside class="paperwork-editor-sidebar">
+            <div class="editor-header">
+                <div>
+                    <span id="editor-type-badge" class="hud-tag tag-i" style="margin-bottom: 0.5rem; display: inline-block;">Intelligence</span>
+                    <h2 class="card-title" id="editor-title" style="font-size: 1.1rem; letter-spacing: 0.5px;">Document Editor</h2>
+                </div>
+                <div style="display: flex; gap: 0.5rem;">
+                    <button class="btn-icon" onclick="Paperwork.toggleFormattingHelp()" title="Formatting Help">
+                        <i class="fas fa-question-circle"></i>
+                    </button>
+                    <button class="btn-icon" onclick="Paperwork.closeEditor()" title="Back to Library">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div id="formatting-help-panel" class="editor-help-panel" style="display:none">
+                <div class="help-title">Formatting Master Sheet</div>
+                
+                <div class="formatting-sections">
+                    <div class="help-section">
+                        <div class="sub-help-title">Text Styles</div>
+                        <div class="formatting-toolbar">
+                            <button class="tool-btn" onclick="Paperwork.insertTag('[b]', '[/b]')" title="Bold"><b>B</b></button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('[i]', '[/i]')" title="Italic"><i>I</i></button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('[u]', '[/u]')" title="Underline"><u>U</u></button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('[s]', '[/s]')" title="Strike"><s>S</s></button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('{{', '}}')" title="Caption">CC</button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('[REDACTED]')" title="Redacted"><i class="fas fa-eye-slash"></i></button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('{CLASSIFIED}')" title="Classified"><i class="fas fa-user-secret"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="sub-help-title">Structure</div>
+                        <div class="formatting-toolbar">
+                            <button class="tool-btn" onclick='Paperwork.insertTag("# ")' title="Title Left">H1</button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("## ")' title="Title Center">H2</button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("\n---\n")' title="Separator (Light)">L1</button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("\n===\n")' title="Separator (Bold)">L2</button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag(">> ")' title="Indent"><i class="fas fa-indent"></i></button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("- ")' title="Bullet"><i class="fas fa-list"></i></button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("| Header | Header |\n| --- | --- |")' title="Table"><i class="fas fa-table"></i></button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("<< ", " >>")' title="Align Right"><i class="fas fa-align-right"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="sub-help-title">Alert Panels</div>
+                        <div class="formatting-toolbar">
+                            <button class="tool-btn color-warning" onclick='Paperwork.insertTag("!WARNING: ")' title="Warning"><i class="fas fa-exclamation-triangle"></i></button>
+                            <button class="tool-btn color-note" onclick='Paperwork.insertTag("!NOTE: ")' title="Note"><i class="fas fa-sticky-note"></i></button>
+                            <button class="tool-btn color-info" onclick='Paperwork.insertTag("!INFO: ")' title="Info"><i class="fas fa-info-circle"></i></button>
+                            <button class="tool-btn color-important" onclick='Paperwork.insertTag("!IMPORTANT: ")' title="Important"><i class="fas fa-exclamation-circle"></i></button>
+                            <button class="tool-btn color-legal" onclick='Paperwork.insertTag("!LEGAL: ")' title="Legal"><i class="fas fa-balance-scale"></i></button>
+                        </div>
+                    </div>
+
+                    <div class="help-section">
+                        <div class="sub-help-title">Misc</div>
+                        <div class="formatting-toolbar">
+                            <button class="tool-btn" onclick='Paperwork.insertTag("!SIGNATURE: Name | Rank")' title="Signature"><i class="fas fa-pen-nib"></i></button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("!AUTH: Name")' title="Handwritten Auth"><i class="fas fa-marker"></i></button>
+                            <button class="tool-btn" onclick='Paperwork.insertTag("[IMG:URL]")' title="Image"><i class="fas fa-image"></i></button>
+                            <button class="tool-btn" onclick="Paperwork.insertTag('((', '))')" title="Footnote"><i class="fas fa-asterisk"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="editor-scrollbox">
+                <div id="doc-form-fields" class="doc-form">
+                    <!-- Form fields injected here -->
+                </div>
+            </div>
+
+            <div class="editor-footer">
+                <button class="btn-hud" onclick="Paperwork.generate('pdf')" style="flex: 1;">
+                    <i class="fas fa-file-pdf"></i> PDF
+                </button>
+                <button class="btn-hud outline" onclick="Paperwork.generate('png')" style="flex: 1;">
+                    <i class="fas fa-image"></i> PNG
+                </button>
+            </div>
+        </aside>
+
+        <!-- Right Side: Live Preview -->
+        <main class="paperwork-preview-area">
+            <!-- Overlapping badge removed -->
+            
+            <div id="preview-loader" class="preview-loader-overlay">
+                <div class="hud-loader" style="width: 20px; height: 20px; border-width: 2px;"></div>
+            </div>
+
+            <div id="preview-mount" style="display: contents;">
+                <!-- Preview content (Image or Paper Sheet) injected here -->
+                <div class="paper-sheet" id="paper-sheet-container">
+                    <div class="paper-sheet-content" id="paper-sheet-content">
+                        <!-- MDC content -->
+                    </div>
+                </div>
+                <img id="doc-preview-img" class="paper-sheet" style="display:none; padding: 0; min-height: auto;">
+            </div>
+        </main>
+    </div>
+</div>

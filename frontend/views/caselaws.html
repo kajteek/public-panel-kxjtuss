@@ -1,0 +1,27 @@
+<div class="app-view" id="view-caselaws">
+    <div class="caselaws-container">
+        <!-- Search Header -->
+        <header class="caselaws-header">
+            <div class="cl-header-info">
+                <h1 class="hud-title-main">CASELAWS I PRECEDENSY</h1>
+                <p class="cl-subtitle">Baza danych prawnych dla San Andreas State Court i mini ściąga ;)</p>
+                <div id="caselaw-assistant-widget" style="margin-top: 0.5rem; font-size: 0.7rem; color: hsl(var(--primary)); opacity: 0.6; display: flex; align-items: center; gap: 6px;">
+                    <i class="fas fa-robot"></i>
+                    <span>Precedent Assistant Active</span>
+                </div>
+            </div>
+
+            <div class="cl-search-wrapper">
+                <i class="fas fa-search cl-search-icon"></i>
+                <input type="text" id="cl-search-input" class="cl-search-input"
+                    placeholder="Search by case name, summary, or implication..." autocomplete="off">
+            </div>
+        </header>
+
+        <!-- Main Grid Container -->
+        <div id="cl-grid" class="caselaws-grid">
+            <!-- Cards will be injected here by JS -->
+            <div class="hud-loader" style="margin: 10% auto;"></div>
+        </div>
+    </div>
+</div>

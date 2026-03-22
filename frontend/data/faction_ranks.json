@@ -1,0 +1,97 @@
+{
+    "Los Santos Police Department": [
+        "Police Officer I",
+        "Police Officer II",
+        "Police Officer III",
+        "Police Officer III+1",
+        "Detective I",
+        "Detective II",
+        "Detective III",
+        "Sergeant I",
+        "Sergeant II",
+        "Lieutenant I",
+        "Lieutenant II",
+        "Captain",
+        "Commander",
+        "Deputy Chief of Police",
+        "Assistant Chief of Police",
+        "Chief of Police"
+    ],
+    "Los Santos County Sheriff's Department": [
+        "Deputy Sheriff",
+        "Deputy Sheriff (Bonus I)",
+        "Deputy Sheriff (Bonus II)",
+        "Detective",
+        "Sergeant",
+        "Lieutenant",
+        "Captain",
+        "Commander",
+        "Division Chief",
+        "Undersheriff",
+        "Sheriff"
+    ],
+    "State Fire Marshals": [
+        "Deputy Fire Marshal Trainee",
+        "Deputy Fire Marshal",
+        "Deputy Fire Marshal (Bonus)",
+        "Deputy Fire Marshal II",
+        "Deputy Fire Marshal II (Bonus)",
+        "Deputy Fire Marshal III",
+        "Division Chief",
+        "Assistant State Fire Marshal",
+        "State Fire Marshal",
+        "Director"
+    ],
+    "Los Santos Parking Enforcement": [
+        "Junior Parking Officer",
+        "Parking Officer",
+        "Parking Officer II",
+        "Senior Parking Officer",
+        "Parking Sergeant",
+        "Parking Lieutenant",
+        "Parking Captain"
+    ],
+    "San Andreas Aviation Administration": [
+        "Investigator",
+        "Senior Investigator",
+        "Deputy Administrator",
+        "Administrator"
+    ],
+    "District Attorney's Office": [
+        "Deputy District Attorney",
+        "Assistant District Attorney",
+        "Chief of Staff",
+        "Chief Deputy District Attorney",
+        "District Attorney"
+    ],
+    "Bureau of Investigations": [
+        "Investigator",
+        "Senior Investigator",
+        "Sergeant",
+        "Lieutenant",
+        "Captain",
+        "Assistant Chief",
+        "Chief"
+    ],
+    "San Andreas Department of Corrections": [
+        "Correctional Officer",
+        "Correctional Counselor I",
+        "Correctional Counselor II (Specialist)",
+        "Correctional Counselor II (Supervisor)",
+        "Correctional Counselor III",
+        "Parole Agent I",
+        "Parole Agent II (Specialist)",
+        "Parole Agent II (Supervisor)",
+        "Parole Agent III",
+        "Special Agent",
+        "Senior Special Agent",
+        "Correctional Sergeant",
+        "Correctional Lieutenant",
+        "Special Agent-in-Charge",
+        "Parole Administrator I",
+        "Captain",
+        "Associate Warden",
+        "Chief Deputy Warden",
+        "Warden"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "announcements": [
+        {
+            "id": 6,
+            "date": "2025-10-21",
+            "title": "Major Update: Paperwork Generator Revamp",
+            "content": "A new update has been pushed that revamps the Paperwork Generators, giving them a sleek look, adding a NEW tag to newer paperwork generators and adding new realistic global paperwork generators.",
+            "button": {
+                "text": "Paperwork Generators",
+                "href": "/paperwork-generators"
+            }
+        },
+        {
+            "id": 5,
+            "date": "2025-10-08",
+            "title": "Law Update: Implied Consent & Weapons on School Grounds",
+            "content": "There's been new implementations & updates to the Penal Code, specifically sections; 1519, 714, 431.",
+            "button": {
+                "text": "Penal Code Changelog",
+                "href": "https://forum.gta.world/en/topic/9421-san-andreas-penal-code-changelog/?do=findComment&comment=1803539"
+            }
+        },
+        {
+            "id": 4,
+            "date": "2025-10-06",
+            "title": "Major Update: Log Parser",
+            "content": "A new major update is out adding the all new Log Parser to the website, allowing for people to easily parse out their logs with relevant information, alongside that a few fixes and i18n support!",
+            "button": {
+                "text": "Log Parser",
+                "href": "/log-parser"
+            }
+        },
+        {
+            "id": 3,
+            "date": "2025-09-30",
+            "title": "Major Update: Parole Violations & Experimental Features",
+            "content": "We've heavily adjusted the way parole violations get handled, as they are no longer bound to a singular addition. Meaning you're able to still charge someone as a parole violation on top of an attempt charge or anything similar to that, alongside that we've added a few experimental features!",
+            "button": {
+                "text": "Experimental Features",
+                "href": "/changelog"
+            }
+        },
+        {
+            "id": 2,
+            "date": "2025-09-05",
+            "title": "Major Update: Penal Code AI Assistant & Privacy Settings",
+            "content": "The simplified penal code has undergone a major update, adding narratives to the simplified penal code and added a new AI assistant to help people search the penal code for charges. Alongside that, we've also added the ability to pick a default callsign within the settings. As a major addition, you also have the ability to fully opt-out of the analytics.",
+            "button": {
+                "text": "Simplified Penal Code",
+                "href": "/simplified-penal-code"
+            }
+        },
+        {
+            "id": 1,
+            "date": "2025-09-01",
+            "title": "Release: MDC Panel+",
+            "content": "The new MDC Panel+ is here, there's been a lot of changes made between the legacy panel and the new variant of the MDC Panel, all the changes are carefully documented in the changelog, give it a read! Additionally, share any feedback you may have regarding the panel.",
+            "button": {
+                "text": "View Changelog",
+                "href": "/changelog"
+            }
+        }
+    ]
+}

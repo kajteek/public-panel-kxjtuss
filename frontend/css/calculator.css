@@ -1,0 +1,126 @@
+/* --- Calculator Cards --- */
+.charge-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: 1px solid hsl(var(--border-dim));
+    border-radius: var(--radius-md);
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.charge-card:hover {
+    background: rgba(255, 255, 255, 0.02);
+    border-color: hsl(var(--border-light));
+}
+
+.charge-card.selected {
+    background: rgba(255, 255, 255, 0.04);
+    border-color: hsl(var(--primary) / 0.5);
+}
+
+.charge-card-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.charge-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.charge-card-title {
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.charge-card-stats {
+    display: flex;
+    gap: 15px;
+    font-size: 0.8rem;
+    color: hsl(var(--h) 10% 50%);
+}
+
+.charge-card-stats span.val {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Checkbox Circle Toggle */
+.charge-radio {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 2px solid hsl(var(--h) 10% 25%);
+    position: relative;
+    transition: var(--transition);
+}
+
+.charge-card:hover .charge-radio {
+    border-color: hsl(var(--h) 10% 40%);
+}
+
+.charge-card.selected .charge-radio {
+    border-color: hsl(var(--primary));
+    background: transparent;
+}
+
+.charge-card.selected .charge-radio::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: hsl(var(--primary));
+    box-shadow: 0 0 10px var(--primary-glow);
+}
+
+/* Category Tags */
+.calc-tag {
+    font-size: 0.6rem;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.calc-tag.tag-f {
+    background: rgba(239, 68, 68, 0.15);
+    color: #ef4444;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.calc-tag.tag-m {
+    background: rgba(245, 158, 11, 0.15);
+    color: #f59e0b;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.calc-tag.tag-i {
+    background: rgba(16, 185, 129, 0.15);
+    color: #10b981;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+/* Scrollbar tweaks inside calculator */
+#calc-charge-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+#calc-charge-list::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+#calc-charge-list::-webkit-scrollbar-track {
+    background: transparent;
+}

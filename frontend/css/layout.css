@@ -1,0 +1,272 @@
+/* 
+ * LSPD Shell Layout
+ * Exclusively defines the global structural wrappers (Sidebar, Nav, Vewport)
+ */
+
+.app-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* SIDEBAR */
+.hud-sidebar {
+    width: 280px;
+    background-color: hsl(var(--sidebar-bg));
+    border-right: 1px solid hsl(var(--border-light));
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    z-index: 100;
+}
+
+.brand-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 3rem;
+    padding: 0 0.5rem;
+}
+
+.brand-logo {
+    width: 32px;
+    height: 32px;
+    background: var(--primary-gradient);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: #000;
+    box-shadow: 0 0 15px var(--primary-glow);
+}
+
+.brand-text {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.nav-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.nav-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: hsl(var(--h) 10% 40%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 1.5rem 0 0.5rem 0.75rem;
+}
+
+.hud-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0.85rem 1rem;
+    border-radius: var(--radius-md);
+    color: hsl(var(--h) 10% 60%);
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.hud-nav-item i {
+    width: 20px;
+    font-size: 1.1rem;
+    transition: var(--transition);
+}
+
+.hud-nav-item:hover {
+    background: rgba(255, 255, 255, 0.03);
+    color: hsl(var(--foreground));
+}
+
+.hud-nav-item.active {
+    background: linear-gradient(90deg, var(--primary-glow), transparent);
+    color: hsl(var(--primary));
+    box-shadow: inset 3px 0 0 hsl(var(--primary));
+}
+
+.hud-nav-item.active i {
+    color: hsl(var(--primary));
+    filter: drop-shadow(0 0 5px var(--primary-glow));
+}
+
+/* MAIN CONTENT */
+.main-viewport {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    background: hsl(var(--background));
+}
+
+.hud-header {
+    height: 80px;
+    padding: 0 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(var(--border-light));
+    backdrop-filter: blur(20px);
+    background: rgba(10, 10, 12, 0.5);
+    z-index: 90;
+}
+
+.header-search {
+    width: 400px;
+    position: relative;
+}
+
+.header-search i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: hsl(var(--h) 10% 40%);
+}
+
+.search-input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid hsl(var(--border-dim));
+    border-radius: var(--radius-lg);
+    padding: 0.75rem 1rem 0.75rem 2.8rem;
+    color: #fff;
+    font-family: inherit;
+    transition: var(--transition);
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: hsl(var(--primary));
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0 0 20px var(--primary-glow);
+}
+
+.header-meta {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.meta-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.meta-label {
+    font-size: 0.6rem;
+    color: hsl(var(--h) 10% 40%);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.meta-value {
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: hsl(var(--primary));
+}
+
+/* VIEWS WRAPPER */
+.content-scrollbox {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-scrollbox.fullscreen-override {
+    padding: 0;
+    overflow: hidden;
+}
+
+/* APP ROUTES ANIMATION */
+.app-view {
+    display: none;
+    animation: viewFadeIn 0.3s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+
+.app-view.active {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes viewFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* FOOTER */
+.hud-footer {
+    padding: 2.5rem;
+    background: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    margin-top: auto;
+    z-index: 100;
+}
+
+.footer-logo-mini {
+    font-size: 0.8rem;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footer-text {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 500;
+}
+
+.footer-links {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-link {
+    font-size: 0.7rem;
+    color: hsl(var(--primary));
+    text-decoration: none;
+    transition: var(--transition);
+    font-weight: 600;
+}
+
+.footer-link:hover {
+    color: #fff;
+    filter: drop-shadow(0 0 5px var(--primary-glow));
+}
+
+.footer-sep {
+    color: rgba(255, 255, 255, 0.1);
+}
+
+/* Hide footer dynamically on full-screen modes if needed */
+.main-viewport.hide-footer .hud-footer {
+    display: none;
+}

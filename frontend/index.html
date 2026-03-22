@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEA+ | ARCHITECT HUD</title>
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External Maps/Tools -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.9/dist/leaflet-search.min.css" />
+
+    <!-- LSPD Design System -->
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/caseboard_v4.css?v=4.0">
+    <link rel="stylesheet" href="css/map.css">
+    <link rel="stylesheet" href="css/calculator.css">
+    <link rel="stylesheet" href="css/paperwork.css">
+    <link rel="stylesheet" href="css/caselaws.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="hud-sidebar">
+            <div class="brand-section">
+                <div class="brand-logo">L</div>
+                <div class="brand-text">LEA <span style="color:hsl(var(--primary))">+</span></div>
+            </div>
+
+            <nav class="nav-group">
+                <div class="nav-label">Main Intelligence</div>
+                <a class="hud-nav-item active" onclick="App.route('dashboard')" id="nav-dashboard">
+                    <i class="fas fa-th-large"></i> Dashboard
+                </a>
+                <a class="hud-nav-item" onclick="App.route('paperwork')" id="nav-paperwork">
+                    <i class="fas fa-file-invoice"></i> Paperwork Factory
+                </a>
+                <a class="hud-nav-item" onclick="App.route('penal-code')" id="nav-penal">
+                    <i class="fas fa-gavel"></i> Penal Code
+                </a>
+
+                <div class="nav-label">Operations</div>
+                <a class="hud-nav-item" id="nav-calculator" onclick="App.route('calculator')">
+                    <i class="fas fa-calculator"></i> Calculator
+                </a>
+                <a class="hud-nav-item" id="nav-map" onclick="App.route('map')">
+                    <i class="fas fa-map-marked-alt"></i> Interactive Map
+                </a>
+                <a class="hud-nav-item" onclick="App.route('parser')" id="nav-parser">
+                    <i class="fas fa-terminal"></i> Log Parser
+                </a>
+                <li class="hud-nav-item" id="nav-caseboard" onclick="App.route('caseboard')">
+                    <i class="fas fa-folder-open"></i> Case Board
+                </li>
+                <a class="hud-nav-item" id="nav-caselaws" onclick="App.route('caselaws')">
+                    <i class="fas fa-gavel"></i>
+                    <span>Caselaws</span>
+                    <div class="nav-glow"></div>
+                </a>
+                <a class="hud-nav-item" id="nav-design-system" onclick="App.route('design-system')">
+                    <i class="fas fa-paint-brush"></i> Design System
+                </a>
+                <div class="nav-label" id="nav-label-experimental" style="display:none;">Experimental</div>
+                <a class="hud-nav-item" id="nav-legal-search" onclick="App.route('legal-search')" style="display:none; background: linear-gradient(90deg, hsla(var(--h), var(--s), 60%, 0.1), transparent); border-left: 2px solid hsl(var(--primary));">
+                    <i class="fas fa-microchip" style="color:hsl(var(--primary))"></i>
+                    <span style="font-weight:700; color:#fff">Legal Search AI</span>
+                    <div class="nav-glow"></div>
+                </a>
+                <a class="hud-nav-item" id="nav-settings" onclick="App.route('settings')">
+                    <i class="fas fa-cog"></i> Settings
+                </a>
+                <a class="hud-nav-item" onclick="App.logout()">
+                    <i class="fas fa-sign-out-alt"></i> End Shift
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Viewport -->
+        <main class="main-viewport" id="viewport-container">
+            <header class="hud-header" id="app-header">
+                <div class="header-search">
+                    <i class="fas fa-search"></i>
+                    <input type="text" class="search-input" placeholder="Search for citizens, records, or laws..."
+                        onkeyup="App.globalSearch(this.value)">
+                </div>
+
+                <div class="header-meta">
+                    <div class="meta-item">
+                        <span class="meta-label">System Time (UTC)</span>
+                        <span class="meta-value" id="hud-clock">00:00:00</span>
+                    </div>
+                    <div class="meta-item">
+                        <span class="meta-label">Officer Status</span>
+                        <span class="meta-value" style="color:#10b981"><i class="fas fa-circle"
+                                style="font-size:0.5rem; vertical-align:middle; margin-right:4px"></i> ON DUTY</span>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 🟢 DYNAMIC APP MOUNT NODE -->
+            <div class="content-scrollbox" id="app-mount">
+                <div class="hud-loader" style="margin:auto; display:block; margin-top:20%"></div>
+            </div>
+
+            <!-- Global Footer -->
+            <footer class="hud-footer" id="app-footer">
+                <div class="footer-logo-mini">LEA <span style="color:hsl(var(--primary))">+</span></div>
+                <div class="footer-text">&copy; 2026-2027 LEA+ Premium. All rights reserved. Version: 0.0.2 Architecture
+                    Update</div>
+                <div class="footer-links">
+                    <a href="javascript:void(0)" class="footer-link">About Page</a>
+                    <span class="footer-sep">|</span>
+                    <a href="javascript:void(0)" class="footer-link">Credits</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+
+    <!-- Core Scripts Library -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.9/dist/leaflet-search.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.min.js"></script>
+
+    <!-- Modular App Scripts -->
+    <script src="js/core/app.js?v=1.7"></script>
+    <script src="js/core/ui.js?v=1.7"></script>
+
+    <!-- Load Modules -->
+    <script src="js/modules/dashboard.js?v=1.7"></script>
+    <script src="js/modules/penal-code.js?v=1.7"></script>
+    <script src="js/modules/calculator.js?v=1.7"></script>
+    <script src="js/modules/parser.js?v=1.7"></script>
+    <script src="js/modules/map.js?v=1.7"></script>
+    <script src="js/modules/paperwork.js?v=1.7"></script>
+    <script src="js/modules/caseboard_v4.js?v=4.0"></script>
+    <script src="js/modules/caselaws.js?v=1.7"></script>
+    <script src="js/modules/settings.js?v=1.0"></script>
+    <script src="js/modules/legal-search.js?v=1.0"></script>
+
+    <!-- Global Monolith Script -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+{
+    "group_name": "State Fire Marshals",
+    "group_id": "sfm",
+    "order": 6,
+    "files": [
+        "sfm_investigation_casefile.json"
+    ]
+}

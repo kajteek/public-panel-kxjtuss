@@ -1,0 +1,9 @@
+{
+    "group_name": "Special Formats",
+    "group_id": "special",
+    "url": true,
+    "order": 999,
+    "files": [
+        "lssd_seb_form.json"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "group_name": "Legacy MDC Formats",
+    "group_id": "legacy",
+    "hidden": true,
+    "order": 1,
+    "files": [
+        "legacy_impound_report.json",
+        "legacy_parking_ticket.json",
+        "legacy_traffic_report.json",
+        "legacy_trespass_notice.json"
+    ]
+}

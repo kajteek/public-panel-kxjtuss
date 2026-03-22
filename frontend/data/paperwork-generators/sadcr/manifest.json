@@ -1,0 +1,9 @@
+{
+    "group_name": "San Andreas Department of Corrections",
+    "group_id": "sadcr",
+    "order": 5,
+    "files": [
+        "sadcr_parole_tracking_program.json",
+        "sadcr_rules_violation_report.json"
+    ]
+}

@@ -1,0 +1,12 @@
+flask
+flask-cors
+pymupdf
+Pillow
+requests
+reportlab
+xhtml2pdf
+google-generativeai
+python-dotenv
+psycopg2-binary
+SQLAlchemy
+gunicorn

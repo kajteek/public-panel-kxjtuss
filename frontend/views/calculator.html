@@ -1,0 +1,92 @@
+<div id="view-calculator" class="app-view">
+    <!-- Header with absolute Title & the red Clear btn matching design top-level header context -->
+    <div
+        style="display: flex; justify-content: space-between; align-items: center; width: 100%; max-width: 1200px; margin: 0 auto; margin-bottom: 25px;">
+        <div>
+            <h1 style="font-size: 1.8rem; color: #fff; font-weight: 800; margin: 0; letter-spacing: -0.5px;">Arrest
+                Calculator</h1>
+            <p style="color: hsl(var(--h) 10% 60%); font-size: 0.85rem; margin-top: 5px;">Zaznacz zarzuty do obliczenia
+                rekomendowanych zarzutów i ilości grzywny.</p>
+        </div>
+        <div style="display: flex; gap: 10px;">
+            <button id="calc-copy-btn" class="btn-hud outline"
+                style="padding: 10px 20px; font-size: 0.75rem; border-radius: var(--radius-sm); border: 1px solid hsl(var(--primary)); background: rgba(59, 130, 246, 0.15); color: #fff; display: none; transition: 0.2s;"><i
+                    class="fas fa-copy" style="margin-right: 6px;"></i> KOPIUJ ZARZUTY</button>
+            <button id="calc-clear-btn" class="btn-hud danger outline"
+                style="padding: 10px 20px; font-size: 0.75rem; border-radius: var(--radius-sm); border: none; background: rgba(239, 68, 68, 0.15); display: none;">WYCZYŚĆ
+                WSZYSTKO</button>
+        </div>
+    </div>
+
+    <div class="hud-form-row two-cols"
+        style="grid-template-columns: 1fr 380px; gap: 30px; align-items: start; max-width: 1200px; margin: 0 auto;">
+
+        <!-- Left Column: Search & List -->
+        <div style="display: flex; flex-direction: column; gap: 15px;">
+            <div class="search-wrapper" style="position: relative;">
+                <i class="fas fa-search"
+                    style="position: absolute; left: 15px; top: 50%; transform: translateY(-50%); color: hsl(var(--h) 10% 50%); font-size: 0.9rem;"></i>
+                <input type="text" id="calc-search" class="hud-input-ctrl" placeholder="Wyszukaj zarzuty..."
+                    style="width: 100%; height: 45px; padding-left: 45px; border-radius: var(--radius-md); font-size: 0.85rem; background: transparent; border: 1px solid hsl(var(--border-light));">
+            </div>
+
+            <div id="calc-charge-list"
+                style="display: flex; flex-direction: column; gap: 5px; max-height: calc(100vh - 220px); overflow-y: auto; padding-right: 15px; margin-right: -15px;">
+                <!-- Populated by JS -->
+            </div>
+        </div>
+
+        <!-- Right Column: Summary Panel -->
+        <div class="hud-card summary-panel"
+            style="position: sticky; top: 20px; padding: 25px; border-radius: var(--radius-lg); background: hsl(var(--card-bg)); border: 1px solid hsl(var(--border-light)); box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+            <div class="card-header" style="margin-bottom: 20px; border-bottom: none; padding: 0;">
+                <div style="display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-calculator" style="color: hsl(var(--primary)); font-size: 1.1rem;"></i>
+                    <span class="card-title"
+                        style="font-size: 1.05rem; text-transform: none; letter-spacing: 0; color: #fff; font-weight: 700;">Rekomendowany
+                        wyrok</span>
+                </div>
+            </div>
+
+            <div class="hud-form-row two-cols" style="margin-bottom: 25px; gap: 15px;">
+                <div class="summary-box"
+                    style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 15px;">
+                    <div
+                        style="color: hsl(var(--h) 10% 50%); font-size: 0.75rem; margin-bottom: 8px; font-weight: 500;">
+                        Całość czasu</div>
+                    <div style="display: flex; align-items: baseline; gap: 6px;">
+                        <span id="calc-total-time" style="font-size: 1.5rem; font-weight: 800; color: #fff;">0</span>
+                        <span style="font-size: 0.8rem; color: hsl(var(--h) 10% 60%);">miesięcy</span>
+                    </div>
+                </div>
+
+                <div class="summary-box"
+                    style="background: rgba(0,0,0,0.3); border-radius: var(--radius-md); padding: 15px;">
+                    <div
+                        style="color: hsl(var(--h) 10% 50%); font-size: 0.75rem; margin-bottom: 8px; font-weight: 500;">
+                        Całość grzywny</div>
+                    <div id="calc-total-fine" style="font-size: 1.5rem; font-weight: 800; color: #10b981;">$0.00</div>
+                </div>
+            </div>
+
+            <div style="border-top: 1px solid rgba(255,255,255,0.05); margin-bottom: 20px;"></div>
+
+            <div
+                style="font-size: 0.7rem; font-weight: 700; color: hsl(var(--h) 10% 50%); letter-spacing: 1px; margin-bottom: 15px; text-transform: uppercase;">
+                WYBRANE ZARZUTY (<span id="calc-selected-count">0</span>)
+            </div>
+
+            <div id="calc-selected-list"
+                style="display: flex; flex-direction: column; gap: 8px; min-height: 100px; max-height: calc(100vh - 500px); overflow-y: auto;">
+                <!-- Populated by JS -->
+                <div class="empty-state"
+                    style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100px; color: hsl(var(--h) 10% 30%); gap: 10px;">
+                    <i class="fas fa-shield-alt" style="font-size: 1.5rem;"></i>
+                    <span style="font-size: 0.8rem;">Brak wybranych zarzutów.</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>

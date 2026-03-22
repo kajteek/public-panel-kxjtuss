@@ -1,0 +1,9 @@
+{
+    "group_name": "Realistic Formats",
+    "group_id": "realistic",
+    "hidden": false,
+    "order": 2,
+    "files": [
+        "realistic-parking-ticket.json"
+    ]
+}

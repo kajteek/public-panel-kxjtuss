@@ -1,0 +1,11 @@
+{
+    "group_name": "Los Santos Sheriff's Department",
+    "group_id": "lssd",
+    "order": 4,
+    "files": [
+        "lssd_incident_report.json",
+        "lssd_subject_information_system.json",
+        "lssd_traffic_collision_report.json",
+        "lssd_uof_report.json"
+    ]
+}

@@ -1,0 +1,7392 @@
+{
+    "127": {
+        "id": "127",
+        "charge": "GROŹBY WOBEC OFICERA POKOJU/URZĘDNIKA/AGENTA",
+        "definition": "Każda osoba, która grozi śmiercią lub wyrządzeniem krzywdy, lub innym dotkliwym czynem osobie pełniącej służbę na rzecz ustanowionego obowiązku, w tym oficer pokoju, urzędnik i agent.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "128": {
+        "id": "128",
+        "charge": "UCIECZKA Z JEDNOSTKI PENITENCJARNEJ",
+        "definition": "Każda osoba, która ucieka lub próbuje uciec z placówki penitencjarnej, dalej zwaną więzieniem lub celą czasową w każdej stacji agencji egzekwującej prawo.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "130": {
+        "id": "130",
+        "charge": "FAŁSZYWE DOKUMENTY",
+        "definition": "Każda osoba, która posiada, prowadzi dystrybucję lub posługuje się fałszywym dokumentem.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "131": {
+        "id": "131",
+        "charge": "POŚWIADCZENIE NIEPRAWDY",
+        "definition": "Każda osoba, która poświadcza nieprawdę, składa fałszywe zeznania w trakcie procesu sądowego lub posługuje się fałszerstwem w celu oszukania organów sądowniczych.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "132": {
+        "id": "132",
+        "charge": "NISZCZENIE DOWODÓW",
+        "definition": "Każda osoba, która niszczy, manipuluje, zniekształca lub przekształca dowody mogące stanowić dowód w procesie sądowym.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "133": {
+        "id": "133",
+        "charge": "NIEDOPEŁNIENIE OBOWIĄZKU SŁUŻBOWEGO",
+        "definition": "Każda osoba, która będąc zaprzysiężonym pracownikiem agencji, departamentu lub biura uprawniona do ścigania lub ratowania nie dopełnia swojego obowiązku służbowego wynikającego z prawa.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "134": {
+        "id": "134",
+        "charge": "PRZEKROCZENIE UPRAWNIEŃ",
+        "definition": "Każda osoba, która będąc oficerem pokoju, agentem lub urzędnikiem na służbie przekracza swoje uprawnienia powodując tym szkodę materialną lub zdrowotną wobec osoby lub przedmiotu wobec której się tego podejmuje.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "135": {
+        "id": "135",
+        "charge": "UTRUDNIANIE WYKONYWANIA ZAWODU",
+        "definition": "Każda osoba, która utrudnia innej osobie wykonywanie jego zawodu lub poleceń przełożonego.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "136": {
+        "id": "136",
+        "charge": "NIESTOSOWANIE SIĘ DO POLECEŃ",
+        "definition": "Każda osoba, która nie stosuje się do poleceń wydanych przez osobę uprawnioną do ich wydania, lub nakłania inne osoby do niestosowania się poleceń.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "137": {
+        "id": "137",
+        "charge": "UCIECZKA PRZED ORGANAMI ŚCIGANIA",
+        "definition": "Każda osoba, która próbuje, pomaga, świadomie współuczestniczy lub dokonuje ucieczki przed organami ścigania.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 600,
+            "2": 600,
+            "3": 600
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "138": {
+        "id": "138",
+        "charge": "UCIECZKA PIESZA",
+        "definition": "Każda osoba, która próbuje, pomaga lub dokonuje ucieczki pieszej przed organami ścigania.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 300,
+            "2": 300,
+            "3": 300
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "141": {
+        "id": "141",
+        "charge": "STAWIANIE OPORU",
+        "definition": "Każda osoba, która stawia opór wobec wydawanych poleceń przez uprawnionego do ich wydania lub używa siły lub przedmiotu celem przeciwstawienia się użyciu prawnych środków przez uprawnionego.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "142": {
+        "id": "142",
+        "charge": "STAWIANIE OPORU PRZY ARESZTOWANIU",
+        "definition": "Każda osoba, która stawia opór wobec wydawanych poleceń przez uprawnionego do ich wydania w trakcie próby aresztowania lub używa siły celem przeciwstawienia się.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "143": {
+        "id": "143",
+        "charge": "UTRUDNIANIE INTERWENCJI",
+        "definition": "Każda osoba, która świadomie utrudnia przeprowadzaną interwencję przez uprawnionego.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "144": {
+        "id": "144",
+        "charge": "NAPAŚĆ NA OFICERA POKOJU",
+        "definition": "Każda osoba, która świadomie napada na oficera pokoju, agenta lub urzędnika.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 9,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "145": {
+        "id": "145",
+        "charge": "MORDERSTWO OFICERA POKOJU",
+        "definition": "Każda osoba, która świadomie zabija oficera pokoju, agenta lub urzędnika.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 30,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "146": {
+        "id": "146",
+        "charge": "PRÓBA MORDERSTWA OFICERA POKOJU",
+        "definition": "Każda osoba, która świadomie dokonuje zamachu na życie lub zdrowie oficera pokoju, agenta lub urzędnika z pomocą broni śmiertelnej lub bez jej użycia.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 16,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "147": {
+        "id": "147",
+        "charge": "WPROWADZENIE W BŁĄD OFICERA POKOJU",
+        "definition": "Każda osoba, która świadomie wprowadza w błąd oficera pokoju, podaje fałszywe dane lub fałszywe zeznania.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "149": {
+        "id": "149",
+        "charge": "NIEOPŁACENIE GRZYWNY",
+        "definition": "Każda osoba, która pomimo decyzji sądu nie opłaca zasądzonej grzywny.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "150": {
+        "id": "150",
+        "charge": "PODSZYWANIE SIĘ POD OFICERA POKOJU",
+        "definition": "Każda osoba, która podszywa się pod oficera pokoju, agenta lub urzędnika celem osiągnięcia korzyści majątkowej lub dokonania innego przestępstwa.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "151": {
+        "id": "151",
+        "charge": "PROWADZENIE DZIAŁALNOŚCI ADWOKACKIEJ BEZ LICENCJI",
+        "definition": "Każda osoba, która prowadzi działalność adwokacką lub inną formę obrony prawnej lub konsultacji prawnej nie posiadając do tego uprawnień i legalnej legitymacji adwokata.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2500,
+            "2": 2500,
+            "3": 2500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "152": {
+        "id": "152",
+        "charge": "PODSZYWANIE SIĘ POD ADWOKATA",
+        "definition": "Każda osoba, która podszywa się, legitymuje fałszywą legitymacją lub prowadzi działania obrony prawnej lub konsultacji prawnej bez uprawnień i legalnej legitymacji adwokata.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 4500,
+            "2": 4500,
+            "3": 4500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "153": {
+        "id": "153",
+        "charge": "PRÓBA DOKONANIA PRZESTĘPSTWA",
+        "definition": "Każda osoba, która podejmuje się dokonania jakiegokolwiek przestępstwa przeciwko mieniu, instytucji lub osobie ale nie odnosi w tym sukcesu.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2000,
+            "2": 2000,
+            "3": 2000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "154": {
+        "id": "154",
+        "charge": "NIELEGALNE WYKORZYSTANIE LINII RATUNKOWEJ 911",
+        "definition": "Każda osoba, która dokonuje lub namawia do dokonania tego przestępstwa poprzez wykorzystanie infolinii ratunkowej 911 w celu żartu lub fałszywego zgłoszenia z premedytacją.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "155": {
+        "id": "155",
+        "charge": "FAŁSZYWE ZGŁOSZENIE PRZESTĘPSTWA",
+        "definition": "Każda osoba, która zgłasza przestępstwo do którego nie doszło, ale robi to z premedytacją, a nie w dobrej wierze i nie może zostać usprawiedliwiona.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "156": {
+        "id": "156",
+        "charge": "NIESTAWIENIE SIĘ W SĄDZIE",
+        "definition": "Każda osoba, która poświadcza stawienie się na procesie sądowym w celu prawnej i sprawiedliwej oceny dokonanego czynu ale umyślnie lub nieumyślnie nie stawia się w sądzie na proces.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "187": {
+        "id": "187",
+        "charge": "MORDERSTWO PIERWSZEGO STOPNIA",
+        "definition": "Każda osoba, która zabija drugą osobę z premedytacją, jasnym zamiarem i osiąga swój cel ale nie robi tego z przesłankami okrucieństwa czy tortur.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 24,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "188": {
+        "id": "188",
+        "charge": "MORDERSTWO DRUGIEGO STOPNIA",
+        "definition": "Każda osoba, która zabija drugą osobę z premedytacją, jasnym zamiarem i osiąga swój cel i również posługuje się w trakcie tego aktu szczególną brutalnością czy torturami.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 14,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 30,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "189": {
+        "id": "189",
+        "charge": "ZABÓJSTWO",
+        "definition": "Każda osoba, która zabija drugą osobę bez premedytacji i bez jasnego zamiaru. Na przykład w trakcie wypadku, popełniania innego przestępstwa lub aktu, który doprowadza do śmierci przez przypadek.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "190": {
+        "id": "190",
+        "charge": "PRÓBA MORDERSTWA",
+        "definition": "Każda osoba, która świadomie i z jasnym zamiarem planuje lub próbuje zabić drugą osobę.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "191": {
+        "id": "191",
+        "charge": "NAPAŚĆ",
+        "definition": "Każda osoba, która świadomie dokonuje napaści bez użycia śmiertelnego narzędzia celem zastraszenia lub wymuszenia.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "192": {
+        "id": "192",
+        "charge": "NAPAŚĆ Z UŻYCIEM ŚMIERTELNEGO NARZĘDZIA",
+        "definition": "Każda osoba, która dokonuje napaści opisanej w punkcie 191. lecz posługuje się niebezpiecznym narzędziem takim jak broń biała lub inny przedmiot niebezpieczny.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "193": {
+        "id": "193",
+        "charge": "NAPAŚĆ Z BRONIĄ ŚMIERTELNĄ",
+        "definition": "Każda osoba, która dokonuje napaści opisanej w punkcie 191. lecz posługuje się bronią palną.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "194": {
+        "id": "194",
+        "charge": "TORTURY",
+        "definition": "Każda osoba, która torturuje inną osobę celem wymuszenia informacji, aktu bezprawnego, okaleczenia czy doprowadzenia do śmierci.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "195": {
+        "id": "195",
+        "charge": "POBICIE",
+        "definition": "Każda osoba, która dokonuje pobicia drugiej osoby bez ukrytego zamiaru jak wymuszenie czy rabunek i nie planuje zabić drugiej osoby.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "196": {
+        "id": "196",
+        "charge": "WYMUSZENIE",
+        "definition": "Każda osoba, która zastraszeniem ale bez użycia jakiejkolwiek broni dokonuje wymuszenia dobra materialnego lub informacji.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "197": {
+        "id": "197",
+        "charge": "RABUNEK",
+        "definition": "Każda osoba, która zastraszeniem z użyciem śmiertelnego narzędzia jak broń palna lub broń biała dokonuje wymuszenia dobra materialnego lub informacji od innej osoby.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "198": {
+        "id": "198",
+        "charge": "NAPAŚĆ SEKSUALNA",
+        "definition": "Każda osoba, która wymusza na drugiej osobie czynność seksualną lub próbuje to zrobić. Osoba, która narusza prywatność intymną drugiej osoby dotykiem.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "199": {
+        "id": "199",
+        "charge": "GWAŁT",
+        "definition": "Każda osoba, która wymusza na drugiej osobie dokonanie aktu seksualnego bez wyraźnej zgody drugiej osoby i osiąga sukces.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 15,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2000,
+            "2": 2000,
+            "3": 2000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "200": {
+        "id": "200",
+        "charge": "STOSUNEK SEKSUALNY Z OSOBĄ NIELETNIĄ",
+        "definition": "Każda osoba, która podejmuje się aktu seksualnego z drugą osobą, która nie ukończyło 18-tego roku życia.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 15,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 2000,
+            "2": 2000,
+            "3": 2000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "201": {
+        "id": "201",
+        "charge": "INNA ZABRONIONA CZYNNOŚĆ SEKSUALNA",
+        "definition": "Każda osoba, która podejmuje się naruszenia intymności drugiej osoby wbrew jej zgody lub wbrew prawu ale nie podlega pod inne zarzuty seksualne.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "202": {
+        "id": "202",
+        "charge": "ZASTRASZENIE",
+        "definition": "Każda osoba, która zastrasza drugą osobą celem wymuszenia konkretnego rezultatu, na przykład uzyskania informacji lub zaniechania czynności.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "203": {
+        "id": "203",
+        "charge": "GROŹBY",
+        "definition": "Każda osoba, która wyraża zamiar dokonania krzywdy fizycznej drugiej osobie, lub wyraża zamiar zabicia tej osoby poprzez słowa lub pismo.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "204": {
+        "id": "204",
+        "charge": "UPROWADZENIE POJAZDU",
+        "definition": "Każda osoba, która bezprawnie dokonuje zastraszenia kierowcy pojazdu celem przejęcia kontroli nad tym pojazdem.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 900,
+            "2": 900,
+            "3": 900
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "205": {
+        "id": "205",
+        "charge": "KRADZIEŻ POJAZDU. (GTA)",
+        "definition": "Każda osoba, która przywłaszcza, przejmuje kontrolę lub włamuje się do pojazdu z zamiarem jego przejęcia i kradzieży w celu korzyści majątkowej.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "206": {
+        "id": "206",
+        "charge": "UŻYCIE POJAZDU DO WYKONANIA PRZESTĘPSTWA",
+        "definition": "Każda osoba, która dokonuje przestępstwa w celu osiągnięcia zamierzonego rezultatu, który jest innym przestępstwem, a nie doszłoby do skutku gdyby nie użyto pojazdu.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 900,
+            "2": 900,
+            "3": 900
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "207": {
+        "id": "207",
+        "charge": "PORWANIE",
+        "definition": "Każda osoba, która uprowadza, zniewala lub ogranicza wolność drugiej osoby wbrew jej zgody i wbrew prawu.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1200,
+            "2": 1200,
+            "3": 1200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "208": {
+        "id": "208",
+        "charge": "ZNIEWOLENIE",
+        "definition": "Każda osoba, która bezprawnie ogranicza wolność drugiej osoby i robi to wbrew jej woli.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "209": {
+        "id": "209",
+        "charge": "PRZEMOC DOMOWA",
+        "definition": "Każda osoba, która dokonuje zamachu z zamiarem wyrządzenia krzywdy lub ją wyrządza drugiej osobie, która zamieszkuje razem z osobą dokonującą.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "210": {
+        "id": "210",
+        "charge": "ZANIEDBANIE PODOPIECZNEGO",
+        "definition": "Każda osoba, która będąc prawnym opiekunem dziecka lub osoby niepełnosprawnej, lub osoby wymagającej takiej opieki zaniedbuje swój obowiązek wynikający z pełnienia funkcji opiekuna.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 450,
+            "2": 450,
+            "3": 450
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "211": {
+        "id": "211",
+        "charge": "NAPAD RABUNKOWY",
+        "definition": "Każda osoba, która napada osobę, lokal bądź instytucję w celu zastraszenia i osiągnięcia korzyści majątkowej, lub kradzieży pieniędzy z użyciem broni śmiertelnej lub imitującej broń śmiertelną.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "212": {
+        "id": "212",
+        "charge": "NAPAD NA BANK",
+        "definition": "Każda osoba, która dokonuje napadu na bank z użyciem śmiertelnego narzędzia lub bez jego użycia, celem kradzieży pieniędzy lub innej korzyści.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 24,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "213": {
+        "id": "213",
+        "charge": "NAPAD NA INSTYTUCJĘ RZĄDOWĄ",
+        "definition": "Każda osoba, która dokonuje napadu na instytucję rządową taką jak urząd, sąd, jednostka więzienna, lub inny rodzaj budynku podległego pod organ władzy.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 24,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "214": {
+        "id": "214",
+        "charge": "NAPAD NA KONWÓJ",
+        "definition": "Każda osoba, która dokonuje napadu na konwój przewożący więźnia lub przewożący pieniądze lub inne dobro materialne lub informacyjne.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 11,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 5200,
+            "2": 5200,
+            "3": 5200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "215": {
+        "id": "215",
+        "charge": "CARJACKING",
+        "definition": "Każda osoba, która siłą fizyczną, zastraszaniem,z pomocą narzędzia śmiertelnego lub broni palnej dokonuje siłowego przejęcia kontroli nad innym pojazdem.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 7,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1200,
+            "2": 1200,
+            "3": 1200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "216": {
+        "id": "216",
+        "charge": "NIENAWIŚĆ",
+        "definition": "Każda osoba, która dokonuje nielegalnego aktu bazującego na nienawiści rasowej, etnicznej, religijnej, poglądowej lub ideologicznej.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 600,
+            "2": 600,
+            "3": 600
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "217": {
+        "id": "217",
+        "charge": "SUTENERSTWO",
+        "definition": "Każda osoba, która prowadzi działalność polegającą na odpłatnych aktach seksualnych bądź handluje ciałem kobiet, lub przymusza kobiety do takiej pracy lub oferuje taki rodzaj pracy.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 11,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 6000,
+            "2": 6000,
+            "3": 6000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "218": {
+        "id": "218",
+        "charge": "PROSTYTUCJA",
+        "definition": "Każda osoba, która przyjmuje korzyść majątkową za stosunek seksualny lub regularnie wykonuje stosunek seksualny w formie usługi płatnej.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 4000,
+            "2": 4000,
+            "3": 4000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "219": {
+        "id": "219",
+        "charge": "NAKŁANIANIE DO SAMOBÓJSTWA",
+        "definition": "Każda osoba, która namawia, wskazuje sposób lub zastrasza celem nakłonienia drugiej osoby do popełnienia samobójstwa.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 11,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 24,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "220": {
+        "id": "220",
+        "charge": "KONSPIRACJA",
+        "definition": "Każda osoba która we współpracy z inną osobą spiskuje z zamiarem popełnienia przestępstwa, fałszywego oskarżenia innej osoby, oszukiwania, popełnienia jakiegokolwiek czynu szkodliwego społecznie lub publicznie.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1200,
+            "2": 1200,
+            "3": 1200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "221": {
+        "id": "221",
+        "charge": "FAŁSZERSTWO",
+        "definition": "Każda osoba, która fałszuje, zniekształca istniejące już dobra prawne, lub fałszuje ich treść na swoją korzyść lub na korzyść materialną, lub tworzy nowe dokumenty nie będące zatwierdzone prawnie.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 5000,
+            "2": 5000,
+            "3": 5000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "222": {
+        "id": "222",
+        "charge": "NIELEGALNE ZGROMADZENIE",
+        "definition": "Każda osoba, która tworzy lub uczestniczy w nielegalnym zgromadzeniu które nie zostało zgłoszone i zaakceptowane przez władze.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1200,
+            "2": 1200,
+            "3": 1200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "223": {
+        "id": "223",
+        "charge": "ZAMIESZKI",
+        "definition": "Każda osoba, która rozpoczyna lub uczestniczy w zamieszkach, czyli akcie nielegalnego zgromadzenia które przerodziło się w niekontrolowany rozruch dokonujący innych przestępstw.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "224": {
+        "id": "224",
+        "charge": "PRÓBA WSZCZĘCIE LUB PLANOWANIE ZAMIESZEK",
+        "definition": "Każda osoba, która planuje wszczęcie lub próbuje wszczęć zamieszki, lub która zamierza i tworzy jednoznaczny plan, która tworzy grupę.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 8,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "225": {
+        "id": "225",
+        "charge": "OBSTRUKCJA PUBLICZNA",
+        "definition": "Każda osoba, która dopuszcza się czynu haniebnego lub czynu nieobyczajnego w miejscu publicznym niezależnie od tego, czy jest na widoku innych osób.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 450,
+            "2": 450,
+            "3": 450
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "226": {
+        "id": "226",
+        "charge": "OBNAŻANIE SIĘ",
+        "definition": "Każda osoba, która w miejscu publicznym lub w miejscu w którym jest wystawiona na widok osób postronnych nie zakrywa intymnych części garderoby lub ubiera skąpe idzienie zakrywające jedynie miejsca intymne ale może powodować zgorszenie u nieletnich.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "227": {
+        "id": "227",
+        "charge": "CZYN NIEOBYCZAJNY",
+        "definition": "Każda osoba, która próbuje lub wykonuje czynność seksualną lub w podtekście seksualnym w miejscu publicznym gdzie może zostać dostrzeżona przez osoby postronne.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "228": {
+        "id": "228",
+        "charge": "PIJAŃSTWO W MIEJSCU PUBLICZNYM",
+        "definition": "Każda osoba, która spożywa alkohol lub jest wyraźnie pijana i nie kontroluje swoich zachowań w miejscu publicznym, a może spowodować tym aktem zgorszenie.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 150,
+            "2": 150,
+            "3": 150
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "229": {
+        "id": "229",
+        "charge": "SHOPLIFTING",
+        "definition": "Każda osoba, która podejmuje się lekkiej kradzieży sklepowej, której wartość nie przekracza 700 USD.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "230": {
+        "id": "230",
+        "charge": "PIJAŃSTWO W MIEJSCU PUBLICZNYM (NARKOTYKI)",
+        "definition": "Każda osoba, która jest pod wpływem narkotyków lub bierze narkotyki i może powodować tym zgorszenie w miejscu publicznym.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "231": {
+        "id": "231",
+        "charge": "ZAKRYWANIE TWARZY W MIEJSCU PUBLICZNYM",
+        "definition": "Każda osoba, która zakrywa twarz za pomocą części garderoby, kominiarką, bandaną, chustą lub inną odzieżą w celu ukrycia swojej tożsamości i wyglądu w miejscu publicznym.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1200,
+            "2": 1200,
+            "3": 1200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "300": {
+        "id": "300",
+        "charge": "NIEUPRAWNIONE ZACHOWANIE",
+        "definition": "Każda osoba, która dokonuje nieuprawnionego zachowania podczas zatrzymania drogowego, na przykład nie trzyma rąk na kierownicy mimo poleceń, nie wykonuje poleceń oficera pokoju w trakcie zatrzymania, nie opuszcza szyby lub nie gasi silnika.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "301": {
+        "id": "301",
+        "charge": "UNIKANIE ODPOWIEDZIALNOŚCI ZA PRZESTĘPSTWO DROGOWE",
+        "definition": "Każda osoba, która dokonuje czynu bezprawnego i unika odpowiedzialności dokonując nieudanej próby ucieczki kiedy do tej ucieczki nie dochodzi i zostaje ujęta w miejscu zatrzymania drogowego, lub dokonuje innego czynu który prowadzi do próby uniknięcia odpowiedzialności.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 450,
+            "2": 450,
+            "3": 450
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "302": {
+        "id": "302",
+        "charge": "SPOWODOWANIE ŚMIERTELNEGO WYPADKU DROGOWEGO",
+        "definition": "Każda osoba, która powoduje swoim zachowaniem na drodze wypadek, w którym inna osoba poniosła śmierć, lub potrąca pieszego powodując jego śmierć.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "303": {
+        "id": "303",
+        "charge": "SPOWODOWANIE WYPADKU",
+        "definition": "Każda osoba, która powoduje incydent drogowy mogący zostać dalej uznanym za wypadek, który powoduje poprzez nieuwagę lub niedostosowanie się do przepisów drogowych. Wypadek to incydent w którym są osoby poszkodowane, ale brak jest ofiar śmiertelnych.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "304": {
+        "id": "304",
+        "charge": "SPOWODOWANIE KOLIZJI",
+        "definition": "Każda osoba, która poprzez nieuwagę lub niedostosowanie się do przepisów drogowych powoduje kolizję drogową. Kolizja to incydent w którym nie ma osób poszkodowanych, a jedynym poszkodowanym jest dobro materialne w postaci pojazdu lub infrastruktury.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 200,
+            "2": 200,
+            "3": 200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "305": {
+        "id": "305",
+        "charge": "ODMOWA PIERWSZEJ POMOCY",
+        "definition": "Każda osoba, która może udzielić pierwszej pomocy medycznej ofiarom wypadku drogowego, ale nie robi tego bez uzasadnionego powodu.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 350,
+            "2": 350,
+            "3": 350
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "306": {
+        "id": "306",
+        "charge": "BRAK OBOWIĄZKOWYCH DOKUMENTÓW",
+        "definition": "Każda osoba, która nie posiada przy sobie obowiązkowych, określonych w San Andreas Vehicle Code dokumentów podczas czynności z oficerem pokoju lub podczas zatrzymania drogowego.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "307": {
+        "id": "307",
+        "charge": "ODMOWA UDOSTĘPNIENIA DOKUMENTÓW",
+        "definition": "Każda osoba, która odmawia udostępnienia dokumentów oficerowi pokoju podczas zatrzymania drogowego lub innej czynności uprawnionej.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "308": {
+        "id": "308",
+        "charge": "BRAK TABLIC REJESTRACYJNYCH",
+        "definition": "Każda osoba, która podczas zatrzymania drogowego lub innej czynności prawnej nie posiada na swoim pojeździe przytwierdzonych i widocznych tablic rejestracyjnych, lub których rozczytanie przez organy ścigania jest trudne lub niemożliwe.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "309": {
+        "id": "309",
+        "charge": "JAZDA BEZ UPRAWNIEŃ",
+        "definition": "Każda osoba, która prowadzi pojazd jako kierowca, nie posiadając lub posiadając zawieszone uprawnienia do kierowania pojazdami.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "310": {
+        "id": "310",
+        "charge": "HIT&RUN",
+        "definition": "Każda osoba, która powoduje wypadek lub kolizję drogową i świadomie ucieka z miejsca zdarzenia.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "311": {
+        "id": "311",
+        "charge": "LEKKOMYŚLNA JAZDA / RECKLESS DRIVING",
+        "definition": "Każda osoba, która popełnia wykroczenie drogowe wynikające z lekkomyślności lub nieznajomości przepisów drogowych, lub intencjonalnie łamie prawo drogowe.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "312": {
+        "id": "312",
+        "charge": "JAZDA BEZ PASÓW BEZPIECZEŃSTWA",
+        "definition": "Każda osoba, która prowadzi pojazd lub jest jego pasażerem i nie ma zapiętych, obowiązkowych pasów bezpieczeństwa podczas jazdy.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 300,
+            "2": 300,
+            "3": 300
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "313": {
+        "id": "313",
+        "charge": "JAZDA BEZ WŁĄCZONYCH ŚWIATEŁ",
+        "definition": "Każda osoba, która kieruje pojazdem i po godzinie 19 wieczorem lub przed godziną 7 rano nie ma włączonych świateł mijania.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 200,
+            "2": 200,
+            "3": 200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "314": {
+        "id": "314",
+        "charge": "PRZEKROCZENIE PRĘDKOŚCI",
+        "definition": "Każda osoba, która przekracza prędkość lub nie dostosowuje prędkości do warunków na drodze, lub nie stosuje się do prędkości narzuconej lokalnie przez znaki drogowe.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 600,
+            "2": 600,
+            "3": 600
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "315": {
+        "id": "315",
+        "charge": "STWARZANIE ŚMIERTELNEGO ZAGROŻENIA POJAZDEM",
+        "definition": "Każda osoba, która swoim zachowaniem na drodze podczas kierowania pojazdem stwarza śmiertelne zagrożenie drogowe dla innych osób w pobliżu, lub prowadzi pojazd w sposób który może skutkować śmiertelnym zagrożeniem.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "316": {
+        "id": "316",
+        "charge": "POTRĄCENIE",
+        "definition": "Każda osoba, która pojazdem potrąca pieszego nie powodując poważnego uszczerbku na zdrowiu.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 350,
+            "2": 350,
+            "3": 350
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "317": {
+        "id": "317",
+        "charge": "POTRĄCENIE Z USZCZERBKIEM NA ZDROWIU",
+        "definition": "Każda osoba, która pojazdem potrąca pieszego powodując u niego trwały uszczerbek na zdrowiu.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 450,
+            "2": 450,
+            "3": 450
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "318": {
+        "id": "318",
+        "charge": "ŚMIERTELNE POTRĄCENIE",
+        "definition": "Każda osoba, która pojazdem potrąca pieszego powodując jego śmierć.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "319": {
+        "id": "319",
+        "charge": "ZIGNOROWANIE POJAZDU RATUNKOWEGO",
+        "definition": "Każda osoba, która nie udziela przejazdu pojazdowi ratunkowemu który jedzie do wezwania, lub utrudnia przejazd pojazdowi ratunkowemu.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "320": {
+        "id": "320",
+        "charge": "NADMIERNY HAŁAS POJAZDU",
+        "definition": "Każda osoba, która prowadzi pojazd w sposób wytwarzający nadmierny hałas nie mieszczący się w ramach ustalonych Vehicle Code, lub prowadzi pojazd dociskając gaz celem wywołania większego rozruchu silnika co prowadzi do zwiększonej głośności pojazdu.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 300,
+            "2": 300,
+            "3": 300
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "321": {
+        "id": "321",
+        "charge": "NADUŻYWANIE KLAKSONU",
+        "definition": "Każda osoba, która nadużywa klaksonu swojego pojazdu lub robi to w sposób uciążliwy lub niepotrzebny.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 150,
+            "2": 150,
+            "3": 150
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "322": {
+        "id": "322",
+        "charge": "NIELEGALNA MODYFIKACJA POJAZDU",
+        "definition": "Każda osoba, która prowadzi pojazd, który posiada na wyposażeniu nielegalną modyfikację stanowiącą naruszenie SA Vehicle Code.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "323": {
+        "id": "323",
+        "charge": "JAZDA POD WPŁYWEM (DUI)",
+        "definition": "Każda osoba, która prowadzi pojazd, będąca pod wpływem środków odurzających takich jak alkohol lub narkotyki.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "324": {
+        "id": "324",
+        "charge": "ZIGNOROWANIE PIERWSZEŃSTWA",
+        "definition": "Każda osoba, która prowadzi pojazd ignorując zasady ustąpienia pierwszeństwa na drodze innemu pojazdowi.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "325": {
+        "id": "325",
+        "charge": "NIELEGALNE PARKOWANIE",
+        "definition": "Każda osoba, która parkuje, zatrzymuje lub pozostawia na dłużej swój pojazd zaparkowany w sposób nielegalny, nie mieszczący się w ramach ustalonego prawa drogowego w SA Vehicle Code.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 350,
+            "2": 350,
+            "3": 350
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "326": {
+        "id": "326",
+        "charge": "JAZDA POD PRĄD",
+        "definition": "Każda osoba, która porusza się pojazdem po linii nieprzeznaczonej dla jego wektora ruchu, dalej zwaną jazdą pod prąd.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "327": {
+        "id": "327",
+        "charge": "NIELEGALNE WYPRZEDZANIE",
+        "definition": "Każda osoba, która prowadząc pojazd dokonuje manewru wyprzedzania, omijania, wymijania innego pojazdu w sposób niebezpieczny lub niezgodny z prawem drogowym przyjętym w San Andreas Vehicle Code.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 300,
+            "2": 300,
+            "3": 300
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "328": {
+        "id": "328",
+        "charge": "NIELEGALNE ZAWRACANIE",
+        "definition": "Każda osoba, która prowadząc pojazd wykonuje manewr zawracania w sposób niebezpieczny lub niezgodny z znakami drogowymi, lub niezgodny z ramami prawa drogowego określonego w San Andreas Vehicle Code.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 300,
+            "2": 300,
+            "3": 300
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "329": {
+        "id": "329",
+        "charge": "JAYWALKING",
+        "definition": "Każda osoba, która w miejscu do tego nieprzeznaczonym przechodzi przez jezdnię, lub porusza się po jezdni wzdłuż.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 100,
+            "2": 100,
+            "3": 100
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "330": {
+        "id": "330",
+        "charge": "UTRUDNIANIE PRZEPŁYWU RUCHU",
+        "definition": "Każda osoba, która swoją jazdą utrudnia przepływ ruchu wykonując nielegalne manewry lub jadąc zbyt powoli lub robiąc to umyślnie.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "331": {
+        "id": "331",
+        "charge": "UŻYWANIE TELEFONU W TRAKCIE JAZDY",
+        "definition": "Każda osoba, która podczas jazdy pojazdem posługuje się telefonem lub prowadzi rozmowę telefoniczną.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 100,
+            "2": 100,
+            "3": 100
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "332": {
+        "id": "332",
+        "charge": "OTWARTE POJEMNIKI Z ALKOHOLEM",
+        "definition": "Każda osoba, która w trakcie jazdy pojazdem posiada w jego wnętrzu otwarte pojemniki z alkoholem lub inną substancją odurzającą.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "333": {
+        "id": "333",
+        "charge": "POJAZD NIEBEZPIECZNY",
+        "definition": "Każda osoba, która prowadzi pojazd uznany przez San Andreas Vehicle Code jako niebezpieczny i niemożliwy do prowadzenia po drogach publicznych.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "334": {
+        "id": "334",
+        "charge": "WYŚCIG ULICZNY",
+        "definition": "Każda osoba, która tworzy, uczestniczy lub pomaga w tworzeniu nielegalnego wyścigu ulicznego.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1000,
+            "2": 1000,
+            "3": 1000
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "335": {
+        "id": "335",
+        "charge": "IGNOROWANIE DUI CHECKPOINT",
+        "definition": "Każda osoba, która ignoruje nakaz jazdy przez DUI Checkpoint lub zawraca widząc rozstawiony DUI Checkpoint.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 450,
+            "2": 450,
+            "3": 450
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "336": {
+        "id": "336",
+        "charge": "BRAK HEŁMU NA MOTOCYKLU",
+        "definition": "Każda osoba, która nie ubiera przystosowanego i wymaganego prawem hełmu/kasku podczas prowadzenia motocykla innego niż motocykl typu chopper.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 250,
+            "2": 250,
+            "3": 250
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "337": {
+        "id": "337",
+        "charge": "UPODABNIANIE POJAZDU DO POJAZDU RATUNKOWEGO",
+        "definition": "Każda osoba, która upodabnia swój pojazd do pojazdu ratunkowego lub posiada osprzęt przynależący prawem jedynie do pojazdu ratunkowego.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "338": {
+        "id": "338",
+        "charge": "NIELEGALNY PASAŻER",
+        "definition": "Każda osoba, która przewozi w pojeździe więcej pasażerów niż pojazd ma do tego przeznaczonych miejsc siedzących.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 600,
+            "2": 600,
+            "3": 600
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "339": {
+        "id": "339",
+        "charge": "NIEUSTĄPIENIE PIERWSZEŃSTWA PIESZEMU",
+        "definition": "Każda osoba, która prowadzi pojazd i nie ustępuje pierwszeństwa przejścia pieszemu w wyznaczonym do tego miejscu.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "340": {
+        "id": "340",
+        "charge": "NIESPRAWNY POJAZD",
+        "definition": "Każda osoba, która prowadzi pojazd w złym stanie technicznym.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 600,
+            "2": 600,
+            "3": 600
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "341": {
+        "id": "341",
+        "charge": "JAZDA PO CHODNIKU",
+        "definition": "Każda osoba, która prowadzi pojazd i porusza się nim wzdłuż po chodniku, lub w poprzek powodując zagrożenie.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "342": {
+        "id": "342",
+        "charge": "NIEZASTOSOWANIE SIĘ DO SYGNALIZACJI DROGOWEJ (ŚWIETLNEJ) LUB POLECEŃ OSOBY KIERUJĄCEJ RUCHEM",
+        "definition": "Każda osoba, która kieruje pojazdem i nie stosuje się do sygnalizacji świetlnej lub nie stosuje się do poleceń drogowych wydawanych przez osobę do tego uprawnioną.",
+        "type": "I",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": true
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 600,
+            "2": 600,
+            "3": 600
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "414": {
+        "id": "414",
+        "charge": "PRZENOSZENIE BRONI PALNEJ BEZ LICENCJI",
+        "definition": "Każda osoba, która przenosi zarejestrowaną, legalną broń palną ale nie posiada do tego aktualnych uprawnień.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "415": {
+        "id": "415",
+        "charge": "POSIADANIE KASTETU",
+        "definition": "Każda osoba, która posiada na swoim wyposażeniu lub jest właścicielem kastetu.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "416": {
+        "id": "416",
+        "charge": "POSIADANIE NIELEGALNEGO TYPU NOŻA",
+        "definition": "Każda osoba, która posiada nóż kieszonkowy, nóż motylkowy, nóż myśliwski lub inny, niebezpieczny rodzaj noża w trakcie popełnienia innego przestępstwa.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "417": {
+        "id": "417",
+        "charge": "POSIADANIE NIELEGALNEJ BRONI PALNEJ",
+        "definition": "Każda osoba, która posiada, używa, użycza lub pożycza nielegalną broń palną.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "418": {
+        "id": "418",
+        "charge": "POSIADANIE NIELEGALNEJ BRONI PALNEJ (DŁUGIEJ)",
+        "definition": "Każda osoba, która posiada, używa, użycza lub pożycza nielegalną broń palną z kategorii broni długich.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "419": {
+        "id": "419",
+        "charge": "POSIADANIE NIELEGALNEJ BRONI MYŚLIWSKIEJ",
+        "definition": "Każda osoba, która posiada, używa, użycza lub pożycza nielegalną broń palną z kategorii myśliwskich.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "420": {
+        "id": "420",
+        "charge": "POSIADANIE LUB WYTWARZANIE ŁADUNKÓW WYBUCHOWYCH",
+        "definition": "Każda osoba, która posiada, wytwarza, użycza lub jest właścicielem materiałów wybuchowych.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "421": {
+        "id": "421",
+        "charge": "PRZEMYT BRONI",
+        "definition": "Każda osoba, która przemyca broń z innego kraju, stanu lub która pełni usługę przewozu nielegalnej broni palnej lub ładunków wybuchowych.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 24,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "422": {
+        "id": "422",
+        "charge": "WYTWARZANIE NIELEGALNEJ BRONI PALNEJ",
+        "definition": "Każda osoba, która w sposób nielegalny i nieregulowany prawem lub instytucją prowadzi działalność polegającą na wytwarzaniu broni palnej.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "423": {
+        "id": "423",
+        "charge": "POSIADANIE BRONI NA TERENIE OBIEKTÓW CHRONIONYCH",
+        "definition": "Każda osoba, która posiada broń w sposób nieregulowany prawem na terenie obiektów chronionych lub państwowych.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "424": {
+        "id": "424",
+        "charge": "HANDEL BRONIĄ PALNĄ",
+        "definition": "Każda osoba, która w sposób nielegalny i nieregulowany prawem handluje bronią palną bez państwowych upoważnień.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "425": {
+        "id": "425",
+        "charge": "POSIADANIE LUB UŻYWANIE NIELEGALNYCH KOMPONENTÓW BRONI PALNEJ",
+        "definition": "Każda osoba, która modyfikuje swoją broń lub posiada modyfikacje do broni regulowane prawem, a które uznane są za nielegalne.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "426": {
+        "id": "426",
+        "charge": "WYPALENIE Z BRONI PALNEJ W MIEJSCU PUBLICZNYM",
+        "definition": "Każda osoba, która używa broni palnej w miejscu publicznym poza ramami prawa.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "450": {
+        "id": "450",
+        "charge": "WTARGNIĘCIE",
+        "definition": "Każda osoba, która dokonuje nielegalnego wejścia na posesję lub obszar zarejestrowany prawnie.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "451": {
+        "id": "451",
+        "charge": "NISZCZENIE MIENIA PAŃSTWOWEGO",
+        "definition": "Każda osoba, która dokonuje dewastacji mienia państwowego powodując stary materialne.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "452": {
+        "id": "452",
+        "charge": "NISZCZENIE MIENIA PRYWATNEGO",
+        "definition": "Każda osoba, która dokonuje dewastacji lub niszczy cudze mienie powodując stary materialne.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "453": {
+        "id": "453",
+        "charge": "WŁAMANIE",
+        "definition": "Każda osoba, która dokonuje lub próbuje się włamać do czyjejś posesji lub pojazdu.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "454": {
+        "id": "454",
+        "charge": "WŁAMANIE Z UŻYCIEM SPECJALISTYCZNYCH NARZĘDZI",
+        "definition": "Każda osoba, która dokonuje lub próbuje się włamać do czyjejś posesji lub pojazdu z użyciem specjalistycznych narzędzi.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "455": {
+        "id": "455",
+        "charge": "PRÓBA WŁAMANIA",
+        "definition": "Każda osoba, która w swoim zamiarze ma na celu włamanie się do pojazdu lub budynku prywatnego lub rządowego.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 500,
+            "2": 500,
+            "3": 500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "456": {
+        "id": "456",
+        "charge": "KRADZIEŻ",
+        "definition": "Każda osoba, która kradnie dobro materialne należące do innej osoby lub instytucji rządowej.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 200,
+            "2": 200,
+            "3": 200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "457": {
+        "id": "457",
+        "charge": "PRZYWŁASZCZENIE",
+        "definition": "Każda osoba, która nie kradnie na stałe, lecz przywłaszcza przedmiot lub rzecz należącą do innej osoby.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 200,
+            "2": 200,
+            "3": 200
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "458": {
+        "id": "458",
+        "charge": "PODPALENIE",
+        "definition": "Każda osoba, która wznieca ogień celem podpalenia rzeczy lub posiadłości należącej do innej osoby lub instytucji.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "459": {
+        "id": "459",
+        "charge": "PRÓBA PODPALENIA",
+        "definition": "Każda osoba, która próbuje wzniecić ogień celem podpalenia rzeczy lub posiadłości należącej do innej osoby lub instytucji ale nie osiąga swojego celu.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "460": {
+        "id": "460",
+        "charge": "WANDALIZM",
+        "definition": "Każda osoba, która niszczy, dewastuje lub zanieczyszcza dobro wspólne lub użytku publicznego.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "501": {
+        "id": "501",
+        "charge": "POSIADANIE SUBSTANCJI KONTROLOWANEJ",
+        "definition": "Każda osoba, która posiada substancję kontrolowaną prawem.",
+        "type": "M",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 1,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 2,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 400,
+            "2": 400,
+            "3": 400
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "502": {
+        "id": "502",
+        "charge": "HANDEL SUBSTANCJĄ KONTROLOWANĄ",
+        "definition": "Każda osoba, która w sposób nieuprawniony i niecertyfikowany handluje substancją kontrolowaną.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 6,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 700,
+            "2": 700,
+            "3": 700
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "503": {
+        "id": "503",
+        "charge": "WYTWARZANIE SUBSTANCJI KONTROLOWANEJ",
+        "definition": "Każda osoba, która wytwarza, hoduje rośliny lub porcjuje substancje kontrolowane.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 4,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 800,
+            "2": 800,
+            "3": 800
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "504": {
+        "id": "504",
+        "charge": "PRZEMYT NARKOTYKÓW",
+        "definition": "Każda osoba, która prowadzi, pomaga lub współuczestniczy w przemycie narkotyków.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 1500,
+            "2": 1500,
+            "3": 1500
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "505": {
+        "id": "505",
+        "charge": "POSIADANIE LUB UDOSTĘPNIANIE POSESJI DO WYTWARZANIA NARKOTYKÓW",
+        "definition": "Każda osoba, która posiada lub udostępnia posesję w celu wytwarzania substancji kontrolowanej.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 5,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 12,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "506": {
+        "id": "506",
+        "charge": "POSIADANIE ZNACZNEJ ILOŚCI SUBSTANCJI KONTROLOWANEJ PRAWEM",
+        "definition": "Każda osoba, która posiada znaczną ilość substancji kontrolowanej prawem.",
+        "type": "F",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": true,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 3,
+            "min": 0
+        },
+        "maxtime": {
+            "days": 0,
+            "hours": 10,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 900,
+            "2": 900,
+            "3": 900
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": false,
+            "cost": 0
+        },
+        "extra": "N/A"
+    },
+    "000": {
+        "id": "000",
+        "charge": "UNKNOWN CHARGE",
+        "definition": "?",
+        "type": "?",
+        "class": {
+            "A": false,
+            "B": false,
+            "C": false
+        },
+        "offence": {
+            "1": false,
+            "2": false,
+            "3": false
+        },
+        "time": {
+            "days": 0,
+            "hours": 0,
+            "min": 0
+        },
+        "points": {
+            "A": 0,
+            "B": 0,
+            "C": 0
+        },
+        "fine": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "impound": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "suspension": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+        },
+        "bail": {
+            "auto": 0,
+            "cost": 0
+        },
+        "extra": "N/A"
+    }
+}

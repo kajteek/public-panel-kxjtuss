@@ -1,0 +1,12 @@
+{
+    "group_name": "STANDARD",
+    "group_id": "standard",
+    "files": [
+        "impound-report.json",
+        "infraction-report.json",
+        "parking-ticket.json",
+        "traffic-infraction-report.json",
+        "trespass-notice.json",
+        "warrant-affidavit.json"
+    ]
+}

@@ -1,0 +1,1101 @@
+{
+    "changelogs": [
+        {
+            "version": "3.6.6",
+            "type": "Minor Update",
+            "date": "2026-02-16",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Interactive Map:</b> Reintroduced the interactive map, allowing for users to decide between using caseboard and the interactive map offered by this website."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Server:</b> Backend bumping of npm_and_yarn dependencies to address security vulnerabilities."
+                }
+            ]
+        },
+        {
+            "version": "3.6.5",
+            "type": "Minor Update",
+            "date": "2026-01-09",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Updated the unique SEB Form to a newer overall format."
+                }
+            ]
+        },
+        {
+            "version": "3.6.4",
+            "type": "Minor Update",
+            "date": "2025-12-25",
+            "items": [
+                {
+                    "type": "modification",
+                    "description": "<b>UI/UX:</b> Added some holiday spirit to the website, thanks to thegr8moore."
+                }
+            ]
+        },
+        {
+            "version": "3.6.3",
+            "type": "Minor Update",
+            "date": "2025-12-21",
+            "items": [
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Bumped the npm_and_yarn group versions to address a few security concerns."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Caseboard:</b> The interactive map was changed for the caseboard system created by Pengu."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Calculator:</b> A very small UI/UX tweak with the Paperwork Generator, adding a tooltip when removing charges."
+                }
+            ]
+        },
+        {
+            "version": "3.6.2",
+            "type": "Minor Update",
+            "date": "2025-12-12",
+            "items": [
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> The arrest report format was modified to be a bit more overall modern and adds a bit more clarity in certain sections."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Addressed a Sentinel Alert regarding an XSS possibility, not super critical since nothing is published."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Bumped the npm_and_yarn group versions to address a few security concerns."
+                }
+            ]
+        },
+        {
+            "version": "3.6.1",
+            "type": "Minor Update",
+            "date": "2025-12-10",
+            "items": [
+                {
+                    "type": "addition",
+                    "description": "<b>Paperwork Generators:</b> New <u>Death Investigation Report</u> has been added for the Los Santos Police Department."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> The <u>Crime Complaint Report</u> has been updated to match the new report made by the Los Santos Police Department."
+                }
+            ]
+        },
+        {
+            "version": "3.6.0.01",
+            "type": "Hotfix",
+            "date": "2025-12-06",
+            "items": [
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Addressed a critical vulnerability with the nodejs packages fixing CVE-2025-55182."
+                }
+            ]
+        },
+        {
+            "version": "3.6.0",
+            "type": "Major Update",
+            "date": "2025-10-21",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Created a better switch that's more similar to the Legacy MDC switch, spanning across the page dependant on the content width."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Added a parking ticket and traffic report insurance expiry time so that it's easier to notate the date and time of when the insurance was last active."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Created a new Realistic Parking Ticket paperwork generator for those that wish to be more immersed in realistic paperwork for parking citations."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Allowed JSON-configured value generators for paperwork, meaning you're able to dynamically generate random values that will appear on the form based on the submission."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Added a new gradient to Paperwork Generators giving them a light background color on the selection page."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Created a new State Fire Marshals Casefile paperwork generator enabling Fire Marshals the ability to create casefiles from the MDC Panel."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> New paperwork generators now have a NEW tag which will automatically expire on a defined date."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Server:</b> Added local data fetching, allowing alternative or local servers to disable the global CDN for their own local penal code additions."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> The ordering of the paperwork generator categories is now pre-defined based on the server configuration."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Settings:</b> Added a new selector for the background logo, being able to select between the LSPD, LSSD or the San Andreas Seal as a background logo in the settings."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>i18n:</b> Added better localization handling in the backend for adding new localizations to the server."
+                }
+            ],
+            "cacheVersion": "backend-frql-1"
+        },
+        {
+            "version": "3.5.2",
+            "type": "Minor Update",
+            "date": "2025-10-08",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Modified some character escaping issues when copying the paperwork."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Fixed some issues with plural definitions when handling i18n translations."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Simplified Penal Code:</b> Modified the display of stipulations so that it only shows for all those that are not 'N/A'."
+                }
+            ]
+        },
+        {
+            "version": "3.5.1",
+            "type": "Minor Update",
+            "date": "2025-10-07",
+            "items": [
+                {
+                    "type": "addition",
+                    "description": "<b>Paperwork Generators:</b> Created a new Infraction Report generator for non-traffic related citations issued to individuals."
+                },
+                {
+                    "type": "addition",
+                    "description": "<b>Paperwork Generators:</b> Created a new LSPD Crime Complaint Report (CCR) generator, as suggested by a member of LSPD."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Moved the i18n language files to the main data folder."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed a bug that did not clear the advanced arrest report on new arrest calculations."
+                }
+            ]
+        },
+        {
+            "version": "3.5.0.01",
+            "type": "Hotfix",
+            "date": "2025-10-06",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Calculator:</b> Fixed some undefined language strings in the Arrest Calculation."
+                }
+            ]
+        },
+        {
+            "version": "3.5.0",
+            "type": "Major Update",
+            "date": "2025-10-06",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Log Parser:</b> Added a new Log Parser system where people can easily parse their roleplay logs to get certain information out of it."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added a STREETS notice to the Arrest Calculator on certain charges that support the STREETS Act."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Added full i18n support to the website allowing other international communities to fork this website and easily configurate it."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed some missing fields not appearing on the warrant affidavit paperwork generator."
+                }
+            ],
+            "cacheVersion": "multi-lang-1"
+        },
+        {
+            "version": "3.4.1",
+            "type": "Minor Update",
+            "date": "2025-10-01",
+            "items": [
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Added support for Mobile View, making it entirely possible to browse the MDC Panel on a phone."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>General:</b> Fixed the collapsed sidebar from dissapearing upon certain conditions."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>General:</b> Fixed the collapsed sidebar logo from being squished together."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Report Archive:</b> Paperwork Generators will now also archive and can be restored or deleted."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Legal Search:</b> Created a new AI chatbot-like legal search in which you can cite any questions which will return a result to you based on the penal code and caselaw data."
+                }
+            ]
+        },
+        {
+            "version": "3.4.0",
+            "type": "Major Update",
+            "date": "2025-09-30",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added the ability to download reports as images."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the \"Parking Ticket\" report to be a bit more realistic in terms of citing reasoning for the violations."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the text for the trespass notice to be a bit more clear as to where someone's trespassed from."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Added a few more modifiers for the arrest reports, adding a bit more support for future arrest reports."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Finally fixed the formatting of the advanced arrest report, so that the preview is in-line to the actual report."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Ported over the feature of quick-creating impound reports to the advanced arrest report."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Added the ability to download reports as images."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Settings:</b> Added support for experimental features."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Modified the visuals of the about page, very minor modifications."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Calculator:</b> Refactored the way Parole Violations are handled, no longer being bound to an addition, rather being bound to the entire charge-set."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> A small text modification on the basic arrest report to make the section regarding sentencing & auto-bail an OOC section."
+                }
+            ],
+            "cacheVersion": "world-swft-1",
+            "experimentalFeatures": [
+                {
+                    "title": "Legal Search",
+                    "variable": "ai_legal_search",
+                    "description": "The AI Legal Search is a sort-of search engine combined with a chatbot, it'll provide you brief reasoning before returning you the results of it's search, including searching the penal code & caselaw.",
+                    "defaultEnabled": false
+                }
+            ]
+        },
+        {
+            "version": "3.3.2.01",
+            "type": "Hotfix",
+            "date": "2025-09-28",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed a variable name that caused a button to not appear for copying the charges on the traffic report & parking tickets."
+                }
+            ]
+        },
+        {
+            "version": "3.3.2",
+            "type": "Minor Update",
+            "date": "2025-09-27",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Added a \"Quick-Create an Impound Report\" to the basic arrest report submission."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Added a missing 435 charge to the Traffic Report."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added support for the maximum impound & suspension time to the arrest calculation."
+                }
+            ],
+            "cacheVersion": "elevator-stuf-1"
+        },
+        {
+            "version": "3.3.1.03",
+            "type": "Hotfix",
+            "date": "2025-09-14",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed an incorrect variable preventing the copyable charge button from showing."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed a misconfiguration, adding a few missing infractions to the traffic report."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed an issue with the advanced arrest report incorrectly displaying deputies and officers, not to be confused with the report."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Server:</b> Simplified the Dockerfile, ensuring the build phase works within the actual docker container."
+                }
+            ]
+        },
+        {
+            "version": "3.3.1",
+            "type": "Minor Update",
+            "date": "2025-09-14",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added the ability to copy the charge directly in a traffic report as you're making it, making it easier to issue traffic citations."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Server:</b> Bumped Next version to 15.5.2."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed an issue with the advanced arrest reports displaying \"Officers\" for the LSSD and \"Deputies\" for the LSPD."
+                }
+            ]
+        },
+        {
+            "version": "3.3.0",
+            "type": "Major Update",
+            "date": "2025-09-05",
+            "items": [
+                {
+                    "type": "addition",
+                    "description": "<b>Settings:</b> The settings now has the ability to opt-out of analytics fully, allowing users to make the decision on if they wish to participate in the analytics or not, allowing an additional measure of privacy."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Settings:</b> Added a new \"Advanced Form Parameters\" to the settings, which feature a new setting to predefine your officer fields, in case you patrol with the same multiple people at the same time."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Settings:</b> Fixed the ability to manage form visibility."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Calculator:</b> The drug arrest charges will now have categories listed aside of each charge."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> The bug on advanced arrest report not allowing people to swap between alternative characters sometimes was fixed."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> The page titles are now dynamic based on which page you're currently on, making it easier to navigate if you have multiple tabs open."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Simplified Penal Code:</b> Added narratives to the simplified penal code."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>General:</b> Added the ability to pick a default callsign which will automatically fill out your callsign on paperwork."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Simplified Penal Code:</b> Added an AI Assistant for the Simplified Penal Code, making it possible to quickly ask questions regarding the penal code."
+                }
+            ],
+            "cacheVersion": "riff-pofv-1"
+        },
+        {
+            "version": "3.2.1",
+            "type": "Minor Update",
+            "date": "2025-09-02",
+            "items": [
+                {
+                    "type": "backend",
+                    "description": "<b>Arrest Calculator:</b> Added a more centralized API backend system to calculate arrests, this will be useful in the future as well when it comes to making an API system."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>General:</b> Added support for setting up default callsigns in \"settings\" which will reflect globally on paperwork generators."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed a bug with the basic arrest report not parsing the correct time and points cause it didn't count for the additions in the calculator."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the Traffic Report to include an additional evidence section."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added an \"LSPD Field Interview Card\" generator, allowing LSPD to create forum-based paperwork via the MDC Panel."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the charge section in the traffic report / parking ticket to account for offence #."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed the issue with mandatory fields not correctly outlining in the basic arrest report."
+                }
+            ]
+        },
+        {
+            "version": "3.2.0",
+            "type": "Major Update",
+            "date": "2025-09-01",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Added a \"Open MDC Record\" button that will take you to the suspect's page once you've finished filing your paperwork."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Created a new SEB deployment report form, ported from the Legacy MDC."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Updated all global & legacy paperwork generators to include a \"Open MDC Record\" button, which will take you to a suspect's MDC record."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Added support for custom buttons on paperwork generators, easily adding and modifying them."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Server:</b> Disabled public beta access, updated the beta code and changed the beta to be private."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Added support for private link-only forms, that can be shared to specific divisions/units."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Removed the badge numbers from being present on certain forms by default, as it's not necessarily a mandatory field."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Server:</b> Modified the server for release, removing any experimental flags and junk code."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Added a bunch of text to the current modifiers on the basic arrest report narrative."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Implemented a cache-buster and localstorage-buster, making it overall \"guaranteed\" that cached data will be busted for future updates. Also making it possible to reset userdata to prevent corruption. This should fix issues where some people still have bugs present that have been fixed a few versions ago."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Help Center:</b> The feedback discord webhook now also has a quick github issue create link, that will automatically create an issue making it easier to track bugs."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> The beta configuration was adjusted so that it no-longer pulls from the environment making it a bit easier to control."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Settings:</b> Added a data import/export to the Settings page, making it possible to export or import your data for this site."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Replaced the TOS and Privacy Policy pages with an About & Contributions page, as legal text probably won't be needed for this website."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added a Rules Violation Report form to the San Andreas Department of Corrections section."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Made a modification to the way nextjs exposes the data folder to the public, making it easy to access on the clientside."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Added better analytics tracking in the backend code."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> The suspect's name, supporting evidence and dashcam providing a blank output on submit on the basic arrest report has been fixed."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Calculator:</b> Added a missing \"Accessory\" addition onto the arrest calculator."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Calculator:</b> Fixed an issue with the minimum time replacing the maximum time in the total, causing false calculations."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Updated the changelog to be a bit more user friendly and have a better UI."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> Added a missing \"Required Case\" dropdown-value to the advanced arrest report."
+                }
+            ],
+            "cacheVersion": "biscuits-tiff-1",
+            "localStorageVersion": "cookie-apxn-1"
+        },
+        {
+            "version": "3.1.6",
+            "type": "Minor Update",
+            "date": "2025-08-28",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Added a missing Unit / Detail field to the Warrant Affidavit generator."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Made it so the officer section adapts depending on how many fields are present based on the backend configuration for the officer section."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Calculator:</b> Removed the total fine as a copyable field and replaced it with total suspension and total impound times, as fines can now individually be copied which is what will be used more."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added support for charging additions such as accessory, attempt, conspiracy and soliciation. The arrest calculator will also highlight any sort of addition modifications."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Settings:</b> Added the ability to modify each character's unit / detail within the application settings."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Added support for grouping inputs within input multi-input-groups, this makes forms a bit more visually enhanced and better looking."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Adjusted the paperwork generators validation system, making it so mandatory fields will now highlight as red but also dynamically adapt so that if you type something into a mandatory field, the red outline will go away."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added a Los Santos County Sheriff's Department form for \"Subject Information System\"."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added a Los Santos County Sheriff's Department form for \"Traffic Collision Report\"."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added a San Andreas Department of Corrections form for \"Parole Tracking Program\"."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Made a reusable icon component, allowing icons to be dynamically allocated to other components without importing each of the icons one by one."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified all the icons on the existing paperwork generators and added support for <b><span style=\"color:#FF0000\">c</span><span style=\"color:#FFFF00\">o</span><span style=\"color:#00FF00\">l</span><span style=\"color:#00FFFF\">o</span><span style=\"color:#0000FF\">r</span><span style=\"color:#FF00FF\">s</span></b>."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Added a beta-redirection system which will, upon release of the actual MDC Panel, redirect people to the live version of the MDC Panel, so people don't keep using the beta version."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> Added support for automatically saving drafts whenever you click out of a textfield, meaning if you close the website or something similar by mistake, the draft should still save."
+                }
+            ]
+        },
+        {
+            "version": "3.1.5",
+            "type": "Minor Update",
+            "date": "2025-08-26",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added the ability to copy a fine directly from a specific charge on the arrest calculator by clicking on the fine."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added the ability to copy charges on the shearable charge calculation, making issuing fines and citing charges a bit easier."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> Added support for the Los Santos County Sheriff's Department to the advanced arrest report, allowing the other faction to utilize the advanced arrest report."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> The Evidence, Photographs & DIVCS section on the Advanced Arrest Report now submits even if you do not have any modifiers selected."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed up the arrest reports to have a white background regardless of your MDC background setting."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Settings:</b> The Clear All Site Data button now actually clears all your site data."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Released the first basic version of the Warrant Affidavit."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the trespass notice to be a bit more in-line with the legal requirements."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Modified the rendering of paperwork generators, so that bbcode and HTML is a bit more accurately displayed."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>General:</b> Added a new Help Center to answer some commonly asked question and to compile a bunch of information on one page."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Adjusted the Incident Reports to allow for multiple officers."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Added support for new textarea-with-presets to also work with dynamic paperwork generators as well as multi-input fields. (This one was a bitch)"
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Added better handling for validation errors, now no-longer causing server errors regardless of the issue, particularly seen with multi-input fields and mandatory inputs within multi-input fields."
+                }
+            ]
+        },
+        {
+            "version": "3.1.4",
+            "type": "Minor Update",
+            "date": "2025-08-25",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Caselaw & Legal Resources:</b> Added an AI Search to the Caselaw Section, allowing you to quickly ask a question and get a result regarding caselaw."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Made a UI change to the footer, making it stick to the bottom regardless of the page length."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added support for sharing your current calculation of charges, making it easier to outsource your current arrests when someone's booking suspects on your behalf."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Made the CDN fetching into a constant, so that the endpoint can easily be configured in a config file."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Made the Illegal / Legal categories under the tint level on traffic reports and automatically by default picked the uninspected tint level."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>General:</b> Added support for certain meta tags so that the website embeds on discord and any other social media."
+                }
+            ]
+        },
+        {
+            "version": "3.1.3.02",
+            "type": "Hotfix",
+            "date": "2025-08-23",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed the arrest reports not parsing the officer information."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed the basic/advanced arrest reports not generating a white background for it's paperwork."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed the paperwork generator output always appending a <div></div> between the report."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Fixed the arrest report narrative resetting your progress if you click out of it."
+                }
+            ]
+        },
+        {
+            "version": "3.1.3",
+            "type": "Minor Update",
+            "date": "2025-08-21",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> The basic arrest report now has a preset + modifiers that can be used to assist people with starting the arrest report narrative."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Calculator:</b> Fixed a bug that caused the user to crash when adding infractions to the arrest calculator. This was due to there being no bail definitions present, causing the code to panic."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Made a UI/UX change to the mandatory input fields, causing them to be red if empty similar to the legacy MDC system."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> Started early work on the paperwork generator support for textareas-with-presets, similarly starting work on the warrant affidavits."
+                }
+            ]
+        },
+        {
+            "version": "3.1.2",
+            "type": "Minor Update",
+            "date": "2025-08-20",
+            "items": [
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Adjusted handling of multiple officers on reports (traffic, impound, parking). They should now appear in the output format."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the titles of certain reports to be in-line with the older MDC system."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Fixed the legacy paperwork generators not showing charges correctly - [Object object] error."
+                },
+                {
+                    "type": "addition",
+                    "description": "<b>Paperwork Generators:</b> The traffic report charge previews now also have impound and license suspensions as a copyable field."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Interactive Map:</b> The interactive map now has a \"snapshot\" button that downloads the current view into a png."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Adjusted titles for impound & trespass notices to be equal to that of the Legacy MDC."
+                }
+            ]
+        },
+        {
+            "version": "3.1.1",
+            "type": "Minor Update",
+            "date": "2025-08-19",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Paperwork Generators:</b> Added Legacy MDC Generators, which are by default disabled but can be enabled via Settings."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Caselaw & Legal Resources:</b> Added a Miranda Rights legal resource which will allow the end-user to copy the Miranda Rights to clipboard."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Interactive Map:</b> Fixed any outstanding issues with freedraw on the interactive map."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Interactive Map:</b> Adjusted the Interactive Map Draw UI to be a bit more compact."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Adjusted the San Andreas Department of Corrections & State Fire Marshals ranks."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Added a Discord button to the Feedback UI, making it easier to find the discord for this website."
+                }
+            ]
+        },
+        {
+            "version": "3.1.0",
+            "type": "Major Update",
+            "date": "2025-08-18",
+            "items": [
+                {
+                    "type": "feature",
+                    "description": "<b>Interactive Map:</b> Created an interactive map with the restored ability to search streets and the new added ability to draw on the map as well as add your own markers to it."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Report Archive:</b> Arrest Reports will now be archived and you have the ability to restore them at a later date. Each report archives as you submit the report."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added the ability to modify charges after submitting them, this will also not reset any progress you made on the report."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Arrest Report:</b> Added a white background to arrest reports, making them visible on any version of the MDC (dark-mode or light-mode)."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>Paperwork Generators:</b> Added a white background to all existing paperwork generators, making them visible on any version of the MDC (dark-mode or light-mode)."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>General:</b> Updated the server locale to be based on UTC, this will make it so all time components (such as the time of an arrest report) are based on UTC time rather then local time."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Added support for titles on paperwork generators, reports such as the trespass notice and impound report will now generate titles alongside the report itself."
+                },
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Modified ranks for Bureau of Investigations, San Andreas Department of Corrections and Los Santos Parking Enforcement."
+                }
+            ]
+        },
+        {
+            "version": "3.0.5",
+            "type": "Minor Update",
+            "date": "2025-08-14",
+            "items": [
+                {
+                    "type": "modification",
+                    "description": "<b>General:</b> Removed the theme mode selector from the sidebar and placed it into settings page."
+                },
+                {
+                    "type": "feature",
+                    "description": "<b>General:</b> Added a \"Send Feedback\" button to the sidebar."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Modified the way feedback is sent to also include the route it came from."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Caselaw & Legal Resources:</b> Modified the way legal resources are parased, allowing for markdown to be used."
+                },
+                {
+                    "type": "backend",
+                    "description": "<b>Changelog:</b> Added some better handling for changelogs."
+                },
+                {
+                    "type": "fix",
+                    "description": "<b>General:</b> Added the missing Detective Ranks into the LSPD rank structure."
+                }
+            ]
+        },
+        {
+            "version": "3.0.4",
+            "type": "Minor Update",
+            "date": "2025-08-13",
+            "items": [
+                {
+                    "id": 1,
+                    "type": "modification",
+                    "description": "<b>General:</b> Added support for the missing DA and BOI ranks."
+                },
+                {
+                    "id": 2,
+                    "type": "addition",
+                    "description": "<b>Arrest Calculator:</b> Added a DEPA Category Table, allowing people to quickly see which drugs falls under which category."
+                },
+                {
+                    "id": 3,
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Reverted a previous change where only Prohibited Parking shows up in the parking citation section."
+                },
+                {
+                    "id": 4,
+                    "type": "modification",
+                    "description": "<b>Arrest Calculator:</b> Added a link to the Drug Enforcement & Prevention Act to the actual DEPA alert."
+                },
+                {
+                    "id": 5,
+                    "type": "backend",
+                    "description": "<b>Arrest Report:</b> Seperated the advanced and basic reports (and their outputs) into their own components, allowing the framework to re-use them if necessary."
+                },
+                {
+                    "id": 6,
+                    "type": "backend",
+                    "description": "<b>Arrest Report:</b> Adjusted better handling of saving arrest reports to session storage, making sure that information won't reset upon reload. The advanced report will now also save the modifiers to your actual local storage."
+                },
+                {
+                    "id": 7,
+                    "type": "backend",
+                    "description": "<b>Arrest Report:</b> Added handling for saving custom officer data to your localstorage, making it so additional fields (such as the callsign and division) can be saved."
+                },
+                {
+                    "id": 8,
+                    "type": "modification",
+                    "description": "<b>General:</b> Adjusted the background image so it's a bit smaller."
+                },
+                {
+                    "id": 9,
+                    "type": "fix",
+                    "description": "<b>General:</b> The background image is now scroll-locked and will always appear no matter where you scroll."
+                },
+                {
+                    "id": 10,
+                    "type": "feature",
+                    "description": "<b>Arrest Calculator:</b> Added the ability to copy charges to clipboard directly from the arrest calculator results."
+                },
+                {
+                    "id": 11,
+                    "type": "backend",
+                    "description": "<b>Arrest Calculator:</b> Made the arrest calculator it's own UI component, so it can be re-used easily on new pages."
+                }
+            ]
+        },
+        {
+            "version": "3.0.3",
+            "type": "Minor Update",
+            "date": "2025-08-11",
+            "items": [
+                {
+                    "id": 1,
+                    "type": "fix",
+                    "description": "<b>Arrest Calculator:</b> Fixed it so the bail cost is always the highest amount and not the total for all charges."
+                },
+                {
+                    "id": 2,
+                    "type": "fix",
+                    "description": "<b>Arrest Calculator:</b> Add charge and calculate arrest buttons are always gonna remain on top of the charges, meaning you won't need to jump around to add the charges anymore."
+                },
+                {
+                    "id": 3,
+                    "type": "fix",
+                    "description": "<b>General:</b> Fixed the favicon for the website."
+                }
+            ]
+        },
+        {
+            "version": "3.0.2",
+            "type": "Minor Update",
+            "date": "2025-08-11",
+            "items": [
+                {
+                    "id": 1,
+                    "type": "fix",
+                    "description": "<b>General:</b> Added a Detective rank for the Los Santos County Sheriff's Department."
+                },
+                {
+                    "id": 2,
+                    "type": "feature",
+                    "description": "<b>Caselaw & Legal Resources:</b> Added a new Source & Year to each of the caselaws."
+                },
+                {
+                    "id": 3,
+                    "type": "fix",
+                    "description": "<b>Caselaw & Legal Resources:</b> Adjusted the legal citing for the Traffic Citations resource."
+                },
+                {
+                    "id": 4,
+                    "type": "feature",
+                    "description": "<b>Simplified Penal Code:</b> Added a way to filter by crime types."
+                },
+                {
+                    "id": 5,
+                    "type": "modification",
+                    "description": "<b>Paperwork Generators:</b> Modified the parking ticket citation to only offer the charge for Prohibited Parking."
+                },
+                {
+                    "id": 6,
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> The arrest report will now show you the amount of days an impound / suspension should be in the summary."
+                },
+                {
+                    "id": 7,
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> Implemented the 25 day sentencing limit instituted by Legal Faction Management."
+                },
+                {
+                    "id": 8,
+                    "type": "fix",
+                    "description": "<b>Caselaw & Legal Resources:</b> Adjusted the language of certain caselaws, to stay in line with continuity, California -> San Andreas, Los Angeles -> Los Santos."
+                }
+            ]
+        },
+        {
+            "version": "3.0.1",
+            "type": "Minor Update",
+            "date": "2025-08-11",
+            "items": [
+                {
+                    "id": 1,
+                    "type": "modification",
+                    "description": "<b>General:</b> Made the current version in the footer a clickable hyperlink to the changelog."
+                },
+                {
+                    "id": 2,
+                    "type": "fix",
+                    "description": "<b>General:</b> Fixed the github link on the sidebar."
+                },
+                {
+                    "id": 3,
+                    "type": "backend",
+                    "description": "<b>Framework:</b> Adjusted the dockerfile, fixing an issue regarding the serving of data to the production server."
+                }
+            ]
+        },
+        {
+            "version": "3.0.0",
+            "type": "Release",
+            "date": "2025-08-11",
+            "items": [
+                {
+                    "id": 1,
+                    "type": "backend",
+                    "description": "<b>Framework:</b> The website has been re-built from the ground up via next.js and react."
+                },
+                {
+                    "id": 2,
+                    "type": "modification",
+                    "description": "<b>General:</b> The frontend layout, design and UX of the website has been redesigned."
+                },
+                {
+                    "id": 3,
+                    "type": "backend",
+                    "description": "<b>Paperwork Generators:</b> The paperwork generators have been re-made and now compile via json instead of them being hard-coded, making any modification super simple."
+                },
+                {
+                    "id": 4,
+                    "type": "modification",
+                    "description": "<b>Arrest Report:</b> The arrest report format has been changed to be as close to the realistic variant of the LA booking report"
+                },
+                {
+                    "id": 5,
+                    "type": "feature",
+                    "description": "<b>Arrest Report:</b> Added an advanced variant of the arrest report, allowing for the Los Santos Police Department to continue using the MDC Panel"
+                },
+                {
+                    "id": 6,
+                    "type": "feature",
+                    "description": "<b>Simplified Penal Code:</b> Added a simplified penal code to allow for quick-searching of charges and sentences."
+                },
+                {
+                    "id": 7,
+                    "type": "feature",
+                    "description": "<b>Caselaw & Legal Resources:</b> Added a simple interface that allows for searching of caselaw and provides a simple overview to some legal resources."
+                },
+                {
+                    "id": 8,
+                    "type": "feature",
+                    "description": "<b>General:</b> Added an announcements section to allow for more simple management of announcements."
+                }
+            ]
+        }
+    ]
+}

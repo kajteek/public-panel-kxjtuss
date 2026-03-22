@@ -1,0 +1,634 @@
+{
+    "caselaws": [
+        {
+            "id": "terry-v-ohio",
+            "case": "Terry v. Ohio",
+            "jurisdiction": "federal",
+            "year": "1968",
+            "summary": "Sprawa ta ustanowiła tzw. 'Terry frisk' (przeszukanie Terry'ego) lub 'stop and frisk'. Pozwala departamentu na krótkie zatrzymanie osoby w celu przesłuchania, jeśli istnieje uzasadnione podejrzenie, że popełniła, popełnia lub zamierza popełnić przestępstwo. Jeśli oficer ma również uzasadnione podejrzenie, że osoba jest uzbrojona i niebezpieczna, może przeprowadzić kontrolę osobistą (poklepanie po odzieży wierzchniej) w poszukiwaniu broni.",
+            "implication": "Oficerowie mogą przeprowadzić ograniczoną kontrolę osobistą w poszukiwaniu broni podczas zatrzymania śledczego opartego na uzasadnionym podejrzeniu, bez konieczności posiadania prawdopodobnej przyczyny (probable cause) do aresztowania.",
+            "source": "https://www.oyez.org/cases/1967/67"
+        },
+        {
+            "id": "miranda-v-arizona",
+            "case": "Miranda v. Arizona",
+            "jurisdiction": "federal",
+            "year": "1966",
+            "summary": "Ustalono, że podejrzany przebywający w areszcie musi zostać poinformowany o swoich prawach konstytucyjnych przed przesłuchaniem. Prawa te obejmują prawo do zachowania milczenia oraz prawo do adwokata. Niedopełnienie tego obowiązku może spowodować, że późniejsze przyznanie się do winy będzie niedopuszczalne jako dowód w sądzie.",
+            "implication": "Prawa Mirandy muszą być odczytane podejrzanym w areszcie przed rozpoczęciem jakiegokolwiek przesłuchania. Zapewnia to dobrowolność oświadczeń i ich dopuszczalność w procesie.",
+            "source": "https://www.oyez.org/cases/1965/759"
+        },
+        {
+            "id": "graham-v-connor",
+            "case": "Graham v. Connor",
+            "jurisdiction": "federal-civil",
+            "year": "1989",
+            "summary": "Wyrok ten ustanawia standard 'obiektywnej racjonalności' (objective reasonableness) dla użycia siły przez organy ścigania. Użyta siła musi być oceniana z perspektywy rozsądnego oficera na miejscu zdarzenia, biorąc pod uwagę fakty i okoliczności konkretnej sprawy, w tym powagę przestępstwa, to czy podejrzany stanowi bezpośrednie zagrożenie oraz czy stawia czynny opór lub próbuje uciec przed aresztowaniem.",
+            "implication": "Wszelkie przypadki użycia siły są oceniane na podstawie tego, co zrobiłby rozsądny oficer w tej samej sytuacji, a nie z korzyścią płynącą z wiedzy o skutkach po fakcie (hindsight).",
+            "source": "https://www.oyez.org/cases/1988/87-6571"
+        },
+        {
+            "id": "tennessee-v-garner",
+            "case": "Tennessee v. Garner",
+            "jurisdiction": "federal-civil",
+            "year": "1985",
+            "summary": "Sąd Najwyższy orzekł, że na mocy Czwartej Poprawki oficer departamentu nie może użyć śmiertelnej siły, aby zapobiec ucieczce podejrzanego, chyba że oficer ma prawdopodobną przyczynę (probable cause), by sądzić, że podejrzany stanowi istotne zagrożenie śmiercią lub poważnymi obrażeniami ciała dla oficera lub innych osób.",
+            "implication": "Użycie śmiertelnej siły przeciwko uciekającemu podejrzanemu jest uzasadnione tylko wtedy, gdy stanowi on istotne i bezpośrednie zagrożenie dla innych. Nie można jej użyć tylko po to, by zapobiec ucieczce.",
+            "source": "https://www.oyez.org/cases/1984/83-1035"
+        },
+        {
+            "id": "carroll-v-united-states",
+            "case": "Carroll v. United States",
+            "jurisdiction": "federal",
+            "year": "1925",
+            "summary": "Sprawa ta stworzyła tzw. 'wyjątek samochodowy' od wymogu posiadania nakazu wynikającego z Czwartej Poprawki. Pozwala departamentu na przeszukanie pojazdu bez nakazu, jeśli mają prawdopodobną przyczynę (probable cause), by sądzić, że w pojeździe znajdują się dowody lub kontrabanda. Wynika to z mobilnego charakteru pojazdów.",
+            "implication": "Jeśli istnieje prawdopodobna przyczyna, pojazd może zostać przeszukany na miejscu bez nakazu, ponieważ może zostać łatwo przemieszczony, potencjalnie zabierając dowody ze sobą.",
+            "source": "https://www.oyez.org/cases/1900-1940/267us132"
+        },
+        {
+            "id": "arizona-v-gant",
+            "case": "Arizona v. Gant",
+            "jurisdiction": "federal",
+            "year": "2009",
+            "summary": "Sprawa ta zawęziła zakres przeszukania pojazdu w związku z aresztowaniem. Departament może przeszukać przedział pasażerski pojazdu tylko wtedy, gdy 'rozsądne jest przypuszczenie', że osoba aresztowana może uzyskać dostęp do pojazdu w momencie przeszukania lub że pojazd zawiera dowody przestępstwa, za które została aresztowana.",
+            "implication": "Automatyczne przeszukiwanie całego obszaru pasażerskiego pojazdu po aresztowaniu nie jest już dozwolone. Przeszukanie musi być uzasadnione możliwością dostępu aresztowanego do pojazdu lub prawdopodobieństwem znalezienia dowodów związanych z konkretnym przestępstwem, które było podstawą aresztowania.",
+            "source": "https://www.oyez.org/cases/2008/07-542"
+        },
+        {
+            "id": "whren-v-united-states",
+            "case": "Whren v. United States",
+            "jurisdiction": "federal",
+            "year": "1996",
+            "summary": "Sąd uznał, że dopóki oficer ma uzasadniony powód, by sądzić, że doszło do naruszenia przepisów ruchu drogowego, może zatrzymać każdy pojazd, nawet jeśli prawdziwym motywem oficera jest zbadanie innego, niepowiązanego przestępstwa (tzw. 'pretextual stop').",
+            "implication": "Każde ważne naruszenie przepisów ruchu drogowego jest uzasadnioną podstawą do zatrzymania pojazdu, niezależnie od ukrytych motywów śledczych oficera.",
+            "source": "https://www.oyez.org/cases/1995/95-5841"
+        },
+        {
+            "id": "mapp-v-ohio",
+            "case": "Mapp v. Ohio",
+            "jurisdiction": "federal",
+            "year": "1961",
+            "summary": "Ta przełomowa sprawa zastosowała 'regułę wykluczenia' (exclusionary rule) wobec stanów poprzez Czternastą Poprawkę. Reguła ta uniemożliwia oskarżeniu wykorzystanie w sądzie dowodów uzyskanych przez departament z naruszeniem zakazu nieuzasadnionych przeszukań i zajęć wynikającego z Czwartej Poprawki.",
+            "implication": "Nielegalnie uzyskane dowody są niedopuszczalne w sądach stanowych. Doktryna 'owoców zatrutego drzewa' jest głównym czynnikiem powstrzymującym niekonstytucyjne działania departamentu.",
+            "source": "https://www.oyez.org/cases/1960/236"
+        },
+        {
+            "id": "katz-v-united-states",
+            "case": "Katz v. United States",
+            "jurisdiction": "federal",
+            "year": "1967",
+            "summary": "Sąd orzekł, że Czwarta Poprawka 'chroni ludzi, a nie miejsca', ustanawiając standard 'uzasadnionego oczekiwania prywatności'. Przeszukanie następuje, gdy rząd narusza oczekiwanie prywatności danej osoby, które społeczeństwo jest gotowe uznać za uzasadnione.",
+            "implication": "Wymogi dotyczące nakazu nie są już powiązane wyłącznie z fizycznym wtargnięciem na posesję. Nadzór elektroniczny lub obserwacja w miejscach, w których osoba ma uzasadnione oczekiwanie prywatności (jak budka telefoniczna), stanowi przeszukanie.",
+            "source": "https://www.oyez.org/cases/1967/35"
+        },
+        {
+            "id": "gideon-v-wainwright",
+            "case": "Gideon v. Wainwright",
+            "jurisdiction": "federal",
+            "year": "1963",
+            "summary": "Sąd Najwyższy jednogłośnie orzekł, że gwarancja prawa do obrońcy zawarta w Szóstej Poprawce ma zastosowanie do oskarżonych w sądzie stanowym na mocy Czternastej Poprawki. Państwo musi zapewnić adwokata dla ubogich oskarżonych w sprawach o przestępstwa typu 'felony'.",
+            "implication": "Każda osoba oskarżona o poważne przestępstwo ma prawo do obrońcy, niezależnie od zdolności płatniczej. Doprowadziło to do powstania systemów obrońców z urzędu w całych Stanach Zjednoczonych.",
+            "source": "https://www.oyez.org/cases/1962/155"
+        },
+        {
+            "id": "chimel-v-san-andreas",
+            "case": "Chimel v. San Andreas",
+            "jurisdiction": "federal",
+            "year": "1969",
+            "summary": "Decyzja ta zdefiniowała dopuszczalny zakres przeszukania w związku z legalnym aresztowaniem. Departament może przeszukać osobę aresztowaną oraz obszar 'pod jej bezpośrednią kontrolą' (zasięg ramion osoby), aby znaleźć broń lub zapobiec zniszczeniu dowodów.",
+            "implication": "Ogranicza przeszukania bez nakazu przeprowadzone po aresztowaniu do obszaru bezpośrednio dostępnego dla aresztowanego. Przeszukanie całego domu po aresztowaniu kogoś w jednym pokoju nie jest dozwolone bez nakazu.",
+            "source": "https://www.oyez.org/cases/1968/770"
+        },
+        {
+            "id": "illinois-v-gates",
+            "case": "Illinois v. Gates",
+            "jurisdiction": "federal",
+            "year": "1983",
+            "summary": "Sąd ustanowił standard 'całokształtu okoliczności' (totality of the circumstances) dla ustalania, czy istnieje prawdopodobna przyczyna (probable cause) do wydania nakazu przeszukania na podstawie informacji od sygnalisty. Ten elastyczny standard zastąpił wcześniejszy, bardziej sztywny dwustopniowy test.",
+            "implication": "Ubiegając się o nakaz, sędziowie powinni patrzeć na szerszy obraz, w tym na podstawę wiedzy i wiarygodność informatora, wraz z wszelkimi potwierdzającymi dochodzeniami policyjnymi, aby podjąć praktyczną, zdroworozsądkową decyzję dotyczącą prawdopodobieństwa znalezienia dowodów.",
+            "source": "https://www.oyez.org/cases/1982/81-430"
+        },
+        {
+            "id": "united-states-v-ross",
+            "case": "United States v. Ross",
+            "jurisdiction": "federal",
+            "year": "1982",
+            "summary": "Sprawa ta wyjaśniła zakres 'wyjątku samochodowego'. Sąd Najwyższy orzekł, że jeśli departament ma prawdopodobną przyczynę (probable cause), by przeszukać pojazd pod kątem kontrabandy, może również przeszukać każdy pojemnik znaleziony w pojeździe, który mógłby racjonalnie zawierać przedmiot przeszukania.",
+            "implication": "Zakres przeszukania pojazdu bez nakazu na podstawie prawdopodobnej przyczyny jest tak samo szeroki, jak przeszukanie na podstawie nakazu. Jeśli oficerowie mają podstawy sądzić, że w aucie są narkotyki, mogą przeszukać każde miejsce, gdzie mogłyby być ukryte, w tym bagażnik i zamknięte pojemniki.",
+            "source": "https://www.oyez.org/cases/1981/80-2209"
+        },
+        {
+            "id": "schneckloth-v-bustamonte",
+            "case": "Schneckloth v. Bustamonte",
+            "jurisdiction": "federal",
+            "year": "1973",
+            "summary": "Sąd odniósł się do standardu dobrowolnej zgody na przeszukanie. Orzekł, że dobrowolność jest kwestią faktyczną, którą należy ustalić na podstawie 'całokształtu okoliczności'. Państwo nie musi udowadniać, że osoba wyrażająca zgodę wiedziała, że ma prawo odmówić.",
+            "implication": "Zgoda na przeszukanie jest ważna, jeśli jest dobrowolna i nie wynika z przymusu lub wymuszenia. Departament nie ma obowiązku informowania osoby o jej prawie do odmowy przeszukania, aby zgoda została uznana za dobrowolną.",
+            "source": "https://www.oyez.org/cases/1972/71-732"
+        },
+        {
+            "id": "nix-v-williams",
+            "case": "Nix v. Williams",
+            "jurisdiction": "federal",
+            "year": "1984",
+            "summary": "Sprawa ta stworzyła wyjątek 'nieuniknionego odkrycia' (inevitable discovery) od reguły wykluczenia. Pozwala na dopuszczenie w sądzie dowodów, które zostały odkryte w sposób niekonstytucyjny, jeśli oskarżenie może udowodnić, że dowody te i tak zostałyby nieuchronnie odkryte w sposób zgodny z prawem.",
+            "implication": "Nielegalnie uzyskane dowody mogą zostać użyte przeciwko oskarżonemu, jeśli departament wykaże, że prawidłowe, niezależne dochodzenie ostatecznie doprowadziłoby ich do tych samych dowodów.",
+            "source": "https://www.oyez.org/cases/1983/82-1651"
+        },
+        {
+            "id": "brigham-city-v-stuart",
+            "case": "Brigham City, Utah v. Stuart",
+            "jurisdiction": "federal",
+            "year": "2006",
+            "summary": "Sąd Najwyższy jednogłośnie orzekł, że departament może wejść do domu bez nakazu, jeśli ma obiektywnie uzasadnione podstawy, by sądzić, że mieszkaniec jest poważnie ranny lub bezpośrednio zagrożony takimi obrażeniami. Jest to część wyjątku 'nagłych okoliczności' (exigent circumstances).",
+            "implication": "Doktryna 'pomocy w nagłych wypadkach' pozwala na wejście do domu bez nakazu w celu udzielenia pomocy lub zapobieżenia poważnym obrażeniom. Subiektywny motyw oficera jest nieistotny, dopóki okoliczności obiektywnie uzasadniają działanie.",
+            "source": "https://www.oyez.org/cases/2005/05-691"
+        },
+        {
+            "id": "heien-v-north-carolina",
+            "case": "Heien v. North Carolina",
+            "jurisdiction": "federal",
+            "year": "2014",
+            "summary": "Uzyskanie przez oficera uzasadnionego błędu w prawie może stanowić podstawę do uzasadnionego podejrzenia niezbędnego do przeprowadzenia zatrzymania ruchu drogowego zgodnie z Czwartą Poprawkę.",
+            "implication": "Dopóki interpretacja prawa przez oficera jest obiektywnie uzasadniona, zatrzymanie jest ważne, nawet jeśli ich rozumienie prawa ostatecznie okaże się błędne.",
+            "source": "https://www.oyez.org/cases/2014/13-604"
+        },
+        {
+            "id": "pennsylvania-v-mimms",
+            "case": "Pennsylvania v. Mimms",
+            "jurisdiction": "federal",
+            "year": "1977",
+            "summary": "Podczas zgodnego z prawem zatrzymania ruchu drogowego, oficer może nakazać kierowcy opuszczenie pojazdu bez żadnego dodatkowego uzasadnienia.",
+            "implication": "Jest to automatyczna zasada bezpieczeństwa oficera. Odmowa wykonania polecenia opuszczenia pojazdu może prowadzić do dalszych konsekwencji prawnych, takich jak utrudnianie czynności (obstruction).",
+            "source": "https://www.oyez.org/cases/1977/76-1830"
+        },
+        {
+            "id": "delaware-v-prouse",
+            "case": "Delaware v. Prouse",
+            "jurisdiction": "federal",
+            "year": "1979",
+            "summary": "Departament nie może przeprowadzić wyrywkowych zatrzymań pojazdów bez uzasadnionego podejrzenia, wyłącznie w celu sprawdzenia prawa jazdy i rejestracji kierowcy.",
+            "implication": "Chroni to kierowców przed arbitralnymi zatrzymaniami pojazdów, wymagając od departamentu posiadania konkretnego i możliwego do sformułowania powodu podejrzenia naruszenia przepisów przed zatrzymaniem pojazdu.",
+            "source": "https://www.oyez.org/cases/1978/77-1571"
+        },
+        {
+            "id": "maryland-v-wilson",
+            "case": "Maryland v. Wilson",
+            "jurisdiction": "federal",
+            "year": "1997",
+            "summary": "Rozszerza zasadę z Pennsylvania v. Mimms na pasażerów, pozwalając oficerom nakazać pasażerom opuszczenie legalnie zatrzymanego pojazdu w celu zapewnienia bezpieczeństwa oficera.",
+            "implication": "Przez czas trwania legalnego zatrzymania ruchu drogowego, zarówno kierowcy, jak i pasażerowie muszą stosować się do zgodnych z prawem poleceń opuszczenia pojazdu.",
+            "source": "https://www.oyez.org/cases/1996/95-1268"
+        },
+        {
+            "id": "florida-v-bostick",
+            "case": "Florida v. Bostick",
+            "jurisdiction": "federal",
+            "year": "1991",
+            "summary": "Departament może prosić o zgodę na przeszukanie rzeczy osobistych bez żadnych podejrzeń, dopóki spotkanie ma charakter dobrowolny, a rozsądna osoba czułaby się swobodnie odmawiając prośbie.",
+            "implication": "Przeszukanie jest ważne, jeśli zgoda została wyrażona dobrowolnie, a nie w wyniku przymusu departamentu lub demonstracji siły, która sprawiłaby, że rozsądna osoba poczułaby, że nie może odmówić.",
+            "source": "https://www.oyez.org/cases/1990/89-1717"
+        },
+        {
+            "id": "illinois-v-wardlow",
+            "case": "Illinois v. Wardlow",
+            "jurisdiction": "federal",
+            "year": "2000",
+            "summary": "Niesprowokowana ucieczka osoby po zauważeniu departamentu w obszarze o wysokiej przestępczości jest istotnym czynnikiem przy ustalaniu uzasadnionego podejrzenia uzasadniającego zatrzymanie.",
+            "implication": "Zachowanie unikowe, takie jak ucieczka przed departamentem, może przyczynić się do 'całokształtu okoliczności' uzasadniających zatrzymanie Terry'ego.",
+            "source": "https://www.oyez.org/cases/1999/98-1036"
+        },
+        {
+            "id": "brown-v-texas",
+            "case": "Brown v. Texas",
+            "jurisdiction": "federal",
+            "year": "1979",
+            "summary": "Departament nie może zatrzymać osoby i żądać od niej zidentyfikowania się bez konkretnej, dającej się sformułować podstawy do podejrzenia, że osoba ta jest zamieszana w działalność przestępczą.",
+            "implication": "Osoba nie może zostać zatrzymana wyłącznie w celu poproszenia o jej identyfikację; departament musi najpierw mieć uzasadnione podejrzenie popełnienia przestępstwa.",
+            "source": "https://www.oyez.org/cases/1978/77-6673"
+        },
+        {
+            "id": "united-states-v-mendenhall",
+            "case": "United States v. Mendenhall",
+            "jurisdiction": "federal",
+            "year": "1980",
+            "summary": "Osoba jest uważana za 'przejętą' (seized) na mocy Czwartej Poprawki tylko wtedy, gdy za pomocą siły fizycznej lub demonstracji władzy, rozsądna osoba nie wierzyłaby, że może swobodnie odejść.",
+            "implication": "Sprawa ta pomaga odróżnić dobrowolne spotkanie (które nie wymaga podejrzeń) od przejęcia/zatrzymania (które wymaga co najmniej uzasadnionego podejrzenia).",
+            "source": "https://www.oyez.org/cases/1979/78-1821"
+        },
+        {
+            "id": "minnesota-v-dickerson",
+            "case": "Minnesota v. Dickerson",
+            "jurisdiction": "federal",
+            "year": "1993",
+            "summary": "Ustanawia doktrynę 'plain feel' (wyraźnego dotyku). Jeśli oficer przeprowadzający legalne przeszukanie Terry'ego poczuje przedmiot, którego kontur lub masa sprawia, że jego tożsamość jako kontrabandy jest natychmiast oczywista, może on zostać zajęty bez nakazu.",
+            "implication": "Pozwala to na zajęcie kontrabandy znalezionej podczas przeszukania w poszukiwaniu broni, ale oficer nie może manipulować przedmiotem, aby ustalić, co to jest; jego nielegalny charakter musi być oczywisty od początkowego dotyku.",
+            "source": "https://www.oyez.org/cases/1992/91-2019"
+        },
+        {
+            "id": "united-states-v-robinson",
+            "case": "United States v. Robinson",
+            "jurisdiction": "federal",
+            "year": "1973",
+            "summary": "Po dokonaniu zgodnego z prawem aresztowania, departament ma prawo przeprowadzić pełne przeszukanie ciała osoby aresztowanej oraz obszaru znajdującego się pod jej bezpośrednią kontrolą.",
+            "implication": "To 'przeszukanie w związku z legalnym aresztowaniem' jest automatycznym wyjątkiem od wymogu posiadania nakazu i nie wymaga dodatkowego uzasadnienia poza samym ważnym aresztowaniem.",
+            "source": "https://www.oyez.org/cases/1973/72-936"
+        },
+        {
+            "id": "florida-v-jimeno",
+            "case": "Florida v. Jimeno",
+            "jurisdiction": "federal",
+            "year": "1991",
+            "summary": "Ogólna zgoda osoby na przeszukanie jej pojazdu rozciąga się na wszelkie pojemniki wewnątrz pojazdu, które mogłyby racjonalnie zawierać przedmiot przeszukania (np. narkotyki).",
+            "implication": "Jeśli podejrzany wyrazi zgodę na przeszukanie pojazdu w poszukiwaniu narkotyków, oficerowie nie potrzebują osobnej zgody na otwarcie toreb lub innych pojemników wewnątrz samochodu, chyba że podejrzany wyraźnie ograniczył zakres swojej zgody.",
+            "source": "https://www.oyez.org/cases/1990/90-622"
+        },
+        {
+            "id": "ohio-v-robinette",
+            "case": "Ohio v. Robinette",
+            "jurisdiction": "federal",
+            "year": "1996",
+            "summary": "Czwarta Poprawka nie wymaga od oficerów departamentu informowania legalnie zatrzymanego kierowcy, że może on 'wolno odejść', przed poproszeniem o zgodę na przeszukanie jego pojazdu.",
+            "implication": "Po zakończeniu zatrzymania ruchu drogowego, oficer może natychmiast przejść do prośby o zgodę na przeszukanie, nie informując kierowcy, że może on odjechać. Kluczowe jest to, czy zgoda jest dobrowolna w całokształcie okoliczności.",
+            "source": "https://www.oyez.org/cases/1996/95-891"
+        },
+        {
+            "id": "michigan-v-long",
+            "case": "Michigan v. Long",
+            "jurisdiction": "federal",
+            "year": "1983",
+            "summary": "Zezwala na przeszukanie ochronne przedziału pasażerskiego pojazdu w poszukiwaniu broni podczas legalnego zatrzymania, jeśli oficerowie mają uzasadnione i dające się sformułować podejrzenie, że podejrzany jest niebezpieczny i może uzyskać natychmiastową kontrolę nad bronią.",
+            "implication": "Jest to 'przeszukanie Terry'ego' (Terry Frisk) dla samochodu. Jeśli oficerowie racjonalnie wierzą, że podejrzany jest uzbrojony, mogą przeprowadzić ograniczone przeszukanie obszaru pasażerskiego pojazdu, gdzie mogłaby być ukryta broń, nawet jeśli nie doszło do aresztowania.",
+            "source": "https://www.oyez.org/cases/1982/82-256"
+        },
+        {
+            "id": "south-dakota-v-opperman",
+            "case": "South Dakota v. Opperman",
+            "jurisdiction": "federal",
+            "year": "1976",
+            "summary": "Departament może przeprowadzić inwentaryzacyjne przeszukanie bez nakazu legalnie odholowanego pojazdu w celu zabezpieczenia mienia właściciela, ochrony departamentu przed roszczeniami o zagubione lub skradzione mienie oraz ochrony departamentu przed potencjalnym zagrożeniem.",
+            "implication": "Przeszukania inwentaryzacyjne są standardową procedurą administracyjną, a nie przeszukaniem w celu znalezienia dowodów. Aby przeszukanie było ważne, musi odbywać się zgodnie ze znormalizowaną polityką departamentu i nie może być pretekstem do dochodzenia karnego.",
+            "source": "https://www.oyez.org/cases/1975/75-76"
+        },
+        {
+            "id": "hiibel-v-sixth-judicial-district-court-of-nevada",
+            "case": "Hiibel v. Sixth Judicial District Court of Nevada",
+            "jurisdiction": "federal",
+            "year": "2004",
+            "summary": "Jeśli dany stan posiada ustawę 'zatrzymaj i zidentyfikuj' (stop and identify), osoba może być zobowiązana do ujawnienia swojego nazwiska oficerowi podczas zgodnego z prawem zatrzymania Terry'ego.",
+            "implication": "Odmowa zidentyfikowania się podczas ważnego zatrzymania śledczego nie jest prawem, jeśli prawo stanowe tego wymaga. Taka odmowa może prowadzić do aresztowania za utrudnianie czynności w jurysdykcjach z tymi ustawami.",
+            "source": "https://www.oyez.org/cases/2003/03-5554"
+        },
+        {
+            "id": "jdb-v-north-carolina",
+            "case": "J.D.B. v. North Carolina",
+            "jurisdiction": "federal",
+            "year": "2011",
+            "summary": "Wiek dziecka jest istotnym czynnikiem przy ustalaniu, czy dziecko przebywa 'w areszcie' do celów Mirandy. Rozsądne dziecko w tym samym wieku może odczuwać większą presję i czuć się mniej swobodnie, by odejść, niż rozsądna dorosła osoba.",
+            "implication": "Oficerowie muszą brać pod uwagę wiek nieletniego przy ocenie, czy sytuacja ma charakter aresztu. To, co mogłoby być spotkaniem bez aresztu dla dorosłego, mogłoby nim być dla dziecka, powodując tym samym konieczność odczytania praw Mirandy.",
+            "source": "https://www.oyez.org/cases/2010/09-11121"
+        },
+        {
+            "id": "hudson-v-michigan",
+            "case": "Hudson v. Michigan",
+            "jurisdiction": "federal",
+            "year": "2006",
+            "summary": "Naruszenie zasady 'zapukaj i ogłoś' (knock-and-announce) przez departament wykonującą nakaz przeszukania nie wymaga usunięcia dowodów znalezionych podczas przeszukania (reguła wykluczenia nie ma zastosowania).",
+            "implication": "Chociaż oficerowie powinni przestrzegać procedur zapukania i ogłoszenia, ich niedopełnienie nie spowoduje samo w sobie usunięcia z sądu dowodów uzyskanych w inny sposób legalny.",
+            "source": "https://www.oyez.org/cases/2005/04-1360"
+        },
+        {
+            "id": "united-states-v-leon",
+            "case": "United States v. Leon",
+            "jurisdiction": "federal",
+            "year": "1984",
+            "summary": "Ta sprawa ustanowiła wyjątek 'dobrej wiary' (good faith) od reguły wykluczenia. Dowody uzyskane przez oficerów działających w rozsądnym zaufaniu do nakazu przeszukania wydanego przez bezstronnego sędziego, lecz ostatecznie uznanego za nieważny, są nadal dopuszczalne.",
+            "implication": "Jeśli oficer uczciwie polega na pozornie ważnym nakazie, znalezione przez niego dowody mogą zostać użyte w sądzie, nawet jeśli nakaz miał wadę techniczną. Zapobiega to karaniu departamentu za błąd sądownictwa.",
+            "source": "https://www.oyez.org/cases/1983/82-1771"
+        },
+        {
+            "id": "arizona-v-johnson",
+            "case": "Arizona v. Johnson",
+            "jurisdiction": "federal",
+            "year": "2009",
+            "summary": "Podczas legalnego zatrzymania ruchu drogowego oficer może przeprowadzić przeszukanie przez poklepanie (poklepanie) pasażera, jeśli ma uzasadnione podejrzenie, że pasażer jest uzbrojony i niebezpieczny.",
+            "implication": "Bezpieczeństwo oficera podczas zatrzymania ruchu drogowego obejmuje wszystkich pasażerów. Pasażer może zostać przeszukany w poszukiwaniu broni zgodnie ze standardem Terry v. Ohio, nawet jeśli nie jest podejrzany o naruszenie przepisów ruchu drogowego.",
+            "source": "https://www.oyez.org/cases/2008/07-1122"
+        },
+        {
+            "id": "caniglia-v-strom",
+            "case": "Caniglia v. Strom",
+            "jurisdiction": "federal-civil",
+            "year": "2021",
+            "summary": "Wyjątek 'opieki społecznej' (community caretaking) od wymogu posiadania nakazu wynikającego z Czwartej Poprawki, który pozwala na przeszukanie pojazdów bez nakazu, nie rozciąga się na dom.",
+            "implication": "Oficerowie nie mogą wejść do prywatnej rezydencji bez nakazu, używając 'opieki społecznej' jako jedynego uzasadnienia. Wejście do domu wymaga nakazu, zgody lub wyraźnego nagłego wypadku (nagłe okoliczności).",
+            "source": "https://www.oyez.org/cases/2020/20-157"
+        },
+        {
+            "id": "michigan-v-fisher",
+            "case": "Michigan v. Fisher",
+            "jurisdiction": "federal",
+            "year": "2009",
+            "summary": "Potwierdzono wyjątek 'pomocy w nagłych wypadkach', pozwalający departamentu na wejście do domu bez nakazu, jeśli mają obiektywnie uzasadnione podstawy, by sądzić, że mieszkaniec jest poważnie ranny lub bezpośrednio zagrożony takimi obrażeniami.",
+            "implication": "Umożliwia to wejście bez nakazu w celu udzielenia pomocy lub zapobieżenia poważnej szkodzi. Subiektywny motyw oficera jest nieistotny; wejście jest uzasadnione, jeśli okoliczności obiektywnie wskazują na nagły wypadek.",
+            "source": "https://www.oyez.org/cases/2009/09-91"
+        },
+        {
+            "id": "illinois-v-rodriguez",
+            "case": "Illinois v. Rodriguez",
+            "jurisdiction": "federal",
+            "year": "1990",
+            "summary": "Przeszukanie bez nakazu oparte na zgodzie jest ważne, jeśli departament racjonalnie wierzy, że osoba wyrażająca zgodę ma do tego uprawnienia, nawet jeśli osoba ta faktycznie ich nie posiada.",
+            "implication": "Doktryna 'pozornej władzy' (apparent authority) chroni przeszukania, w których oficerowie popełniają uzasadniony błąd w dobrej wierze co do tego, kto może wyrazić zgodę. Kluczowe jest, czy rozsądny oficer wierzyłby, że osoba ta ma władzę nad daną nieruchomością.",
+            "source": "https://www.oyez.org/cases/1989/88-2018"
+        },
+        {
+            "id": "fernandez-v-san-andreas",
+            "case": "Fernandez v. San Andreas",
+            "jurisdiction": "federal",
+            "year": "2014",
+            "summary": "Jeśli współlokator początkowo sprzeciwia się przeszukaniu, ale następnie zostaje zgodnie z prawem usunięty z miejsca zdarzenia (np. aresztowany), zgoda pozostałego lokatora może zatwierdzić późniejsze przeszukanie.",
+            "implication": "Sprzeciw wobec przeszukania obowiązuje tylko dopóki sprzeciwiający się mieszkaniec jest fizycznie obecny. Po jego legalnym usunięciu, inny mieszkaniec może wyrazić ważną zgodę.",
+            "source": "https://www.oyez.org/cases/2013/12-7822"
+        },
+        {
+            "id": "arizona-v-hicks",
+            "case": "Arizona v. Hicks",
+            "jurisdiction": "federal",
+            "year": "1987",
+            "summary": "Doktryna 'widocznego widoku' (plain view) pozwala na zajęcie kontrabandy, ale nie pozwala oficerom na przeprowadzenie przeszukania. Poruszenie przedmiotu, nawet nieznaczne, w celu zobaczenia ukrytego numeru seryjnego stanowi osobne przeszukanie wymagające prawdopodobnej przyczyny.",
+            "implication": "Oficerowie nie mogą manipulować ani przesuwać przedmiotów, aby wydobyć na światło dzienne dowody, które nie są natychmiast widoczne. Obciążający charakter przedmiotu musi być oczywisty bez fizycznego kontaktu.",
+            "source": "https://www.oyez.org/cases/1986/85-1027"
+        },
+        {
+            "id": "san-andreas-v-acevedo",
+            "case": "San Andreas v. Acevedo",
+            "jurisdiction": "federal",
+            "year": "1991",
+            "summary": "Jeśli departament ma prawdopodobną przyczynę (probable cause), by sądzić, że pojemnik w pojeździe zawiera kontrabandę, może przeszukać ten pojemnik bez nakazu na mocy wyjątku samochodowego.",
+            "implication": "Wyrok ten uprościł zasady przeszukiwania pojazdów. Oficerowie nie potrzebują już wyraźnego nakazu na pojemnik w aucie, jeśli mają prawdopodobną przyczynę dotyczącą tego pojemnika, nawet jeśli brak im PC do przeszukania całego pojazdu.",
+            "source": "https://www.oyez.org/cases/1990/89-1690"
+        },
+        {
+            "id": "missouri-v-seibert",
+            "case": "Missouri v. Seibert",
+            "jurisdiction": "federal",
+            "year": "2004",
+            "summary": "Praktyka uzyskiwania przyznania się bez pouczenia o prawach Mirandy, a następnie odczytania pouczeń i nakazania podejrzanemu powtórzenia przyznania się, jest niekonstytucyjna i powoduje, że późniejsze przyznanie się jest niedopuszczalne.",
+            "implication": "Technika przesłuchiwania dwuetapowego 'najpierw pytaj, potem ostrzeż' jest celowym obejściem Mirandy i jest niedozwolona. Ostrzeżenia Mirandy muszą być przekazane skutecznie i w odpowiednim czasie.",
+            "source": "https://www.oyez.org/cases/2003/02-1371"
+        },
+        {
+            "id": "duckworth-v-eagan",
+            "case": "Duckworth v. Eagan",
+            "jurisdiction": "federal",
+            "year": "1989",
+            "summary": "Ostrzeżenia Mirandy nie muszą być odczytywane dosłownie z karty. Są one adekwatne, dopóki w sposób uzasadniony przekazują podejrzanemu jego prawa konstytucyjne.",
+            "implication": "Niewielkie różnice w brzmieniu ostrzeżeń Mirandy są dopuszczalne. Kluczowe jest to, aby podstawowe prawa — do milczenia i do adwokata — zostały właściwie przekazane podejrzanemu.",
+            "source": "https://www.oyez.org/cases/1988/88-317"
+        },
+        {
+            "id": "city-of-canton-v-harris",
+            "case": "City of Canton v. Harris",
+            "jurisdiction": "federal-civil",
+            "year": "1989",
+            "summary": "Gmina może zostać pociągnięta do odpowiedzialności za brak przeszkolenia swoich pracowników, ale tylko wtedy, gdy brak ten sprowadza się do 'świadomej obojętności' (deliberate indifference) wobec praw osób, z którymi styka się departament.",
+            "implication": "Agencja może zostać pozwana za nieodpowiednie szkolenie, jeśli można wykazać, że brak szkolenia był świadomym wyborem i że bezpośrednio spowodował naruszenie konstytucji przez pracownika.",
+            "source": "https://www.oyez.org/cases/1988/86-1088"
+        },
+        {
+            "id": "samson-v-san-andreas",
+            "case": "Samson v. San Andreas",
+            "jurisdiction": "federal",
+            "year": "2006",
+            "summary": "Sąd uznał, że ponieważ osoba zwolniona warunkowo (parolee) ma znacznie mniejszy zakres oczekiwania prywatności, departament może przeprowadzić przeszukanie bez nakazu i bez podejrzeń wobec osoby na zwolnieniu warunkowym w dowolnym momencie, jako warunek jej zwolnienia.",
+            "implication": "Oficerowie nie potrzebują nakazu ani żadnego poziomu podejrzeń (uzasadnionego podejrzenia ani prawdopodobnej przyczyny), aby przeszukać znaną osobę na zwolnieniu warunkowym, dopóki przeszukanie nie jest arbitralne, kapryśne lub nie ma na celu nękania.",
+            "source": "https://www.oyez.org/cases/2005/04-9728"
+        },
+        {
+            "id": "brenden-v-san-andreas",
+            "case": "Brenden v. San Andreas",
+            "jurisdiction": "federal",
+            "year": "2018",
+            "summary": "Nacisk fizyczny lub werbalny wywierany przez departament, który zmusza podejrzanego do rezygnacji z prawa do zachowania milczenia, czyni wszelkie późniejsze oświadczenia niedopuszczalnymi.",
+            "implication": "Przesłuchania nie mogą być prowadzone w sposób przymusowy. Wolna wola podejrzanego musi zostać zachowana, aby jego oświadczenia były uznane za dobrowolne i dopuszczalne w sądzie.",
+            "source": ""
+        },
+        {
+            "id": "florida-v-harris",
+            "case": "Florida v. Harris",
+            "jurisdiction": "federal",
+            "year": "2013",
+            "summary": "Reakcja (alarm) certyfikowanego psa do wykrywania narkotyków podczas zatrzymania ruchu drogowego jest wystarczająca do ustanowienia prawdopodobnej przyczyny (probable cause) do przeszukania pojazdu.",
+            "implication": "Pozytywny sygnał od psa wyszkolonego w wykrywaniu narkotyków daje oficerom legalną podstawę do przeszukania całego pojazdu pod kątem nielegalnych substancji bez konieczności posiadania nakazu.",
+            "source": "https://www.oyez.org/cases/2012/11-817"
+        },
+        {
+            "id": "torres-v-madrid",
+            "case": "Torres v. Madrid",
+            "jurisdiction": "federal-civil",
+            "year": "2021",
+            "summary": "Zastosowanie siły fizycznej z zamiarem powstrzymania osoby stanowi 'przejęcie' (seizure) na mocy Czwartej Poprawki, nawet jeśli osobie uda się uciec.",
+            "implication": "Przejęcie następuje w momencie kontaktu fizycznego z zamiarem zatrzymania, niezależnie od tego, czy podejrzany faktycznie zostanie ujęty. Pozwala to na wnoszenie roszczeń o nadużycie siły nawet w przypadku ucieczki podejrzanego.",
+            "source": "https://www.oyez.org/cases/2020/19-292"
+        },
+        {
+            "id": "lange-v-san-andreas",
+            "case": "Lange v. San Andreas",
+            "jurisdiction": "federal",
+            "year": "2021",
+            "summary": "Prowadzenie pościgu (hot pursuit) za podejrzanym o wykroczenie (misdemeanor) nie zawsze uzasadnia wejście do domu bez nakazu.",
+            "implication": "W przypadku wykroczeń oficerowie muszą oceniać nagłe okoliczności w każdym przypadku z osobna. Pościg za uciekającym wykroczeńcą nie daje automatycznego prawa do wdarcia się do prywatnej rezydencji bez nakazu.",
+            "source": "https://www.oyez.org/cases/2020/20-18"
+        },
+        {
+            "id": "graham-v-connor-principle",
+            "case": "Graham v. Connor (Zasada)",
+            "jurisdiction": "federal-civil",
+            "year": "1989",
+            "summary": "Wszystkie roszczenia o nadużycie siły (śmiertelnej lub nie) powinny być analizowane na podstawie standardu 'racjonalności' Czwartej Poprawki.",
+            "implication": "Koncentruje się na tym, czy działania oficera są obiektywnie uzasadnione w świetle faktów i okoliczności bez względu na ich subiektywny zamiar lub motywację.",
+            "source": "https://www.oyez.org/cases/1988/87-6571"
+        },
+        {
+            "id": "whren-v-us-pretext",
+            "case": "Whren v. U.S. (Zasada pretekstu)",
+            "jurisdiction": "federal",
+            "year": "1996",
+            "summary": "Zatrzymanie pojazdu jest rozsądne na mocy Czwartej Poprawki, jeśli departament ma prawdopodobną przyczynę (probable cause), by sądzić, że doszło do naruszenia przepisów ruchu drogowego.",
+            "implication": "Subiektywne intencje oficera nie unieważniają zatrzymania, które jest obiektywnie uzasadnione naruszeniem przepisów drogowych. Zatrzymania pretekstowe są legalne, dopóki istnieje ważne naruszenie.",
+            "source": "https://www.oyez.org/cases/1995/95-5841"
+        },
+        {
+            "id": "scotts-v-harris",
+            "case": "Scott v. Harris",
+            "jurisdiction": "federal-civil",
+            "year": "2007",
+            "summary": "Próba zatrzymania przez oficera uciekającego z nadmierną prędkością kierowcy, która stwarza ryzyko poważnych obrażeń ciała lub śmierci dla innych osób, nie narusza Czwartej Poprawki, nawet jeśli stwarza wysokie ryzyko odniesienia poważnych obrażeń przez samego uciekającego kierowcę.",
+            "implication": "Użycie techniki PIT lub zepchnięcie niebezpiecznego uciekającego pojazdu z drogi jest uważane za zasadne użycie siły w interesie bezpieczeństwa publicznego.",
+            "source": "https://www.oyez.org/cases/2006/05-1631"
+        },
+        {
+            "id": "us-v-banks",
+            "case": "United States v. Banks",
+            "jurisdiction": "federal",
+            "year": "2003",
+            "summary": "Okres 15-20 sekund oczekiwania departamentu po zapukaniu i ogłoszeniu się (knock and announce) przed wyważeniem drzwi do wykonania nakazu przeszukania w poszukiwaniu narkotyków został uznany za rozsądny.",
+            "implication": "To, co stanowi 'rozsądny czas' na odpowiedź mieszkańców, zależy od charakteru przedmiotów będących celem nakazu (np. narkotyki można łatwo spłukać). Krótki czas oczekiwania jest wystarczający w nagłych potrzebach dochodzeniowych.",
+            "source": "https://www.oyez.org/cases/2003/02-811"
+        },
+        {
+            "id": "ny-v-belton",
+            "case": "New York v. Belton",
+            "jurisdiction": "federal",
+            "year": "1981",
+            "summary": "Ustalono, że gdy departament dokonuje zgodnego z prawem aresztowania pasażera, może przeszukać przedział pasażerski pojazdu w związku z tym aresztowaniem.",
+            "implication": "Początkowo dawało to departamentu szerokie uprawnienia do przeszukiwania samochodów po aresztowaniu. To uprawnienie zostało później znacznie zawężone przez sprawę Arizona v. Gant (2009).",
+            "source": "https://www.oyez.org/cases/1980/80-328"
+        },
+        {
+            "id": "knowles-v-iowa",
+            "case": "Knowles v. Iowa",
+            "jurisdiction": "federal",
+            "year": "1998",
+            "summary": "Departament nie może przeprowadzić pełnego przeszukania pojazdu bez nakazu w przypadku zwykłego mandatu drogowego, jeśli kierowca nie został aresztowany.",
+            "implication": "Wystawienie mandatu (citation) zamiast aresztowania (arrest) nie daje departamentu automatycznego prawa do przeszukania samochodu. Przeszukanie wymaga prawdopodobnej przyczyny lub zgody, jeśli nie dochodzi do aresztowania.",
+            "source": "https://www.oyez.org/cases/1998/97-1472"
+        },
+        {
+            "id": "people-v-revere",
+            "case": "People v. Revere",
+            "jurisdiction": "local-supreme",
+            "year": "2021",
+            "summary": "Ustalono, że ucieczka podejrzanego przed departamentem natychmiast po jej zauważeniu stanowi uzasadnione podejrzenie (reasonable suspicion) do pościgu i zatrzymania, o ile pościg następuje natychmiast.",
+            "implication": "Sama ucieczka przed departamentem, jeśli jest niesprowokowana i następuje w odpowiedzi na obecność organów ścigania, uzasadnia zatrzymanie śledcze.",
+            "source": "https://forum.gta.world/en/topic/64387-interlocutory-criminal-appeal-21scwc00003-people-of-the-state-of-san-andreas-v-drake-revere/"
+        },
+        {
+            "id": "people-v-champagne",
+            "case": "People v. Champagne",
+            "jurisdiction": "local-supreme",
+            "year": "2023",
+            "summary": "Pojazd uciekający z miejsca niedawnego przestępstwa daje uzasadnione podejrzenie do zatrzymania. Podczas takiego zatrzymania dopuszczalne jest użycie psa K9. Obserwacja naruszenia przepisów ruchu drogowego (np. nadmierna prędkość) przez oficera jest wystarczającą podstawą do zatrzymania, bez konieczności przedstawiania obiektywnego dowodu w postaci odczytu z radaru.",
+            "implication": "Ucieczka z miejsca przestępstwa uzasadnia zatrzymanie i użycie K9. Wizualna ocena prędkości przez doświadczonego oficera wystarcza do podjęcia działań.",
+            "source": "https://forum.gta.world/en/topic/104516-23scwc00002-people-of-the-state-of-san-andreas-v-rylee-champagne/"
+        },
+        {
+            "id": "people-v-pliego",
+            "case": "People v. Pliego",
+            "jurisdiction": "local-supreme",
+            "year": "2023",
+            "summary": "Określa procedury ochrony tożsamości tajnego informatora (CI) w sądzie. Sąd musi stosować środki takie jak anonimizacja danych i poufne przesłuchania, a oskarżony musi najpierw wykazać, dlaczego ujawnienie tożsamości CI jest niezbędne dla jego obrony.",
+            "implication": "Tożsamość informatorów podlega ścisłej ochronie przed publicznym ujawnieniem i nie jest przekazywana oskarżonemu bez wyraźnej i uzasadnionej konieczności procesowej.",
+            "source": "https://forum.gta.world/en/topic/107638-interlocutory-criminal-appeal-23scwc00005-people-of-the-state-of-san-andreas-v-ruben-pliego/"
+        },
+        {
+            "id": "people-v-lira",
+            "case": "People v. Lira",
+            "jurisdiction": "local-supreme",
+            "year": "2023",
+            "summary": "Przeszukanie pojazdu oparte na zapachu substancji kontrolowanej jest zgodne z prawem, nawet jeśli posiadanie tej substancji zostało sdepenalizowane, pod warunkiem że inne przestępstwa związane z tą substancją (np. jazda pod wpływem, handel) wciąż istnieją.",
+            "implication": "Zapach marihuany nadal może stanowić prawdopodobną przyczynę przeszukania, gdyż może wskazywać na przestępstwa inne niż samo posiadanie, np. jazdę pod wpływem lub nielegalny transport.",
+            "source": "https://forum.gta.world/en/topic/109048-23scwc00006-ruben-lira-v-san-andreas-second-court-of-appeal/"
+        },
+        {
+            "id": "people-v-russo",
+            "case": "People v. Russo",
+            "jurisdiction": "local-supreme",
+            "year": "2024",
+            "summary": "Sąd orzekł, że udział w działalności chronionej konstytucyjnie, takiej jak protestowanie czy filmowanie, nie daje osobom immunitetu przed aresztowaniem, jeśli ich zachowanie podczas tej działalności wypełnia znamiona przestępstwa.",
+            "implication": "Prawa wynikające z Pierwszej Poprawki nie chronią przed aresztowaniem za inne przestępstwa, takie jak utrudnianie czynności, napaść czy podżeganie do zamieszek, popełnione w trakcie protestu.",
+            "source": "https://forum.gta.world/en/topic/133142-24scwc00012-people-of-the-state-of-san-andreas-v-michael-russo/"
+        },
+        {
+            "id": "people-v-valdez",
+            "case": "People v. Valdez",
+            "jurisdiction": "local-appeals",
+            "year": "2020",
+            "summary": "Uznano naruszenie rzetelnego procesu, gdy nie było jasne, czy przesłuchanie podejrzanego miało charakter administracyjny (wymuszony w pracy) czy karny (dobrowolny).",
+            "implication": "Oficerowie muszą jasno informować o charakterze przesłuchania. Jeśli osoba może racjonalnie sądzić, że jest zmuszana do zeznań (np. dyscyplinarnie), jej świadczenia mogą być odrzucone w procesie karnym.",
+            "source": "https://forum.gta.world/en/topic/23011-cfa-003-20-teresa-valdez-v-state-of-san-andreas/"
+        },
+        {
+            "id": "people-v-ulloa",
+            "case": "People v. Ulloa",
+            "jurisdiction": "local-appeals",
+            "year": "2020",
+            "summary": "Sąd uznał ustawę o broni (SHAFT) za niekonstytucyjną, ponieważ zakazywała ona wszystkim osobom, niezależnie od posiadanej licencji, przenoszenia lub nawet czasowego trzymania zarejestrowanej broni na terenie prywatnym.",
+            "implication": "Przepisy ustalające całkowity zakaz posiadania broni na terenie prywatnym, bez wyjątków dla osób z licencją, są sprzeczne z konstytucją.",
+            "source": "https://forum.gta.world/en/topic/28899-cfa-005-20-ivan-ulloa-v-state-of-san-andreas/"
+        },
+        {
+            "id": "people-v-perez",
+            "case": "People v. Perez",
+            "jurisdiction": "local-appeals",
+            "year": "2021",
+            "summary": "Samo wpisanie osoby do bazy SanGANG przez oficera nie wystarczy do udowodnienia przynależności do gangu. Uznano również, że uzasadnione przekonanie podejrzanego o śmiertelnym zagrożeniu ze strony goniących go oficerów może być linią obrony przeciwko zarzutom o ucieczkę.",
+            "implication": "Przynależność do gangu wymaga mocniejszych dowodów niż tylko notatka w bazie. Stan psychiczny podejrzanego podczas pościgu może być kluczowym czynnikiem wyłączającym winę za ucieczkę.",
+            "source": "https://forum.gta.world/en/topic/53196-cfa-14-21-daniel-perez-v-state-of-san-andreas/"
+        },
+        {
+            "id": "people-v-biagini",
+            "case": "People v. Biagini",
+            "jurisdiction": "local-appeals",
+            "year": "2021",
+            "summary": "Sąd uznał użycie śmiertelnej siły przez oficera za uzasadnione wobec kierowcy, który prowadził pojazd z rażącym lekceważeniem bezpieczeństwa publicznego i stanowił bezpośrednie zagrożenie życia dla innych osób.",
+            "implication": "Użycie broni w celu powstrzymania skrajnie niebezpiecznego kierowcy jest dopuszczalne, gdy oficer ma podstawy sądzić, że pojazd jest używany jako broń zagrażająca życiu osób postronnych.",
+            "source": "https://forum.gta.world/en/topic/60879-cfa-021-21-vincenzo-biagini-v-state-of-san-andreas/"
+        },
+        {
+            "id": "people-v-orozco",
+            "case": "People v. Orozco",
+            "jurisdiction": "local-appeals",
+            "year": "2021",
+            "summary": "Sąd orzekł, że obciążające zeznania złożone przez osobę podczas rutynowego zatrzymania ruchu drogowego są dopuszczalne jako dowód, nawet jeśli nie odczytano praw Mirandy.",
+            "implication": "Prawa Mirandy są wymagane tylko przy przesłuchaniach w areszcie. Rutynowe zatrzymania drogowe nie są traktowane jako areszt, więc dobrowolne słowa kierowcy mogą zostać użyte przeciwko niemu.",
+            "source": "https://forum.gta.world/en/topic/74592-cfa-033-22-state-of-san-andreas-v-joaquin-orozco-interlocutory/"
+        },
+        {
+            "id": "people-v-popovic",
+            "case": "People v. Popovic",
+            "jurisdiction": "local-appeals",
+            "year": "2021",
+            "summary": "Aby zatrzymać osobę na 48-miesięczne zatrzymanie śledcze (investigative hold), organy ścigania muszą wykazać co najmniej uzasadnione podejrzenie (reasonable suspicion).",
+            "implication": "Oficerowie nie mogą stosować długotrwałych zatrzymań bez konkretnych dowodów. Każde zatrzymanie śledcze musi opierać się na faktach wskazujących na udział w przestępstwie.",
+            "source": "https://forum.gta.world/en/topic/90690-interlocutory-criminal-appeal-the-district-attorneys-office-of-los-santos-county-v-los-santos-county-superior-court/"
+        },
+        {
+            "id": "people-v-voss",
+            "case": "People v. Voss",
+            "jurisdiction": "local-appeals",
+            "year": "2023",
+            "summary": "Sąd orzekł, że jeśli śmierć nastąpi jako niezamierzony wynik uzasadnionego użycia siły podczas dokonywania zgodnego z prawem aresztowania, nie może to być podstawą do skazania za morderstwo lub zabójstwo.",
+            "implication": "Oficer nie ponosi odpowiedzialności karnej za zgon podejrzanego, który był nieszczęśliwym i niezamierzonym skutkiem prawidłowo zastosowanych środków przymusu podczas aresztowania.",
+            "source": "https://forum.gta.world/en/topic/103284-23gjap00005-nathan-voss-v-people-of-the-state-of-san-andreas/"
+        },
+        {
+            "id": "people-v-buckshaw",
+            "case": "People v. Buckshaw",
+            "jurisdiction": "local-appeals",
+            "year": "2023",
+            "summary": "Potwierdzono, że zakaz włóczęgi (no loitering) w porcie jest dopuszczalnym ograniczeniem czasu, miejsca i sposobu wyrażania opinii. Port nie jest tradycyjnym forum publicznym, a zasady służą zapewnieniu bezpieczeństwa i są stosowane neutralnie.",
+            "implication": "Władze mogą egzekwować surowsze zasady dotyczące zgromadzeń w miejscach o specjalnym przeznaczeniu, jak porty czy lotniska, o ile zasady te nie są wymierzone w treść przekazu i służą bezpieczeństwu.",
+            "source": "https://forum.gta.world/en/topic/109871-23gjap00017-luke-buckshaw-v-people-no-2/"
+        },
+        {
+            "id": "foster-v-murray",
+            "case": "Foster v. Murray",
+            "jurisdiction": "local-appeals-civil",
+            "year": "2024",
+            "summary": "Wyjaśniono, że zatrzymanie ruchu drogowego wymaga jedynie uzasadnionego podejrzenia, nawet w przypadku zatrzymań pretekstowych za drobne usterki. Zatrzymanie jest formą czasowego aresztowania. Słabe wyjaśnienie oficera na miejscu nie unieważnia zatrzymania, jeśli było ono prawnie uzasadnione.",
+            "implication": "Oficerowie mają szerokie uprawnienia przy zatrzymaniach drogowych. Każde naruszenie (np. przyciemniane szyby) legalizuje interwencję, nawet jeśli motyw był inny. Brak błędu prawnego chroni oficera przed roszczeniami cywilnymi.",
+            "source": "https://forum.gta.world/en/topic/114908-23gjap00015-anne-foster-v-shawn-murray/"
+        },
+        {
+            "id": "los-santos-police-prot-league-v-san-aviation-auth",
+            "case": "Los Santos Police Prot. League v. San. Aviation Auth.",
+            "jurisdiction": "local-appeals-civil",
+            "year": "2024",
+            "summary": "Sąd orzekł, że agencja rządowa o charakterze administracyjnym (SAAA) nie może zmuszać obywateli do samoinkryminacji, karać ich za brak współpracy w śledztwie karnym ani wydawać wyroków omijających system sądowniczy.",
+            "implication": "Agencje administracyjne nie mogą tworzyć równoległego wymiaru sprawiedliwości. Śledztwa karne i kary są domeną departamentu i sądów, a obywatele zachowują prawo do rzetelnego procesu w kontaktach z każdym urzędem.",
+            "source": "https://forum.gta.world/en/topic/120031-petition-for-review-24gjar00002-los-santos-police-protective-league-v-san-andreas-aviation-administration/"
+        }
+    ]
+}

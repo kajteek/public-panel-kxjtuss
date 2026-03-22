@@ -1,0 +1,38 @@
+<div id="view-settings" class="app-view">
+    <div class="hud-card" style="max-width: 800px; margin: 0 auto;">
+        <div class="card-header">
+            <span class="card-title">Settings & Calibration</span>
+            <i class="fas fa-cog card-icon"></i>
+        </div>
+
+        <div class="hud-form-group">
+            <h3 style="font-size: 1.1rem; margin-bottom: 0.5rem; color: hsl(var(--primary));">Experimental Features</h3>
+            <p style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.5); margin-bottom: 1.5rem;">
+                Enable beta functionality. These features are under active development and may change.
+            </p>
+
+            <div class="hud-card" style="background: rgba(255, 255, 255, 0.02); border-style: dashed;">
+                <div style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <h4 style="font-size: 0.95rem; margin-bottom: 4px;">AI Legal Search</h4>
+                        <p style="font-size: 0.8rem; color: rgba(255, 255, 255, 0.4);">
+                            A Search Engine that returns legal information based on the community's law.
+                        </p>
+                    </div>
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="setting-ai-legal-search" onchange="Settings.toggleAiLegalSearch(this.checked)">
+                        <label for="setting-ai-legal-search">
+                            <i><i class="fas fa-check" style="font-size: 0.6rem;"></i></i>
+                            <span style="font-weight: 700; text-transform: uppercase; letter-spacing: 1px;">Enable</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid hsl(var(--border-dim)); font-size: 0.75rem; color: rgba(255, 255, 255, 0.3); text-align: center;">
+            <p>LEA+ ARCHITECT HUD v0.0.2-BETA</p>
+            <p>System Integrity: <span style="color: #10b981;">SECURE</span></p>
+        </div>
+    </div>
+</div>

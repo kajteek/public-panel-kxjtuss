@@ -1,0 +1,572 @@
+<div id="view-caseboard" class="app-view">
+    <header class="cb-header">
+        <div class="cb-header-title">
+            <i class="fas fa-network-wired"></i>
+            <span id="cb-investigation-name" contenteditable="true"
+                style="outline: none; padding: 2px 4px; border-radius: 4px; transition: 0.2s;"
+                onfocus="this.style.background='rgba(255,255,255,0.1)'" onblur="this.style.background='transparent'">New
+                Investigation</span>
+            <span class="cb-case-tag" id="cb-case-id" contenteditable="true"
+                style="outline: none; padding: 2px 8px;">#2024-6615</span>
+        </div>
+
+        <div class="cb-toolbar">
+            <div class="hud-mini-ctrl" style="display:flex; align-items:center; gap:8px; margin-right:1rem">
+                <button class="btn-icon" onclick="CaseBoard.setZoom(CaseBoard.state.zoom - 0.1)"><i
+                        class="fas fa-minus"></i></button>
+                <span id="cb-zoom-level" style="font-size:0.8rem; width:40px; text-align:center">100%</span>
+                <button class="btn-icon" onclick="CaseBoard.setZoom(CaseBoard.state.zoom + 0.1)"><i
+                        class="fas fa-plus"></i></button>
+                <button class="btn-icon" onclick="CaseBoard.setZoom(1)"><i class="fas fa-sync-alt"></i></button>
+            </div>
+
+            <button class="btn-hud" onclick="CaseBoard.openAddPinModal()"><i class="fas fa-plus"></i> Add Pin</button>
+            <button class="btn-hud outline" id="cb-btn-connect" onclick="CaseBoard.toggleConnectMode()"><i
+                    class="fas fa-link"></i> Connect</button>
+            <button class="btn-hud outline" id="cb-btn-freeline" onclick="CaseBoard.toggleFreeLineMode()"><i
+                    class="fas fa-pen-nib"></i> Free Line</button>
+            <button class="btn-hud outline"><i class="fas fa-share-alt"></i> Share</button>
+        </div>
+    </header>
+
+    <div class="cb-main-container">
+        <aside class="cb-sidebar">
+            <div class="cb-section">
+                <div class="cb-section-title">STATISTICS</div>
+                <div class="cb-stat-grid">
+                    <div class="cb-stat-card"><span class="value" id="cb-stat-pins">0</span><span
+                            class="label">PINS</span></div>
+                    <div class="cb-stat-card"><span class="value" id="cb-stat-links">0</span><span
+                            class="label">LINKS</span></div>
+                </div>
+            </div>
+
+            <div class="cb-section" style="flex:1; overflow-y:visible;">
+                <div class="cb-section-title">PIN TYPES</div>
+                <div class="cb-pin-type-list">
+                    <div class="cb-pin-type-item" data-type="suspect">
+                        <div class="cb-pin-color" style="background:#ef4444"></div><i class="fas fa-user"
+                            style="color:#a855f7"></i> Suspect <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="poi">
+                        <div class="cb-pin-color" style="background:#f97316"></div><i class="fas fa-bullseye"
+                            style="color:#ec4899"></i> Person of Interest <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="victim">
+                        <div class="cb-pin-color" style="background:#ec4899"></div><i class="fas fa-heart-broken"
+                            style="color:#f43f5e"></i> Victim <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="witness">
+                        <div class="cb-pin-color" style="background:#eab308"></div><i class="fas fa-eye"
+                            style="color:#ef4444"></i> Witness <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="officer">
+                        <div class="cb-pin-color" style="background:#3b82f6"></div><i class="fas fa-shield-alt"
+                            style="color:#3b82f6"></i> Officer <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="evidence">
+                        <div class="cb-pin-color" style="background:#22c55e"></div><i class="fas fa-search"
+                            style="color:#06b6d4"></i> Evidence <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="weapon">
+                        <div class="cb-pin-color" style="background:#ef4444"></div><i class="fas fa-gun"
+                            style="color:#10b981"></i> Weapon <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="vehicle">
+                        <div class="cb-pin-color" style="background:#a855f7"></div><i class="fas fa-ambulance"
+                            style="color:#f43f5e"></i> Vehicle <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="location">
+                        <div class="cb-pin-color" style="background:#3b82f6"></div><i class="fas fa-map-pin"
+                            style="color:#ec4899"></i> Location <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="organization">
+                        <div class="cb-pin-color" style="background:#eab308"></div><i class="fas fa-building"
+                            style="color:#94a3b8"></i> Organization <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="stickynote">
+                        <div class="cb-pin-color" style="background:#eab308"></div><i class="fas fa-thumbtack"
+                            style="color:#ef4444"></i> Sticky Note <span class="count">0</span>
+                    </div>
+                    <div class="cb-pin-type-item" data-type="note">
+                        <div class="cb-pin-color" style="background:#64748b"></div><i class="fas fa-edit"
+                            style="color:#fbbf24"></i> Note <span class="count">0</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cb-section">
+                <div class="cb-section-title" style="margin-bottom:0.5rem">CONNECTION COLOR</div>
+                <div class="cb-link-colors">
+                    <div class="cb-link-color active">
+                        <div class="color-line" style="background:#ef4444"></div> Red
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#f97316"></div> Orange
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#eab308"></div> Yellow
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#22c55e"></div> Green
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#3b82f6"></div> Blue
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#a855f7"></div> Purple
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#ec4899"></div> Pink
+                    </div>
+                    <div class="cb-link-color">
+                        <div class="color-line" style="background:#64748b"></div> Gray
+                    </div>
+                </div>
+                <div class="cb-line-styles"
+                    style="margin-top:1rem; display:flex; border:1px solid rgba(255,255,255,0.05); border-radius:4px; overflow:hidden">
+                    <button class="cb-line-btn active"
+                        style="flex:1; padding:0.4rem; background:#3b82f6; color:#fff; font-size:0.7rem; border:none; border-right:1px solid rgba(0,0,0,0.5)">Dashed</button>
+                    <button class="cb-line-btn"
+                        style="flex:1; padding:0.4rem; background:transparent; color:rgba(255,255,255,0.3); font-size:0.7rem; border:none; border-right:1px solid rgba(255,255,255,0.05)">Solid</button>
+                    <button class="cb-line-btn"
+                        style="flex:1; padding:0.4rem; background:transparent; color:rgba(255,255,255,0.3); font-size:0.7rem; border:none">Dotted</button>
+                </div>
+            </div>
+
+            <div
+                style="margin-top:auto; font-size:0.6rem; color:rgba(255,255,255,0.4); text-align:center; padding-top:1rem; border-top:1px solid rgba(255,255,255,0.05);">
+                Developed by <span style="color:#3b82f6; font-weight:bold;">PENGU</span><br>&copy; 2025 • All Rights
+                Reserved
+            </div>
+        </aside>
+
+        <div class="cb-workspace">
+            <div class="cb-canvas">
+                <svg id="cb-connections-svg"
+                    style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:1"></svg>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Case Board Pin Modal -->
+<div id="cb-modal-add-pin" class="cb-modal-overlay">
+    <div class="cb-modal" style="width: 600px;">
+        <div class="cb-modal-header">
+            <div class="cb-modal-title-wrap">
+                <div class="cb-modal-accent"></div>
+                <span class="cb-modal-title">ADD NEW PIN</span>
+            </div>
+            <button class="cb-modal-close-btn"
+                style="background:transparent; border:none; color:rgba(255,255,255,0.7); font-size:1.2rem; cursor:pointer;"
+                onclick="CaseBoard.closeAddPinModal()"><i class="fas fa-times"></i></button>
+        </div>
+
+        <div class="cb-modal-content" style="padding-top:1rem;">
+            <div class="hud-form-row">
+                <div class="hud-form-group" style="position:relative">
+                    <label class="hud-form-label">PIN TYPE</label>
+                    <div class="hud-dropdown" id="pin-type-dropdown" style="width: 100%;">
+                        <div class="dropdown-trigger" onclick="CaseBoard.toggleMenu(event, 'pin-type-menu')">
+                            <span id="pin-type-selected"><i class="fas fa-user"
+                                    style="color:#a855f7; margin-right:8px;"></i> Suspect</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="dropdown-menu" id="pin-type-menu" style="width: 100%;">
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('stickynote', 'Sticky Note', 'fa-thumbtack', '#eab308')">
+                                <i class="fas fa-thumbtack" style="color:#eab308; margin-right:8px;"></i> Sticky Note
+                            </div>
+                            <div class="dropdown-item active"
+                                onclick="CaseBoard.selectPinType('suspect', 'Suspect', 'fa-user', '#a855f7')"><i
+                                    class="fas fa-user" style="color:#a855f7; margin-right:8px;"></i> Suspect</div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('poi', 'Person of Interest', 'fa-bullseye', '#ec4899')">
+                                <i class="fas fa-bullseye" style="color:#ec4899; margin-right:8px;"></i> Person of
+                                Interest
+                            </div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('victim', 'Victim', 'fa-heart-broken', '#f43f5e')"><i
+                                    class="fas fa-heart-broken" style="color:#f43f5e; margin-right:8px;"></i> Victim
+                            </div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('witness', 'Witness', 'fa-eye', '#22c55e')"><i
+                                    class="fas fa-eye" style="color:#22c55e; margin-right:8px;"></i> Witness</div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('officer', 'Officer', 'fa-shield-alt', '#3b82f6')"><i
+                                    class="fas fa-shield-alt" style="color:#3b82f6; margin-right:8px;"></i> Officer
+                            </div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('evidence', 'Evidence', 'fa-search', '#f59e0b')"><i
+                                    class="fas fa-search" style="color:#f59e0b; margin-right:8px;"></i> Evidence</div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('weapon', 'Weapon', 'fa-gun', '#ef4444')"><i
+                                    class="fas fa-gun" style="color:#ef4444; margin-right:8px;"></i> Weapon</div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('vehicle', 'Vehicle', 'fa-car', '#06b6d4')"><i
+                                    class="fas fa-car" style="color:#06b6d4; margin-right:8px;"></i> Vehicle</div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('location', 'Location', 'fa-map-marker-alt', '#10b981')">
+                                <i class="fas fa-map-marker-alt" style="color:#10b981; margin-right:8px;"></i> Location
+                            </div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('organization', 'Organization', 'fa-building', '#eab308')">
+                                <i class="fas fa-building" style="color:#eab308; margin-right:8px;"></i> Organization
+                            </div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectPinType('note', 'Note', 'fa-edit', '#64748b')"><i
+                                    class="fas fa-edit" style="color:#64748b; margin-right:8px;"></i> Note</div>
+                        </div>
+                    </div>
+                    <input type="hidden" id="cb-pin-type-select" value="suspect">
+                </div>
+            </div>
+
+            <div class="hud-form-row">
+                <div class="hud-form-group">
+                    <label class="hud-form-label">TITLE / NAME</label>
+                    <input type="text" class="hud-input" id="pin-field-name" placeholder="Enter title...">
+                </div>
+            </div>
+
+            <div class="hud-form-row">
+                <div class="hud-form-group">
+                    <label class="hud-form-label">IMAGE URL (OPTIONAL)</label>
+                    <input type="text" class="hud-input" id="pin-field-photo"
+                        placeholder="https://i.imgur.com/... or any image link">
+                </div>
+            </div>
+
+            <div id="cb-modal-sticky-fields" style="display:none">
+                <div class="hud-form-row">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TO-DO ITEMS (ONE PER LINE)</label>
+                        <textarea class="hud-input" id="pin-field-todos"
+                            placeholder="Buy coffee&#10;Interview witness&#10;Check CCTV footage"
+                            style="height: 100px;"></textarea>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="cb-modal-normal-fields">
+                <div class="hud-form-row two-cols dfield" data-fields="dob-phone">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DOB</label>
+                        <input type="text" class="hud-input" id="pin-field-dob" placeholder="DD/MM/YYYY">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">PHONE</label>
+                        <input type="text" class="hud-input" id="pin-field-phone" placeholder="Enter phone...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row dfield" data-fields="address">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">ADDRESS</label>
+                        <input type="text" class="hud-input" id="pin-field-address" placeholder="Enter address...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row dfield" data-fields="reason">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">REASON</label>
+                        <input type="text" class="hud-input" id="pin-field-reason" placeholder="Enter reason...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="officer-info">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">BADGE #</label>
+                        <input type="text" class="hud-input" id="pin-field-badge" placeholder="e.g. 5431">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">CALLSIGN</label>
+                        <input type="text" class="hud-input" id="pin-field-callsign" placeholder="e.g. 1-ADAM-12">
+                    </div>
+                </div>
+                <div class="hud-form-row dfield" data-fields="officer-div">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DIVISION</label>
+                        <input type="text" class="hud-input" id="pin-field-division" placeholder="e.g. K-9, SWAT">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="statement-info">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">STATEMENT BY</label>
+                        <input type="text" class="hud-input" id="pin-field-statement-by" placeholder="Name...">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TAKEN BY</label>
+                        <input type="text" class="hud-input" id="pin-field-taken-by" placeholder="Officer name...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="datetime-loc">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DATE / TIME</label>
+                        <input type="text" class="hud-input" id="pin-field-datetime" placeholder="DD/MM/YYYY HH:MM">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">LOCATION</label>
+                        <input type="text" class="hud-input" id="pin-field-location" placeholder="Address/Area...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="evidence-info">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TAG #</label>
+                        <input type="text" class="hud-input" id="pin-field-tag" placeholder="e.g. EV-1002">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">FOUND AT</label>
+                        <input type="text" class="hud-input" id="pin-field-found-at" placeholder="Where was it found?">
+                    </div>
+                </div>
+                <div class="hud-form-row dfield" data-fields="evidence-col">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">COLLECTED BY</label>
+                        <input type="text" class="hud-input" id="pin-field-collected-by" placeholder="Officer name...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="vehicle-info1">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">LICENSE PLATE</label>
+                        <input type="text" class="hud-input" id="pin-field-plate" placeholder="e.g. 2XYZ345">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">STATE</label>
+                        <input type="text" class="hud-input" id="pin-field-state" placeholder="e.g. San Andreas">
+                    </div>
+                </div>
+                <div class="hud-form-row two-cols dfield" data-fields="vehicle-info2">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">MAKE / MODEL</label>
+                        <div class="cb-autocomplete-container">
+                            <input type="text" class="hud-input" id="pin-field-model" placeholder="e.g. Karin Sultan"
+                                autocomplete="off">
+                            <div id="cb-vehicle-suggestions" class="cb-autocomplete-suggestions"></div>
+                        </div>
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">COLOR</label>
+                        <input type="text" class="hud-input" id="pin-field-color" placeholder="e.g. Matte Black">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="weapon-info">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TYPE</label>
+                        <input type="text" class="hud-input" id="pin-field-wtype" placeholder="e.g. Pistol, Rifle">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">CALIBER</label>
+                        <input type="text" class="hud-input" id="pin-field-caliber" placeholder="e.g. 9mm">
+                    </div>
+                </div>
+                <div class="hud-form-row dfield" data-fields="weapon-serial">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">SERIAL #</label>
+                        <input type="text" class="hud-input" id="pin-field-serial" placeholder="Serial number...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="org-info">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">MEMBERS</label>
+                        <input type="text" class="hud-input" id="pin-field-members" placeholder="e.g. 10-20">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TERRITORY</label>
+                        <input type="text" class="hud-input" id="pin-field-territory" placeholder="e.g. Davis">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="doc-info">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DOC TYPE</label>
+                        <input type="text" class="hud-input" id="pin-field-doctype"
+                            placeholder="e.g. Warrant, Subpoena">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">REFERENCE</label>
+                        <input type="text" class="hud-input" id="pin-field-reference" placeholder="e.g. Case #...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row dfield" data-fields="owner">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">OWNER</label>
+                        <input type="text" class="hud-input" id="pin-field-owner" placeholder="Owner name...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row dfield" data-fields="generic-type">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TYPE</label>
+                        <input type="text" class="hud-input" id="pin-field-generic-type" placeholder="Type info...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row dfield" data-fields="district">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DISTRICT</label>
+                        <input type="text" class="hud-input" id="pin-field-district" placeholder="District name...">
+                    </div>
+                </div>
+
+                <div class="hud-form-row two-cols dfield" data-fields="date-time">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DATE</label>
+                        <input type="text" class="hud-input" id="pin-field-date" placeholder="DD/MM/YYYY">
+                    </div>
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">TIME</label>
+                        <input type="text" class="hud-input" id="pin-field-time" placeholder="HH:MM">
+                    </div>
+                </div>
+
+                <div class="hud-form-row dfield" data-fields="details">
+                    <div class="hud-form-group">
+                        <label class="hud-form-label">DETAILS / DESCRIPTION</label>
+                        <textarea class="hud-input" id="pin-field-details" placeholder="Enter details..."
+                            style="height: 60px;"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="hud-form-row two-cols" style="margin-top:0.5rem">
+                <div class="hud-form-group" style="position:relative">
+                    <label class="hud-form-label">SIZE</label>
+                    <div class="hud-dropdown" style="width: 100%;">
+                        <div class="dropdown-trigger" onclick="CaseBoard.toggleMenu(event, 'pin-size-menu')">
+                            <span id="pin-size-selected">Medium</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="dropdown-menu" id="pin-size-menu"
+                            style="width: 100%; top:auto; bottom:calc(100% + 5px);">
+                            <div class="dropdown-item" onclick="CaseBoard.selectDropdown('size', 'small', 'Small')">
+                                Small</div>
+                            <div class="dropdown-item active"
+                                onclick="CaseBoard.selectDropdown('size', 'medium', 'Medium')">Medium</div>
+                            <div class="dropdown-item" onclick="CaseBoard.selectDropdown('size', 'large', 'Large')">
+                                Large</div>
+                        </div>
+                    </div>
+                    <input type="hidden" id="pin-field-size" value="medium">
+                </div>
+                <div class="hud-form-group" style="position:relative">
+                    <label class="hud-form-label">PRIORITY</label>
+                    <div class="hud-dropdown" style="width: 100%;">
+                        <div class="dropdown-trigger" onclick="CaseBoard.toggleMenu(event, 'pin-priority-menu')">
+                            <span id="pin-priority-selected">Normal</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="dropdown-menu" id="pin-priority-menu"
+                            style="width: 100%; top:auto; bottom:calc(100% + 5px);">
+                            <div class="dropdown-item" onclick="CaseBoard.selectDropdown('priority', 'low', 'Low')">Low
+                            </div>
+                            <div class="dropdown-item active"
+                                onclick="CaseBoard.selectDropdown('priority', 'normal', 'Normal')">Normal</div>
+                            <div class="dropdown-item" onclick="CaseBoard.selectDropdown('priority', 'high', 'High')">
+                                High</div>
+                            <div class="dropdown-item"
+                                onclick="CaseBoard.selectDropdown('priority', 'urgent', 'Urgent')">Urgent</div>
+                        </div>
+                    </div>
+                    <input type="hidden" id="pin-field-priority" value="normal">
+                </div>
+            </div>
+        </div>
+
+        <div class="cb-modal-footer">
+            <button class="btn-hud outline" onclick="CaseBoard.closeAddPinModal()">Cancel</button>
+            <button class="btn-hud" onclick="CaseBoard.submitAddPin()"><i class="fas fa-save"></i> Save</button>
+        </div>
+    </div>
+</div>
+
+<!-- Case Board: Edit Connection Modal -->
+<div class="cb-modal-overlay" id="cb-modal-edit-connection">
+    <div class="cb-modal" style="width: 420px;">
+        <div class="cb-modal-header">
+            <span class="cb-modal-title"><i class="fas fa-link"></i> Edit Connection</span>
+            <button class="hud-modal-close" onclick="CaseBoard.closeEditConnectionModal()"
+                style="background:transparent; border:none; color:#fff; font-size:1.5rem; cursor:pointer;">&times;</button>
+        </div>
+        <div class="cb-modal-content">
+            <div class="hud-form-group">
+                <label class="hud-form-label">LABEL</label>
+                <input type="text" class="hud-input" id="cb-conn-label" placeholder="e.g. suspect, owner, etc.">
+            </div>
+            <div class="hud-form-group">
+                <label class="hud-form-label">COLOR</label>
+                <select class="hud-input" id="cb-conn-color">
+                    <option value="#2563eb">Blue</option>
+                    <option value="#ef4444">Red</option>
+                    <option value="#f59e0b">Orange</option>
+                    <option value="#10b981">Green</option>
+                    <option value="#ec4899">Pink</option>
+                    <option value="#ffffff">White</option>
+                </select>
+            </div>
+            <div class="hud-form-group">
+                <label class="hud-form-label">STYLE</label>
+                <select class="hud-input" id="cb-conn-style">
+                    <option value="solid">Solid</option>
+                    <option value="dashed">Dashed</option>
+                    <option value="dotted">Dotted</option>
+                </select>
+            </div>
+            <div class="checkbox-group" style="margin-top: 1rem;">
+                <input type="checkbox" id="cb-conn-locked">
+                <label for="cb-conn-locked"><i class="fas fa-lock" style="color: #f59e0b;"></i> Locked to pins</label>
+            </div>
+        </div>
+        <div class="cb-modal-footer">
+            <button class="btn-hud danger outline" onclick="CaseBoard.deleteConnection()" style="margin-right: auto;"><i
+                    class="fas fa-trash"></i> DELETE</button>
+            <button class="btn-hud outline" onclick="CaseBoard.closeEditConnectionModal()">CANCEL</button>
+            <button class="btn-hud" onclick="CaseBoard.saveConnection()">SAVE CHANGES</button>
+        </div>
+    </div>
+</div>
+
+<!-- Context Menus -->
+<div id="cb-ctx-canvas" class="cb-context-menu">
+    <div class="cb-menu-item" onclick="CaseBoard.openAddPinModal()"><i class="fas fa-plus" style="color: #10b981;"></i>
+        Add Pin</div>
+    <div class="cb-menu-item" onclick="CaseBoard.openStickyNoteModal()"><i class="fas fa-sticky-note"
+            style="color: #eab308;"></i> Add Sticky Note</div>
+    <div class="cb-menu-separator"></div>
+    <div class="cb-menu-item" onclick="CaseBoard.toggleConnectMode()"><i class="fas fa-link"></i> Connect Pins</div>
+    <div class="cb-menu-item" onclick="CaseBoard.toggleFreeLineMode()"><i class="fas fa-pen-nib"
+            style="color:#3b82f6;"></i> Free Line</div>
+    <div class="cb-menu-item" onclick="CaseBoard.toggleLabels()"><i class="fas fa-tag" style="color: #f59e0b;"></i>
+        Toggle Labels</div>
+    <div class="cb-menu-separator"></div>
+    <div class="cb-menu-item"><i class="fas fa-folder" style="color: #eab308;"></i> My Cases</div>
+    <div class="cb-menu-item danger" onclick="CaseBoard.newCase()"><i class="fas fa-trash-alt"></i> New Case</div>
+    <div class="cb-menu-separator"></div>
+    <div class="cb-menu-item"><i class="fas fa-share-alt"></i> Share</div>
+    <div class="cb-menu-item"><i class="fas fa-user" style="color: #a855f7;"></i> Profile</div>
+    <div class="cb-menu-separator"></div>
+    <div class="cb-menu-item" onclick="CaseBoard.resetView()"><i class="fas fa-crosshairs" style="color: #ef4444;"></i>
+        Reset View</div>
+</div>
+
+<div id="cb-ctx-pin" class="cb-context-menu">
+    <div class="cb-menu-item" id="cb-ctx-pin-edit"><i class="fas fa-pencil-alt" style="color: #f97316;"></i> Edit</div>
+    <div class="cb-menu-item" id="cb-ctx-pin-duplicate"><i class="fas fa-copy"></i> Duplicate</div>
+    <div class="cb-menu-item" id="cb-ctx-pin-reset"><i class="fas fa-sync-alt" style="color: #2563eb;"></i> Reset
+        Rotation</div>
+    <div class="cb-menu-separator"></div>
+    <div class="cb-menu-item" id="cb-ctx-pin-link-from"><i class="fas fa-link" style="color: #c084fc;"></i> Connect From
+        Here</div>
+    <div class="cb-menu-item" id="cb-ctx-pin-link-to"><i class="fas fa-bullseye" style="color: #f43f5e;"></i> Connect To
+        Here</div>
+    <div class="cb-menu-separator"></div>
+    <div class="cb-menu-item danger" id="cb-ctx-pin-delete"><i class="fas fa-trash"></i> Delete</div>
+</div>

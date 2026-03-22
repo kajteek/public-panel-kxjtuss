@@ -1,0 +1,10 @@
+{
+    "group_name": "Los Santos Police Department",
+    "group_id": "lspd",
+    "order": 3,
+    "files": [
+        "lspd_ccr.json",
+        "lspd_death_investigation_report.json",
+        "lspd_fi_card.json"
+    ]
+}

@@ -1,0 +1,304 @@
+/* 
+ * LEA+ Dynamic Map Stylesheets 
+ * Extracted map-specific overlays, controls, and leaflet overrides.
+ */
+
+.leaflet-control-container .leaflet-routing-container,
+.leaflet-control-container .leaflet-bar,
+.leaflet-control-container .leaflet-control {
+    border: none;
+    box-shadow: none;
+}
+
+/* --- Search Input UI --- */
+.leaflet-control-search {
+    background: hsl(var(--card-bg)) !important;
+    border: 1px solid hsl(var(--card-border)) !important;
+    border-radius: var(--radius-md) !important;
+    padding: 2px !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8) !important;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+.leaflet-control-search label {
+    display: none !important;
+    /* Hide the magnifying glass label if it clashes */
+}
+
+.leaflet-control-search .search-input {
+    background: transparent !important;
+    border: none !important;
+    color: #fff !important;
+    font-family: 'Outfit', sans-serif !important;
+    font-size: 0.85rem !important;
+    padding: 0 15px !important;
+    width: 250px !important;
+    height: 38px !important;
+    outline: none !important;
+}
+
+.leaflet-control-search .search-input::placeholder {
+    color: hsl(var(--h) 10% 50%) !important;
+}
+
+.search-tooltip,
+ul.search-tooltip {
+    background: hsl(var(--card-bg)) !important;
+    border: 1px solid hsl(var(--primary) / 0.5) !important;
+    border-radius: var(--radius-sm) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8) !important;
+    margin-top: 5px !important;
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.search-tip,
+.search-tooltip li.search-tip {
+    color: #fff !important;
+    background: transparent !important;
+    padding: 8px 15px !important;
+    font-size: 0.85rem !important;
+    font-family: inherit !important;
+    cursor: pointer !important;
+    transition: var(--transition) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+    display: block !important;
+}
+
+.search-tip:last-child {
+    border-bottom: none !important;
+}
+
+.search-tip:hover,
+.search-tooltip li.search-tip:hover {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: hsl(var(--primary)) !important;
+}
+
+/* --- Zoom Controls --- */
+.lea-custom-map-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 20px !important;
+    margin-top: 20px !important;
+}
+
+.lea-zoom-btn {
+    width: 40px;
+    height: 40px;
+    background: hsl(var(--card-bg));
+    border: 1px solid hsl(var(--card-border));
+    border-radius: var(--radius-sm);
+    color: hsl(var(--h) 10% 70%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.lea-zoom-btn:hover {
+    color: hsl(var(--primary));
+    border-color: hsl(var(--primary));
+    background: hsl(var(--h) 20% 12%);
+    transform: translateX(2px);
+}
+
+/* --- Drawing Controls --- */
+.leaflet-custom-draw-controls {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 20px !important;
+    margin-top: 20px !important;
+}
+
+.leaflet-draw-custom-container,
+.leaflet-draw-action-container,
+.leaflet-custom-color-picker {
+    background: hsl(var(--card-bg));
+    border: 1px solid hsl(var(--card-border));
+    border-radius: var(--radius-md);
+    padding: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+}
+
+.leaflet-draw-custom-container,
+.leaflet-draw-action-container {
+    display: grid;
+    grid-template-columns: 44px 44px;
+    /* 2 columns to prevent vertical overflow */
+    gap: 8px;
+}
+
+.leaflet-custom-color-picker {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns to perfectly fill width */
+    gap: 6px;
+    justify-items: center;
+}
+
+.leaflet-custom-draw-button {
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid transparent;
+    border-radius: var(--radius-sm);
+    color: hsl(var(--h) 10% 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: var(--transition);
+}
+
+.leaflet-custom-draw-button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.leaflet-custom-draw-button.active {
+    background: var(--primary-glow);
+    border-color: hsl(var(--primary));
+    color: hsl(var(--primary));
+    box-shadow: inset 0 0 10px var(--primary-glow);
+}
+
+.leaflet-custom-draw-button:disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
+
+/* Colors */
+.leaflet-color-button {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    transition: all 0.2s;
+    outline: none;
+    padding: 0;
+}
+
+.leaflet-color-button.selected {
+    transform: scale(1.2);
+    border-color: #fff;
+    box-shadow: 0 0 15px currentColor;
+}
+
+/* --- HUD Text Input --- */
+.lea-map-hud-input-wrapper {
+    position: absolute;
+    background: hsl(var(--card-bg));
+    border: 1px solid hsl(var(--primary));
+    border-radius: var(--radius-sm);
+    padding: 5px;
+    box-shadow: 0 0 20px var(--primary-glow);
+    z-index: 1000;
+}
+
+/* --- HUD Labels on Map --- */
+.lea-map-text-wrapper {
+    background: transparent !important;
+    border: none !important;
+}
+
+.lea-hud-tooltip {
+    background: #363636;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 0.75rem;
+    white-space: nowrap;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1;
+}
+
+/* Compact Labels for Shapes */
+.lea-compact-label {
+    background: #363636 !important;
+    border: 1px solid transparent !important;
+    color: #fff !important;
+    font-size: 0.75rem !important;
+    padding: 4px 8px !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.4) !important;
+    white-space: nowrap !important;
+    font-family: inherit !important;
+    font-weight: 500 !important;
+}
+
+/* Inherit map arrow directions but paint them dark gray */
+.leaflet-tooltip-right.lea-compact-label::before {
+    border-right-color: #363636 !important;
+}
+
+.leaflet-tooltip-left.lea-compact-label::before {
+    border-left-color: #363636 !important;
+}
+
+.leaflet-tooltip-top.lea-compact-label::before {
+    border-top-color: #363636 !important;
+}
+
+.leaflet-tooltip-bottom.lea-compact-label::before {
+    border-bottom-color: #363636 !important;
+}
+
+/* --- Legend --- */
+.lea-map-legend {
+    background: hsl(var(--card-bg));
+    border: 1px solid hsl(var(--card-border));
+    border-radius: var(--radius-md);
+    padding: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.8);
+    display: none;
+    max-height: 250px;
+    overflow-y: auto;
+    font-family: 'Outfit', sans-serif;
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+    min-width: 150px;
+}
+
+.lea-map-legend .legend-title {
+    font-size: 0.75rem;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: hsl(var(--primary));
+    margin-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+
+.lea-map-legend .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 6px;
+    font-size: 0.75rem;
+    color: #fff;
+    font-weight: 500;
+}
+
+.lea-map-legend .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
